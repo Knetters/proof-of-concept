@@ -173,6 +173,10 @@ header {
     align-items: center;
 }
 
+.play-icon {
+    margin-left: .1rem;
+}
+
 .progress-line {
     width: 94%;
     margin-left: .4rem;
