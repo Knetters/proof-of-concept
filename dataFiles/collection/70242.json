@@ -1,0 +1,275 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=zo-hadden-we-het-niet-bedoeld",
+		"next": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=zo-hadden-we-het-niet-bedoeld&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHek32ikzBynzbKh0w40MwAAAAY"
+	},
+	"meta": {
+		"totalHits": 21
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "12045",
+			"attributes": {
+				"title": "Hoofdstuk 1 - De verveelde ezel, de oranje pinpas en de verbaasde staatssecretaris",
+				"firstPublishedAt": "2021-02-09T04:30:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12045",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12045/hoofdstuk-1-de-verveelde-ezel-de-oranje-pinpas-en-de-verbaasde-staatssecretaris/abd99e10-604c-051f-324e-ddefed8a39f7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12066",
+			"attributes": {
+				"title": "Hoofdstuk 2 - De goeden zullen onder de kwaden lijden",
+				"firstPublishedAt": "2021-02-09T04:25:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12066",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12066/hoofdstuk-2-de-goeden-zullen-onder-de-kwaden-lijden/0f74d087-b18f-0d0c-1b92-736976d6edaf"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12067",
+			"attributes": {
+				"title": "Hoofdstuk 3 - Toen de belastingdienst ‘facilitators’ ging pesten",
+				"firstPublishedAt": "2021-02-09T04:20:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12067",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12067/hoofdstuk-3-toen-de-belastingdienst-facilitators-ging-pesten/f9d3612a-a417-0028-0c23-d0a68a734c39"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12068",
+			"attributes": {
+				"title": "Hoofdstuk 4 - De hardvochtige wet en het schandaal met de Appelbloesem",
+				"firstPublishedAt": "2021-02-09T04:15:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12068",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12068/hoofdstuk-4-de-hardvochtige-wet-en-het-schandaal-met-de-appelbloesem/7e7dbf79-0254-0126-2fa2-f541f9e5e325"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12069",
+			"attributes": {
+				"title": "Hoofdstuk 5 - Het spelletje, niet wat er op het spel staat",
+				"firstPublishedAt": "2021-02-09T04:10:03+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12069",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12069/hoofdstuk-5-het-spelletje-niet-wat-er-op-het-spel-staat/e4842dbc-182a-058a-2ee8-36e41a6e6711"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12070",
+			"attributes": {
+				"title": "Hoofdstuk 6 - De teamleider van afdeling uitval/uitworp heeft een plan",
+				"firstPublishedAt": "2021-02-09T04:05:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12070",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12070/hoofdstuk-6-de-teamleider-van-afdeling-uitval-uitworp-heeft-een-plan/f0665c91-a373-0602-0e40-4b69a98627ed"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12071",
+			"attributes": {
+				"title": "Hoofdstuk 7 - De mail waar het allemaal mee begon",
+				"firstPublishedAt": "2021-02-09T04:00:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12071",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12071/hoofdstuk-7-de-mail-waar-het-allemaal-mee-begon/372041f3-da14-038a-03e9-61de0292ed3e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12072",
+			"attributes": {
+				"title": "Hoofdstuk 8 - Een sleutelfiguur in de toeslagen affaire: Eva González Peréz",
+				"firstPublishedAt": "2021-02-09T03:55:03+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12072",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12072/hoofdstuk-8-een-sleutelfiguur-in-de-toeslagen-affaire-eva-gonzalez-perez/6eb395c0-b04f-0dfc-3eca-6cfe8a13017a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12073",
+			"attributes": {
+				"title": "Hoofdstuk 9 - Een racistische jacht op onschuldige burgers",
+				"firstPublishedAt": "2021-02-09T03:50:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12073",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12073/hoofdstuk-9-een-racistische-jacht-op-onschuldige-burgers/2d509058-330d-0594-327a-848a895c20dd"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12074",
+			"attributes": {
+				"title": "Hoofdstuk 10 - De koude oorlog tussen het ministerie en de Belastingdienst",
+				"firstPublishedAt": "2021-02-09T03:45:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12074",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12074/hoofdstuk-10-de-koude-oorlog-tussen-het-ministerie-en-de-belastingdienst/9e64ae49-898b-0984-2a60-d47678326f1e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12075",
+			"attributes": {
+				"title": "Hoofdstuk 11 - Tegels lichten",
+				"firstPublishedAt": "2021-02-09T03:40:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12075",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12075/hoofdstuk-11-tegels-lichten/0cd3fedf-6e37-041a-29d5-f68cffdba7ff"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12076",
+			"attributes": {
+				"title": "Hoofdstuk 12 - Als de Raad van State 180 graden draait",
+				"firstPublishedAt": "2021-02-09T03:35:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12076",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12076/hoofdstuk-12-als-de-raad-van-state-180-graden-draait/f12a36cd-94b0-02bf-3780-f0ca9881fc74"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12077",
+			"attributes": {
+				"title": "Hoofdstuk 13 - De spijkerharde conslusies van de commissie-Donner",
+				"firstPublishedAt": "2021-02-09T03:30:03+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12077",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12077/hoofdstuk-13-de-spijkerharde-conslusies-van-de-commissie-donner/7be09384-f9b7-0b45-139b-994ee99308ad"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12078",
+			"attributes": {
+				"title": "Hoofdstuk 14 - Hoongelach vanaf de tribune",
+				"firstPublishedAt": "2021-02-09T03:25:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12078",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12078/hoofdstuk-14-hoongelach-vanaf-de-tribune/2ee93a16-8da4-0069-0f0c-f7215bffab2c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12079",
+			"attributes": {
+				"title": "Hoofdstuk 15 - De jacht op de staatssecretaris",
+				"firstPublishedAt": "2021-02-09T03:20:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12079",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12079/hoofdstuk-15-de-jacht-op-de-staatssecretaris/4513d64c-ae4e-0d39-3756-72c636f213d9"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12080",
+			"attributes": {
+				"title": "Hoofdstuk 16 - De rek is er uit",
+				"firstPublishedAt": "2021-02-09T03:15:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12080",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12080/hoofdstuk-16-de-rek-is-er-uit/6ad7c944-d800-002d-3df8-54e6299513dc"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12082",
+			"attributes": {
+				"title": "Hoofdstuk 17 - Compensatie voor iedereen",
+				"firstPublishedAt": "2021-02-09T03:10:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12082",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12082/hoofdstuk-17-compensatie-voor-iedereen/3920b8bb-81a3-0eb8-2065-4d9da7f8e845"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12083",
+			"attributes": {
+				"title": "Hoofdstuk 18 - Aangifte tegen de eigen Belastingdienst",
+				"firstPublishedAt": "2021-02-09T03:05:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12083",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12083/hoofdstuk-18-aangifte-tegen-de-eigen-belastingdienst/03396752-f248-04ed-392d-1366670b3173"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12086",
+			"attributes": {
+				"title": "Hoofdstuk 19 - En ook de herstelregeling loopt vast",
+				"firstPublishedAt": "2021-02-09T03:00:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12086",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12086/hoofdstuk-19-en-ook-de-herstelregeling-loopt-vast/4bd6c128-2601-0a79-0523-2f55a4757b8f"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12087",
+			"attributes": {
+				"title": "Epiloog",
+				"firstPublishedAt": "2021-02-09T02:55:02+0000",
+				"template": "book"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12087",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12087/epiloog/ff0f8997-1d26-00ef-26c7-5d98e93b4cd7"
+			}
+		}
+	]
+}

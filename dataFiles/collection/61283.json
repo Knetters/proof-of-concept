@@ -1,0 +1,105 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-tweede",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHemFO3FX-dyEcFoPnnv2wAAAAM"
+	},
+	"meta": {
+		"totalHits": 7
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "10362",
+			"attributes": {
+				"title": "Podcast: Wat verwachten ouders en hun kinderen nú van elkaar?",
+				"firstPublishedAt": "2019-08-07T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10362",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10362/podcast-wat-verwachten-ouders-en-hun-kinderen-nu-van-elkaar/888784df-635b-0194-33b4-654257b8e52f"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10361",
+			"attributes": {
+				"title": "Podcast: De tweede die niet kwam",
+				"firstPublishedAt": "2019-07-31T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10361",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10361/podcast-de-tweede-die-niet-kwam/0c0169ea-c693-07e6-275a-616332e4d525"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10340",
+			"attributes": {
+				"title": "Podcast: De eerste, de beste – hoe we kinderen met elkaar vergelijken",
+				"firstPublishedAt": "2019-07-24T05:42:01+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10340",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10340/podcast-de-eerste-de-beste-hoe-we-kinderen-met-elkaar-vergelijken/57a89c61-3906-0888-3075-aa7c62893526"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10317",
+			"attributes": {
+				"title": "Podcast: Oudere broer of zus? Die is soms een anti-voorbeeld",
+				"firstPublishedAt": "2019-07-17T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10317",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10317/podcast-oudere-broer-of-zus-die-is-soms-een-anti-voorbeeld/92c035c7-ca0f-05a4-0334-7aa9029e800b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10305",
+			"attributes": {
+				"title": "Podcast: Over ruzie, jaloezie en oorlog (in het gezin)",
+				"firstPublishedAt": "2019-07-10T03:45:01+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10305",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10305/podcast-over-ruzie-jaloezie-en-oorlog-in-het-gezin/66aa014b-cbe4-0cf8-0472-c9aa75cad89b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10302",
+			"attributes": {
+				"title": "Podcast: Wachten op een tweede kind, dat is stilte voor de storm",
+				"firstPublishedAt": "2019-07-03T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10302",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10302/podcast-wachten-op-een-tweede-kind-dat-is-stilte-voor-de-storm/006d677b-c9b5-073f-2bbf-e29e88355b17"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9638",
+			"attributes": {
+				"title": "Podcast: Wat is eigenlijk het standaardgezin?",
+				"firstPublishedAt": "2019-06-26T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9638",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9638/podcast-wat-is-eigenlijk-het-standaardgezin/36f11a0b-6a3e-0b2a-3f96-5a10b69b2307"
+			}
+		}
+	]
+}

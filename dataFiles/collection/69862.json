@@ -1,0 +1,261 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=beginnen-over-het-einde",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelCI-sFVOhcccYYExOwgAAAAs"
+	},
+	"meta": {
+		"totalHits": 19
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11980",
+			"attributes": {
+				"title": "Introductie en proloog",
+				"firstPublishedAt": "2021-01-19T04:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11980",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11980/introductie-en-proloog/d1bea32b-6be8-0934-24a2-db6415718914"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11981",
+			"attributes": {
+				"title": "Hoofdstuk 1 - Een goed gesprek over de dood",
+				"firstPublishedAt": "2021-01-19T04:25:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11981",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11981/hoofdstuk-1-een-goed-gesprek-over-de-dood/8a0abccc-b48e-0be0-07ab-8b6cd464465b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11982",
+			"attributes": {
+				"title": "Hoofdstuk 2 - Toen we de dood gingen regelen",
+				"firstPublishedAt": "2021-01-19T04:20:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11982",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11982/hoofdstuk-2-toen-we-de-dood-gingen-regelen/fbec12e2-e34c-0ef2-1ed6-9dbeb11e5f18"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11983",
+			"attributes": {
+				"title": "Hoofdstuk 3 - Onze laatste wil is geen wet",
+				"firstPublishedAt": "2021-01-19T04:15:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11983",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11983/hoofdstuk-3-onze-laatste-wil-is-geen-wet/58196c3c-1101-02c3-094c-af525afdbee1"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11984",
+			"attributes": {
+				"title": "Hoofdstuk 4 - We willen het ook niet weten",
+				"firstPublishedAt": "2021-01-19T04:10:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11984",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11984/hoofdstuk-4-we-willen-het-ook-niet-weten/e308184e-16ce-0c16-2c5a-9e0f0e68880a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11985",
+			"attributes": {
+				"title": "Hoofdstuk 5 - Mijn dood is alleen van mij",
+				"firstPublishedAt": "2021-01-19T04:05:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11985",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11985/hoofdstuk-5-mijn-dood-is-alleen-van-mij/f537101e-43a3-05c5-125a-d573885d0b93"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11986",
+			"attributes": {
+				"title": "Hoofdstuk 6 - Onder de appelboom",
+				"firstPublishedAt": "2021-01-19T04:00:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11986",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11986/hoofdstuk-6-onder-de-appelboom/7f38b778-2a17-0772-01a6-7811b8f7c0ef"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11987",
+			"attributes": {
+				"title": "Hoofdstuk 7 - Het monopolie op de goede dood",
+				"firstPublishedAt": "2021-01-19T03:55:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11987",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11987/hoofdstuk-7-het-monopolie-op-de-goede-dood/33e145c8-e760-025b-3595-8a750ad117e9"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11988",
+			"attributes": {
+				"title": "Intermezzo - De vallende man",
+				"firstPublishedAt": "2021-01-19T03:50:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11988",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11988/intermezzo-de-vallende-man/d62ef77d-315d-0702-2a9f-33c8d8f01af0"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11994",
+			"attributes": {
+				"title": "Hoofdstuk 8 - De uitweg van Hannie Huppakee Goudriaan",
+				"firstPublishedAt": "2021-01-19T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11994",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11994/hoofdstuk-8-de-uitweg-van-hannie-huppakee-goudriaan/c09f36c2-cbd0-0f71-07f2-7f22d52690d9"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11989",
+			"attributes": {
+				"title": "Hoofdstuk 9 - Hij heeft nog echt genietmomenten",
+				"firstPublishedAt": "2021-01-19T03:40:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11989",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11989/hoofdstuk-9-hij-heeft-nog-echt-genietmomenten/48f7b274-d76b-07a8-300f-1ae5f146e127"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11990",
+			"attributes": {
+				"title": "Hoofdstuk 10 - Koffie, appelmoes en de grenzen van de wet",
+				"firstPublishedAt": "2021-01-19T03:35:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11990",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11990/hoofdstuk-10-koffie-appelmoes-en-de-grenzen-van-de-wet/39f6ccc2-bf8e-06ae-3d33-ea53379e06cd"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11991",
+			"attributes": {
+				"title": "Hoofdstuk 11 - Of ik dood wil? Ben je gek.",
+				"firstPublishedAt": "2021-01-19T03:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11991",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11991/hoofdstuk-11-of-ik-dood-wil-ben-je-gek/7d1a12e5-b30a-07c9-2ea4-5d80f6c03ead"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11992",
+			"attributes": {
+				"title": "Hoofdstuk 12 - De pil in de pap",
+				"firstPublishedAt": "2021-01-19T03:25:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11992",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11992/hoofdstuk-12-de-pil-in-de-pap/7e116899-f484-079e-0e47-f56988b62c76"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11993",
+			"attributes": {
+				"title": "Hoofdstuk 13 - Ga toch zelf dood",
+				"firstPublishedAt": "2021-01-19T03:20:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11993",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11993/hoofdstuk-13-ga-toch-zelf-dood/923d352c-2799-0919-223d-fcb33da73c4b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11995",
+			"attributes": {
+				"title": "Hoofdstuk 14 - Ze voelde zich zijn moordenaar",
+				"firstPublishedAt": "2021-01-19T03:15:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11995",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11995/hoofdstuk-14-ze-voelde-zich-zijn-moordenaar/cfd0f48f-1528-0885-3ee0-9b02fcec5de1"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11996",
+			"attributes": {
+				"title": "Hoofdstuk 15 - Je moet het samen doen",
+				"firstPublishedAt": "2021-01-19T03:10:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11996",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11996/hoofdstuk-15-je-moet-het-samen-doen/ecf29295-c1b6-068f-0d1f-c5b8406da0cb"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11997",
+			"attributes": {
+				"title": "Epiloog",
+				"firstPublishedAt": "2021-01-19T03:05:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11997",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11997/epiloog/0b01ab2c-0513-045a-057f-63e9a5d1c7ca"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11998",
+			"attributes": {
+				"title": "Verantwoording",
+				"firstPublishedAt": "2021-01-19T03:00:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11998",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11998/verantwoording/50d1c4d3-e9a2-0119-1a8f-f7bf559440ee"
+			}
+		}
+	]
+}

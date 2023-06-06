@@ -1,0 +1,275 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-rudi-freddie-show",
+		"next": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-rudi-freddie-show&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHejoHygl7nxtIY3XJXJJAAAAAE"
+	},
+	"meta": {
+		"totalHits": 169
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "14511",
+			"attributes": {
+				"title": "Hoe doe je als goed doel nou écht goed?",
+				"firstPublishedAt": "2023-05-26T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14511",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14511/hoe-doe-je-als-goed-doel-nou-echt-goed/ec5445ff-03de-04d8-12b3-bb75037e6906"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14482",
+			"attributes": {
+				"title": "De landbouw en de veeteelt zijn als de postkoets en de trekschuit: inefficiënt en achterhaald",
+				"firstPublishedAt": "2023-05-12T03:45:05+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14482",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14482/de-landbouw-en-de-veeteelt-zijn-als-de-postkoets-en-de-trekschuit-inefficient-en-achterhaald/8dc64278-514f-088a-00d8-35776eea22ea"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14417",
+			"attributes": {
+				"title": "Deze staatssecretaris van Financiën gaat voor de verandering niets veranderen",
+				"firstPublishedAt": "2023-04-21T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14417",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14417/deze-staatssecretaris-van-financien-gaat-voor-de-verandering-niets-veranderen/b257bbdd-849e-032f-22b5-adbb6860ffa0"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14371",
+			"attributes": {
+				"title": "Goed nieuws: schone energie was nog nooit zó goedkoop (en de prijs blijft dalen)",
+				"firstPublishedAt": "2023-04-04T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14371",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14371/goed-nieuws-schone-energie-was-nog-nooit-zo-goedkoop-en-de-prijs-blijft-dalen/b10e8941-7f50-0c67-3f3b-48e1074b052f"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14306",
+			"attributes": {
+				"title": "In gesprek met Gabriel Zucman, dé expert op het gebied van belastingontwijking en -ontduiking",
+				"firstPublishedAt": "2023-03-17T04:45:05+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14306",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14306/in-gesprek-met-gabriel-zucman-de-expert-op-het-gebied-van-belastingontwijking-en-ontduiking/7cb5c260-ff7f-0b16-22ef-794f08c6e2a4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14275",
+			"attributes": {
+				"title": "Van je schulden afkomen is nog steeds als ongetraind deelnemen aan een bureaucratische triatlon. Hoe kan dat beter?",
+				"firstPublishedAt": "2023-03-03T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14275",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14275/van-je-schulden-afkomen-is-nog-steeds-als-ongetraind-deelnemen-aan-een-bureaucratische-triatlon-hoe-kan-dat-beter/48ff5b73-2c4f-036c-328d-eeafddf28a34"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14226",
+			"attributes": {
+				"title": "De Tweede Kamer verbood (per ongeluk?) bijna de hele veehouderij. Wat nu?",
+				"firstPublishedAt": "2023-02-17T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14226",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14226/de-tweede-kamer-verbood-per-ongeluk-bijna-de-hele-veehouderij-wat-nu/fd377754-6926-0993-3ed3-286cda2a1829"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14207",
+			"attributes": {
+				"title": "30 procent van de wereld kookt op open vuur. En dat is een ramp voor het klimaat en de volksgezondheid",
+				"firstPublishedAt": "2023-02-10T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14207",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14207/30-procent-van-de-wereld-kookt-op-open-vuur-en-dat-is-een-ramp-voor-het-klimaat-en-de-volksgezondheid/e374da3c-4686-0b24-0362-f8c3b9f994d8"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14163",
+			"attributes": {
+				"title": "In gesprek met Sander Schimmelpenninck over een gelijkwaardiger Nederland",
+				"firstPublishedAt": "2023-01-27T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14163",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14163/in-gesprek-met-sander-schimmelpenninck-over-een-gelijkwaardiger-nederland/2b1e76e6-fc78-0f34-21f7-e47465353959"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14125",
+			"attributes": {
+				"title": "De Rudi-&-Freddie-Goed-Nieuws-Show",
+				"firstPublishedAt": "2023-01-13T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14125",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14125/de-rudi-freddie-goed-nieuws-show/640bcabd-0a15-020d-296c-b8346616dead"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14049",
+			"attributes": {
+				"title": "Waarom hebben we nog geen vliegende auto?",
+				"firstPublishedAt": "2022-12-16T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14049",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14049/waarom-hebben-we-nog-geen-vliegende-auto/8d79306d-620c-06b5-387f-ae5deeaaeba9"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14003",
+			"attributes": {
+				"title": "Is ‘degrowth’ hét antwoord op de klimaatcrisis?",
+				"firstPublishedAt": "2022-12-02T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14003",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14003/is-degrowth-het-antwoord-op-de-klimaatcrisis/b7149453-a9be-0c0a-1527-c36c9392174a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13954",
+			"attributes": {
+				"title": "Even inhalen met R&F: een frauderende cryptomiljardair, #aribgate en het Belastingplan 2023",
+				"firstPublishedAt": "2022-11-18T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13954",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13954/even-inhalen-met-r-f-een-frauderende-cryptomiljardair-aribgate-en-het-belastingplan-2023/18d22335-b7b5-0825-19c0-db24afa24831"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13798",
+			"attributes": {
+				"title": "De onstuitbare opmars van de planteneters – in gesprek met Tobias Leenaert",
+				"firstPublishedAt": "2022-10-21T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13798",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13798/de-onstuitbare-opmars-van-de-planteneters-in-gesprek-met-tobias-leenaert/cb62eb49-c08e-0676-3088-56b97137d205"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13802",
+			"attributes": {
+				"title": "Een fulltime carrière bestaat uit 80.000 uur. Hoe kun je die het best besteden?",
+				"firstPublishedAt": "2022-10-07T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13802",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13802/een-fulltime-carriere-bestaat-uit-80-000-uur-hoe-kun-je-die-het-best-besteden/fb03860b-e660-052e-06e0-7295b2c81a09"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13776",
+			"attributes": {
+				"title": "Waarom Diederik Samsom in Brussel veel meer voor elkaar krijgt dan in Den Haag",
+				"firstPublishedAt": "2022-09-23T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13776",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13776/waarom-diederik-samsom-in-brussel-veel-meer-voor-elkaar-krijgt-dan-in-den-haag/b297d6f6-642d-05cd-1565-576f734c68a2"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13732",
+			"attributes": {
+				"title": "Energie, superduur. Wat nu?",
+				"firstPublishedAt": "2022-09-09T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13732",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13732/energie-superduur-wat-nu/41ef210f-81cd-08f6-02cc-c00831f32aa7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13650",
+			"attributes": {
+				"title": "Deze frisse ambtenaar nam ontslag en begon een economische denktank – waarom?",
+				"firstPublishedAt": "2022-08-12T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13650",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13650/deze-frisse-ambtenaar-nam-ontslag-en-begon-een-economische-denktank-waarom/4b438eb1-41fd-0621-362f-56f2032e50f5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13609",
+			"attributes": {
+				"title": "Deze onderzoeker neemt je mee langs de fiscale sluiproutes van de superrijken",
+				"firstPublishedAt": "2022-07-22T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13609",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13609/deze-onderzoeker-neemt-je-mee-langs-de-fiscale-sluiproutes-van-de-superrijken/84128eb1-e56d-0f3f-1317-746e4568df09"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13559",
+			"attributes": {
+				"title": "We stevenen af op een immens zorginfarct. Wat kan het tij nog keren?",
+				"firstPublishedAt": "2022-07-08T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13559",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13559/we-stevenen-af-op-een-immens-zorginfarct-wat-kan-het-tij-nog-keren/8eddf713-168a-0a89-1399-c3ad789a43f7"
+			}
+		}
+	]
+}

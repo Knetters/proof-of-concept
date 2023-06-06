@@ -1,0 +1,170 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=goed-nieuws-met-joris-luyendijk",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHel70sc-KWUEs2cPOlUUwAAAAQ"
+	},
+	"meta": {
+		"totalHits": 12
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "10321",
+			"attributes": {
+				"title": "Joris Luyendijk en Rob Wijnberg in gesprek: heeft De Correspondent niet wat meer waan van de dag nodig?",
+				"firstPublishedAt": "2019-09-25T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10321",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10321/joris-luyendijk-en-rob-wijnberg-in-gesprek-heeft-de-correspondent-niet-wat-meer-waan-van-de-dag-nodig/10c07ea3-f230-0cdd-374a-2f5d0f773d54"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10322",
+			"attributes": {
+				"title": "Wat hebben alle succesvolle extremisten gemeen? Ze zijn allemaal tech-savvy",
+				"firstPublishedAt": "2019-08-22T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10322",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10322/wat-hebben-alle-succesvolle-extremisten-gemeen-ze-zijn-allemaal-tech-savvy/a979f0dc-846f-087c-0617-e3777ecfbaae"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10320",
+			"attributes": {
+				"title": "De rol van zwarte helden in de geschiedenis is vaak bewust onzichtbaar gemaakt",
+				"firstPublishedAt": "2019-07-30T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10320",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10320/de-rol-van-zwarte-helden-in-de-geschiedenis-is-vaak-bewust-onzichtbaar-gemaakt/553122af-6995-034d-231c-ef64d15921d7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9631",
+			"attributes": {
+				"title": "Het grootste misverstand over geestelijk lijden is dat het zo snel mogelijk moet stoppen",
+				"firstPublishedAt": "2019-06-19T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9631",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9631/het-grootste-misverstand-over-geestelijk-lijden-is-dat-het-zo-snel-mogelijk-moet-stoppen/8f2d3d02-2094-02ff-3aec-ba8b7867a251"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9559",
+			"attributes": {
+				"title": "De les van onze correspondent Economie: iedereen doet maar wat",
+				"firstPublishedAt": "2019-05-29T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9559",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9559/de-les-van-onze-correspondent-economie-iedereen-doet-maar-wat/cd720e0b-0938-0ca5-20ab-854a5977a8e2"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9443",
+			"attributes": {
+				"title": "Op de kermis spelen volwassenen nog (en dat zouden meer mensen moeten doen)",
+				"firstPublishedAt": "2019-05-01T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9443",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9443/op-de-kermis-spelen-volwassenen-nog-en-dat-zouden-meer-mensen-moeten-doen/5d8777b4-2e28-0000-04e8-a6e126918a8c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9351",
+			"attributes": {
+				"title": "Hoeveel stress-signalen kan een democratie eigenlijk aan?",
+				"firstPublishedAt": "2019-04-03T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9351",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9351/hoeveel-stress-signalen-kan-een-democratie-eigenlijk-aan/5306bc93-de38-006a-0081-8920e37d0837"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9263",
+			"attributes": {
+				"title": "Cijfers zijn als zeepjes: knijp er te hard in en ze glippen uit je handen",
+				"firstPublishedAt": "2019-03-13T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9263",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9263/cijfers-zijn-als-zeepjes-knijp-er-te-hard-in-en-ze-glippen-uit-je-handen/bbb6926c-57fc-0d9b-189e-36f2a8b726f5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9045",
+			"attributes": {
+				"title": "Journalistieke dilemma’s in Nigeria: waar je voodoo serieus moet nemen en corruptie er een beetje bij hoort",
+				"firstPublishedAt": "2019-01-02T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9045",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9045/journalistieke-dilemmas-in-nigeria-waar-je-voodoo-serieus-moet-nemen-en-corruptie-er-een-beetje-bij-hoort/9636b46e-2667-0fb8-1a47-5271a8c6acbe"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8968",
+			"attributes": {
+				"title": "We houden ervan de EU te haten. Maar we kunnen niet zonder",
+				"firstPublishedAt": "2018-12-05T15:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8968",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8968/we-houden-ervan-de-eu-te-haten-maar-we-kunnen-niet-zonder/229e0f57-7bdc-08a8-3f97-e67747b588b4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8841",
+			"attributes": {
+				"title": "Na deze podcast kijk je nooit meer hetzelfde naar de wereld om je heen",
+				"firstPublishedAt": "2018-10-31T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8841",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8841/na-deze-podcast-kijk-je-nooit-meer-hetzelfde-naar-de-wereld-om-je-heen/7e0bd693-e7be-0393-2c26-04906052d6c5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8736",
+			"attributes": {
+				"title": "Luister naar onze nieuwe podcast: Goed nieuws met Joris Luyendijk",
+				"firstPublishedAt": "2018-10-02T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8736",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8736/luister-naar-onze-nieuwe-podcast-goed-nieuws-met-joris-luyendijk/e90f2b37-be50-02d3-2f14-60b484e55c80"
+			}
+		}
+	]
+}

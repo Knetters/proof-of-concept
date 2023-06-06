@@ -1,0 +1,144 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=verhalen-voor-het-slapengaan",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHemVu3FX-dyEcFoPnnv3AAAAAM"
+	},
+	"meta": {
+		"totalHits": 10
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "8465",
+			"attributes": {
+				"title": "Een verhaal over naaktstranden (of denken aan je pensioen)",
+				"firstPublishedAt": "2018-09-12T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8465",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8465/een-verhaal-over-naaktstranden-of-denken-aan-je-pensioen/5a430b38-7ad2-07d7-1ace-1b111efb56b5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8464",
+			"attributes": {
+				"title": "Een verhaal over met jezelf trouwen",
+				"firstPublishedAt": "2018-09-05T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8464",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8464/een-verhaal-over-met-jezelf-trouwen/b4844d17-a7be-0aeb-2ef5-9391c7692bbe"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8463",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over niet kunnen zoenen",
+				"firstPublishedAt": "2018-08-29T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8463",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8463/om-te-lezen-of-te-luisteren-een-verhaal-over-niet-kunnen-zoenen/ddda1930-0fb4-0723-10d3-fd9dcdb936ce"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8462",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over een huwelijksreis met mijn ex",
+				"firstPublishedAt": "2018-08-22T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8462",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8462/om-te-lezen-of-te-luisteren-een-verhaal-over-een-huwelijksreis-met-mijn-ex/8a7f0d05-f69c-0ff0-3d3c-36da8bd6e42a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8461",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over personages die tot leven komen",
+				"firstPublishedAt": "2018-08-15T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8461",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8461/om-te-lezen-of-te-luisteren-een-verhaal-over-personages-die-tot-leven-komen/ce3562f1-e04c-01aa-1096-b8985fa2a462"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8460",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over gelukszoekers die jóu zoeken",
+				"firstPublishedAt": "2018-08-08T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8460",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8460/om-te-lezen-of-te-luisteren-een-verhaal-over-gelukszoekers-die-jou-zoeken/91a23be6-192c-02ba-1e9c-ff95d058d45a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8459",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over daten met Doornroosje",
+				"firstPublishedAt": "2018-08-01T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8459",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8459/om-te-lezen-of-te-luisteren-een-verhaal-over-daten-met-doornroosje/eb81e996-bf84-0e6b-2239-c1254a452930"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8458",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over jezelf teleurstellen in de liefde",
+				"firstPublishedAt": "2018-07-25T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8458",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8458/om-te-lezen-of-te-luisteren-een-verhaal-over-jezelf-teleurstellen-in-de-liefde/c761e0c4-f1b4-0b04-1642-e5aef8a3f174"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8457",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over schrijver zijn in een psychiatrische inrichting",
+				"firstPublishedAt": "2018-07-18T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8457",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8457/om-te-lezen-of-te-luisteren-een-verhaal-over-schrijver-zijn-in-een-psychiatrische-inrichting/3713e9ea-b32c-08ea-2cd0-96ffb9d5def4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8456",
+			"attributes": {
+				"title": "Om te lezen of te luisteren: Een verhaal over die keer dat seks geen doel was, maar een neveneffect",
+				"firstPublishedAt": "2018-07-11T16:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8456",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8456/om-te-lezen-of-te-luisteren-een-verhaal-over-die-keer-dat-seks-geen-doel-was-maar-een-neveneffect/e7938cc5-c61f-0058-2534-144c2b00c038"
+			}
+		}
+	]
+}

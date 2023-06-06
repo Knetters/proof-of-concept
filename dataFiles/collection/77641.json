@@ -1,0 +1,66 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=containerbegrip",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHej5Hygl7nxtIY3XJXJJQAAAAE"
+	},
+	"meta": {
+		"totalHits": 4
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "14302",
+			"attributes": {
+				"title": "Een betere wereld kan niet zonder eerlijke en groene containervaart. Maar hoe ziet die eruit?",
+				"firstPublishedAt": "2023-04-13T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14302",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14302/een-betere-wereld-kan-niet-zonder-eerlijke-en-groene-containervaart-maar-hoe-ziet-die-eruit/5cdedad6-5957-0c81-0d81-31bf23a88569"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14301",
+			"attributes": {
+				"title": "Het wilde westen op zee: waarom de containervaart niet minder, maar méér gaat uitstoten",
+				"firstPublishedAt": "2023-04-06T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14301",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14301/het-wilde-westen-op-zee-waarom-de-containervaart-niet-minder-maar-meer-gaat-uitstoten/ee13c148-b03d-09f0-2441-d919ac8fc05d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14300",
+			"attributes": {
+				"title": "Dit zijn de zeelui die 90 procent van je spullen naar je toe brengen (maar bijna nooit van boord mogen)",
+				"firstPublishedAt": "2023-03-30T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14300",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14300/dit-zijn-de-zeelui-die-90-procent-van-je-spullen-naar-je-toe-brengen-maar-bijna-nooit-van-boord-mogen/a61b74b8-8c31-0b1b-154e-57db623f4bef"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14299",
+			"attributes": {
+				"title": "Van je afwasborstel tot de complete wereldeconomie: de container beheerst jouw leven",
+				"firstPublishedAt": "2023-03-23T04:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14299",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14299/van-je-afwasborstel-tot-de-complete-wereldeconomie-de-container-beheerst-jouw-leven/855cf909-8617-0fba-1712-33d2327d3dae"
+			}
+		}
+	]
+}

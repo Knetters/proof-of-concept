@@ -1,0 +1,275 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=ontmoetingen-met-onbekenden",
+		"next": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=ontmoetingen-met-onbekenden&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHekMUsc-KWUEs2cPOlUUQAAAAQ"
+	},
+	"meta": {
+		"totalHits": 122
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "13647",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Diny van de DELA (of: toen ik moeder werd en mijn vader doodging)",
+				"firstPublishedAt": "2022-08-13T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13647",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13647/iemand-die-ik-niet-ken-diny-van-de-dela-of-toen-ik-moeder-werd-en-mijn-vader-doodging/a1a0d013-78ce-08ba-30c8-a19c1c7bd570"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12765",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Frank",
+				"firstPublishedAt": "2021-09-22T03:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12765",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12765/iemand-die-ik-niet-ken-frank/6b683cf0-a825-0777-128e-d9b4c9ccb075"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12460",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Zelfscan",
+				"firstPublishedAt": "2021-06-11T03:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12460",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12460/iemand-die-ik-niet-ken-zelfscan/391d3448-9b86-00a7-3206-3de6d79a092c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12253",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Friet",
+				"firstPublishedAt": "2021-04-03T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12253",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12253/iemand-die-ik-niet-ken-friet/64f2f0fc-d40f-05c9-3b8a-7dba3a342c35"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12176",
+			"attributes": {
+				"title": "Iemand die ik niet ken: De vrouw die niks kan",
+				"firstPublishedAt": "2021-03-06T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12176",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12176/iemand-die-ik-niet-ken-de-vrouw-die-niks-kan/20f5b1f9-dce9-0a58-2f36-905ec28b1f15"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12144",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Nora, het zusje van Luc",
+				"firstPublishedAt": "2021-02-23T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12144",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12144/iemand-die-ik-niet-ken-nora-het-zusje-van-luc/ad7adf60-c7ae-0eb5-392a-b9f49c5a2b21"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12038",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Schorre honden (of: als je stad wordt overgenomen door relschoppers)",
+				"firstPublishedAt": "2021-01-26T17:27:32+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12038",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12038/iemand-die-ik-niet-ken-schorre-honden-of-als-je-stad-wordt-overgenomen-door-relschoppers/23249a2f-b00f-0e52-2580-fc1fa1e50b25"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11999",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Roze rouge",
+				"firstPublishedAt": "2021-01-21T04:45:05+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11999",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11999/iemand-die-ik-niet-ken-roze-rouge/000fbe55-e32b-0005-2c3e-22f9a57009b9"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11874",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Dit Hier",
+				"firstPublishedAt": "2020-12-05T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11874",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11874/iemand-die-ik-niet-ken-dit-hier/52059517-69e6-0dcf-08f0-74fab8713ef8"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11683",
+			"attributes": {
+				"title": "Iemand die ik niet had willen kennen",
+				"firstPublishedAt": "2020-10-06T03:45:02+0000",
+				"template": "evergreen"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11683",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11683/iemand-die-ik-niet-had-willen-kennen/99df32be-a90b-02fa-0a51-ce1098358d47"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11456",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Wereldvrede",
+				"firstPublishedAt": "2020-08-01T03:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11456",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11456/iemand-die-ik-niet-ken-wereldvrede/1510864e-975b-01cf-24eb-ac0a8a595b27"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11326",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Dubbelfrisss",
+				"firstPublishedAt": "2020-06-18T03:45:01+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11326",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11326/iemand-die-ik-niet-ken-dubbelfrisss/1da975a6-7cdf-081e-0947-feb92aee37f7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11157",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Bouwvakker",
+				"firstPublishedAt": "2020-04-18T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11157",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11157/iemand-die-ik-niet-ken-bouwvakker/ef881575-bb97-07a9-11b3-873b2cdd22ac"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10787",
+			"attributes": {
+				"title": "Iemand die Dylan niet kent",
+				"firstPublishedAt": "2020-03-25T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10787",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10787/iemand-die-dylan-niet-kent/7803e21f-810f-0efb-1141-e3aa1eec0b4d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11019",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Zenuw",
+				"firstPublishedAt": "2020-03-12T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11019",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11019/iemand-die-ik-niet-ken-zenuw/e4f92c86-10de-0103-2033-ae168d992b07"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10931",
+			"attributes": {
+				"title": "Iemand die Stephanie niet kent",
+				"firstPublishedAt": "2020-02-18T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10931",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10931/iemand-die-stephanie-niet-kent/926dc1fd-1549-0692-17fb-299b29e3630c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10927",
+			"attributes": {
+				"title": "Iemand die ik niet ken: De sigaar",
+				"firstPublishedAt": "2020-02-04T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10927",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10927/iemand-die-ik-niet-ken-de-sigaar/93d39e3a-03f3-02c5-09dc-afce8ac09b29"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10768",
+			"attributes": {
+				"title": "Iemand die Jan niet kent",
+				"firstPublishedAt": "2020-01-15T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10768",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10768/iemand-die-jan-niet-kent/34402786-30e8-01a4-2cf7-6fe528484103"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10842",
+			"attributes": {
+				"title": "Iemand die ik niet ken: Smak",
+				"firstPublishedAt": "2020-01-02T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10842",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10842/iemand-die-ik-niet-ken-smak/bf41ad8f-7d75-010b-025b-10063d036630"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10784",
+			"attributes": {
+				"title": "Iemand die Tim niet kent",
+				"firstPublishedAt": "2019-12-25T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10784",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10784/iemand-die-tim-niet-kent/4cf14a0d-1c38-046a-1393-a2b523a65bc2"
+			}
+		}
+	]
+}

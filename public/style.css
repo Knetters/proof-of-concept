@@ -61,6 +61,14 @@ p {
     width: 60%;
 }
 
+/* header styling */
+.site-logo {
+    fill: var(--fontColor);
+    width: 10rem;
+    padding: 0rem .8rem;
+    margin-top: -2.5rem;
+}
+
 /* Horizontal flex */
 .horizontal-flex-scroll-container {
     display: flex;

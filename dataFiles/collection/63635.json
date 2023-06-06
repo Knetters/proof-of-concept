@@ -1,0 +1,131 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-zingevers",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelqXygl7nxtIY3XJXJJwAAAAE"
+	},
+	"meta": {
+		"totalHits": 9
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11673",
+			"attributes": {
+				"title": "De zin van het leven? Dat anderen het met je willen delen",
+				"firstPublishedAt": "2020-10-05T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11673",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11673/de-zin-van-het-leven-dat-anderen-het-met-je-willen-delen/54bf0f86-7e8e-01c3-1986-57c58cd4f211"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11380",
+			"attributes": {
+				"title": "Luisteren: Deze imam helpt gevangenen de zin van het leven terug te vinden",
+				"firstPublishedAt": "2020-07-02T14:00:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11380",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11380/luisteren-deze-imam-helpt-gevangenen-de-zin-van-het-leven-terug-te-vinden/2b08bc08-8268-0521-286a-1ced323af66b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11192",
+			"attributes": {
+				"title": "Luisteren: Zorgverleners zien meer mensen sterven. Deze geestelijk verzorger staat ze bij",
+				"firstPublishedAt": "2020-04-29T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11192",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11192/luisteren-zorgverleners-zien-meer-mensen-sterven-deze-geestelijk-verzorger-staat-ze-bij/67ec8eaf-f48f-0653-20a0-348c5632524e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11075",
+			"attributes": {
+				"title": "Luisteren: Waarom juist hulpverleners omvallen (en André Hazes troost biedt)",
+				"firstPublishedAt": "2020-03-27T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11075",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11075/luisteren-waarom-juist-hulpverleners-omvallen-en-andre-hazes-troost-biedt/71bbb762-592a-08ff-3f40-1b183d4276a1"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11033",
+			"attributes": {
+				"title": "Luisteren: Het gaat om het leven, niet om het lijden, zegt deze rabbijn",
+				"firstPublishedAt": "2020-03-13T04:45:01+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11033",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11033/luisteren-het-gaat-om-het-leven-niet-om-het-lijden-zegt-deze-rabbijn/3f088419-2408-05cf-2ae2-8e190eee8120"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10991",
+			"attributes": {
+				"title": "Luisteren: Vrijheid kun je leren, volgens deze boeddhist in de gevangenis",
+				"firstPublishedAt": "2020-02-28T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10991",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10991/luisteren-vrijheid-kun-je-leren-volgens-deze-boeddhist-in-de-gevangenis/82247c03-351d-0a28-1405-867bf5ec1bb1"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10962",
+			"attributes": {
+				"title": "Podcast: Deze militair is luisterend majoor",
+				"firstPublishedAt": "2020-02-14T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10962",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10962/podcast-deze-militair-is-luisterend-majoor/79fbf0f4-bdd7-065e-3c40-818ace327e59"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10929",
+			"attributes": {
+				"title": "Luisteren: Ook door je mond te houden kan je helpen, ontdekte deze geestelijk verzorger",
+				"firstPublishedAt": "2020-01-31T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10929",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10929/luisteren-ook-door-je-mond-te-houden-kan-je-helpen-ontdekte-deze-geestelijk-verzorger/6ae55a14-a958-0fcd-0f0c-ec8de62c0d93"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10876",
+			"attributes": {
+				"title": "Luisteren: Dit zijn de professionals van de zingeving",
+				"firstPublishedAt": "2020-01-17T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10876",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10876/luisteren-dit-zijn-de-professionals-van-de-zingeving/64510075-999b-0d27-198f-b5219892a9cb"
+			}
+		}
+	]
+}

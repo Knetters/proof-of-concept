@@ -1,0 +1,79 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=revolusi",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHekuo-sFVOhcccYYExOwQAAAAs"
+	},
+	"meta": {
+		"totalHits": 5
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "12336",
+			"attributes": {
+				"title": "Luisteren: Hoe onafhankelijk Indonesië zich op de wereldkaart zette",
+				"firstPublishedAt": "2021-05-29T03:45:02+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12336",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12336/luisteren-hoe-onafhankelijk-indonesie-zich-op-de-wereldkaart-zette/e9051959-aa33-0a96-2572-fbb944eb74a8"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12334",
+			"attributes": {
+				"title": "Luisteren: Nederland werd in 1945 bevrijd, maar misgunde Indonesië diezelfde vrijheid",
+				"firstPublishedAt": "2021-05-22T06:11:32+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12334",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12334/luisteren-nederland-werd-in-1945-bevrijd-maar-misgunde-indonesie-diezelfde-vrijheid/a32be4b6-422d-0a9b-2e9e-4dca96808d31"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12333",
+			"attributes": {
+				"title": "Luisteren: Wat Nederland met de aanval op Pearl Harbor te maken had",
+				"firstPublishedAt": "2021-05-15T07:20:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12333",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12333/luisteren-wat-nederland-met-de-aanval-op-pearl-harbor-te-maken-had/b8b2847a-f337-0c7d-3d68-620731509d94"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12332",
+			"attributes": {
+				"title": "Luisteren: Direct na de kolonisatie door Nederland begon het Indonesische verzet te borrelen en te gisten",
+				"firstPublishedAt": "2021-05-08T03:45:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12332",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12332/luisteren-direct-na-de-kolonisatie-door-nederland-begon-het-indonesische-verzet-te-borrelen-en-te-gisten/f6ee8d5e-ea99-0277-0320-55621bdce5c7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12318",
+			"attributes": {
+				"title": "Luisteren: Van een zoektocht naar nootmuskaat tot massageweld. Zo koloniseerde Nederland de Indische archipel",
+				"firstPublishedAt": "2021-05-01T03:45:05+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12318",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12318/luisteren-van-een-zoektocht-naar-nootmuskaat-tot-massageweld-zo-koloniseerde-nederland-de-indische-archipel/18537db0-6404-08da-34fb-62d06082b45b"
+			}
+		}
+	]
+}

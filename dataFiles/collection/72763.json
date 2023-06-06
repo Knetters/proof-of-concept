@@ -1,0 +1,66 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=pronk",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHekmw4xRFy_uovLtiEwTQAAAAw"
+	},
+	"meta": {
+		"totalHits": 4
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "12795",
+			"attributes": {
+				"title": "Wat heb je aan sterke schouders als die niemand meer dragen?",
+				"firstPublishedAt": "2021-09-29T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12795",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12795/wat-heb-je-aan-sterke-schouders-als-die-niemand-meer-dragen/f5441473-b81a-055b-3658-561714fc272a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12773",
+			"attributes": {
+				"title": "Podcast: Hoe Jan Pronk na een halve eeuw politiek de hoop verloor, en terugvond op een onverwachte plek (deel 3)",
+				"firstPublishedAt": "2021-09-21T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12773",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12773/podcast-hoe-jan-pronk-na-een-halve-eeuw-politiek-de-hoop-verloor-en-terugvond-op-een-onverwachte-plek-deel-3/c4faf128-3b72-0a8e-3bf5-b00c2c4c7a12"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12753",
+			"attributes": {
+				"title": "Podcast: Het privéarchief van oud-politicus Jan Pronk is een schatkamer voor wie naar linkse idealen zoekt (deel 2)",
+				"firstPublishedAt": "2021-09-14T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12753",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12753/podcast-het-privearchief-van-oud-politicus-jan-pronk-is-een-schatkamer-voor-wie-naar-linkse-idealen-zoekt-deel-2/a452dc5f-4c55-0c31-24a1-ede28823db68"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12725",
+			"attributes": {
+				"title": "Pronk: onze podcast over oude idealen – en waar linkse politiek in vredesnaam gebleven is (deel 1)",
+				"firstPublishedAt": "2021-09-07T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12725",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12725/pronk-onze-podcast-over-oude-idealen-en-waar-linkse-politiek-in-vredesnaam-gebleven-is-deel-1/bbdb5a84-653c-0850-227e-40849a160c39"
+			}
+		}
+	]
+}

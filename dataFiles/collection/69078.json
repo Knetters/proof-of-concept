@@ -1,0 +1,183 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=never-expect-power-always",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelOGikzBynzbKh0w40NAAAAAY"
+	},
+	"meta": {
+		"totalHits": 13
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11856",
+			"attributes": {
+				"title": "Welke lessen ik leerde van de duik achter mijn Nigeriaanse stopcontact",
+				"firstPublishedAt": "2021-01-06T06:00:04+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11856",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11856/welke-lessen-ik-leerde-van-de-duik-achter-mijn-nigeriaanse-stopcontact/c2f2fd2a-bb0b-04fc-1583-faf8a186ff01"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11924",
+			"attributes": {
+				"title": "Welkom in de wondere wereld achter het stopcontact (of: hoe werkelijk alles met elektriciteit te maken heeft)",
+				"firstPublishedAt": "2021-01-06T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11924",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11924/welkom-in-de-wondere-wereld-achter-het-stopcontact-of-hoe-werkelijk-alles-met-elektriciteit-te-maken-heeft/71a1fab8-2d4f-093b-3a92-c9a345d54fd1"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11855",
+			"attributes": {
+				"title": "De groene revolutie begint bij... haperende stroom. Luister nu het laatste deel van mijn podcast",
+				"firstPublishedAt": "2020-12-30T05:00:03+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11855",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11855/de-groene-revolutie-begint-bij-haperende-stroom-luister-nu-het-laatste-deel-van-mijn-podcast/bfe68196-03da-0e86-08b8-affbf98168b2"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11824",
+			"attributes": {
+				"title": "Luisteren: Waarom de groene revolutie weleens bij haperende stroom kan beginnen",
+				"firstPublishedAt": "2020-12-30T04:45:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11824",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11824/luisteren-waarom-de-groene-revolutie-weleens-bij-haperende-stroom-kan-beginnen/90640ba3-5dfc-0255-12ea-accbe6b87806"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11854",
+			"attributes": {
+				"title": "De generatormaffia, of wie profiteert van slechte stroom. Luister nu deel 3 van mijn podcast",
+				"firstPublishedAt": "2020-12-23T04:45:06+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11854",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11854/de-generatormaffia-of-wie-profiteert-van-slechte-stroom-luister-nu-deel-3-van-mijn-podcast/90bdc16d-fd07-02e3-0c9c-1fc178c4416a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11794",
+			"attributes": {
+				"title": "Luisteren: Ik ging op zoek naar de Nigeriaanse generatormaffia. Want ook aan slechte stroom kun je grof geld verdienen",
+				"firstPublishedAt": "2020-12-23T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11794",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11794/luisteren-ik-ging-op-zoek-naar-de-nigeriaanse-generatormaffia-want-ook-aan-slechte-stroom-kun-je-grof-geld-verdienen/75aff8c2-19ec-0933-1ded-b4220ce8f147"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11853",
+			"attributes": {
+				"title": "Wat – en wíé – heb je nodig voor stroom uit je stopcontact? Dat hoor je in deel twee van mijn podcast",
+				"firstPublishedAt": "2020-12-16T06:00:05+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11853",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11853/wat-en-wie-heb-je-nodig-voor-stroom-uit-je-stopcontact-dat-hoor-je-in-deel-twee-van-mijn-podcast/bb41df46-7bef-07f0-18a9-e4a8130d4a8c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11813",
+			"attributes": {
+				"title": "Luisteren: Zonder stroom loopt het leven vast. Dus ging ik op zoek naar de kinken in de kabels",
+				"firstPublishedAt": "2020-12-16T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11813",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11813/luisteren-zonder-stroom-loopt-het-leven-vast-dus-ging-ik-op-zoek-naar-de-kinken-in-de-kabels/94317f21-7949-0b05-20e7-27fd66458512"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11852",
+			"attributes": {
+				"title": "Hoe is het om te leven zónder betrouwbare elektriciteit? Dat hoor je nu in de eerste aflevering van mijn podcast",
+				"firstPublishedAt": "2020-12-09T06:00:05+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11852",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11852/hoe-is-het-om-te-leven-zonder-betrouwbare-elektriciteit-dat-hoor-je-nu-in-de-eerste-aflevering-van-mijn-podcast/5913dbcb-5a08-09f9-20bd-c5930b643083"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11547",
+			"attributes": {
+				"title": "Luisteren: Als stroomuitval geen schok, maar de normaalste zaak van de wereld is",
+				"firstPublishedAt": "2020-12-09T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11547",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11547/luisteren-als-stroomuitval-geen-schok-maar-de-normaalste-zaak-van-de-wereld-is/8c2e52c5-eb2b-010b-1e6e-e6c67631c82b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11843",
+			"attributes": {
+				"title": "Wat de stroomvoorziening in Nigeria ons leert over hoe landen rijk worden (en andere grote vragen des levens)",
+				"firstPublishedAt": "2020-12-08T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11843",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11843/wat-de-stroomvoorziening-in-nigeria-ons-leert-over-hoe-landen-rijk-worden-en-andere-grote-vragen-des-levens/6c59616a-c2d7-0ddd-294e-ba2df77119e4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11847",
+			"attributes": {
+				"title": "In mijn nieuwe podcast neem ik je mee in de bizarre wereld achter mijn stopcontact. Bekijk hier alvast de trailer",
+				"firstPublishedAt": "2020-12-02T04:45:04+0000",
+				"template": "plain"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11847",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11847/in-mijn-nieuwe-podcast-neem-ik-je-mee-in-de-bizarre-wereld-achter-mijn-stopcontact-bekijk-hier-alvast-de-trailer/2c120322-a5cc-0b3b-3ad7-0661648f7bcc"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11801",
+			"attributes": {
+				"title": "Wat mijn stopcontact me leerde over vooruitgang",
+				"firstPublishedAt": "2020-12-02T04:15:02+0000",
+				"template": "newsletter"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11801",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11801/wat-mijn-stopcontact-me-leerde-over-vooruitgang/222d06c3-5747-0b70-2c4a-c08418dbc5b0"
+			}
+		}
+	]
+}

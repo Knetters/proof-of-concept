@@ -1,0 +1,170 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=amerikanen-lopen-niet",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHemMEsc-KWUEs2cPOlUVAAAAAQ"
+	},
+	"meta": {
+		"totalHits": 12
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "8557",
+			"attributes": {
+				"title": "Hoe de wereld één grote kerk werd waarin anders zijn verboden is",
+				"firstPublishedAt": "2018-10-01T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8557",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8557/hoe-de-wereld-een-grote-kerk-werd-waarin-anders-zijn-verboden-is/8257e8dd-9b65-076b-268b-b2a74f449b70"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8549",
+			"attributes": {
+				"title": "In het gehucht Amsterdam is het goed feesten met Trumps aanhang",
+				"firstPublishedAt": "2018-09-24T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8549",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8549/in-het-gehucht-amsterdam-is-het-goed-feesten-met-trumps-aanhang/d3113b2d-ac87-052a-0c6d-649703958113"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8556",
+			"attributes": {
+				"title": "Waarom deze Amerikaan een mes meeneemt naar de Eiffeltoren",
+				"firstPublishedAt": "2018-09-17T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8556",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8556/waarom-deze-amerikaan-een-mes-meeneemt-naar-de-eiffeltoren/87cfcd97-9df2-0df4-143b-359b88f39546"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8550",
+			"attributes": {
+				"title": "Amerika is gebouwd op ongelijkheid, ontdekken we tijdens deze reis",
+				"firstPublishedAt": "2018-09-10T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8550",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8550/amerika-is-gebouwd-op-ongelijkheid-ontdekken-we-tijdens-deze-reis/e25d0d0c-95dc-073d-31ba-a09ade0a262c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8548",
+			"attributes": {
+				"title": "Lezen of luisteren: Ik vond de ziel van Amerika in de grootste ketchupfles ter wereld",
+				"firstPublishedAt": "2018-09-03T11:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8548",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8548/lezen-of-luisteren-ik-vond-de-ziel-van-amerika-in-de-grootste-ketchupfles-ter-wereld/3c153453-0134-01f4-3cb1-77ba54288415"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8547",
+			"attributes": {
+				"title": "Lezen of luisteren: Een gruwelijke moord verdeelde dit stadje. Een hashtag bracht het weer bij elkaar",
+				"firstPublishedAt": "2018-08-27T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8547",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8547/lezen-of-luisteren-een-gruwelijke-moord-verdeelde-dit-stadje-een-hashtag-bracht-het-weer-bij-elkaar/60897432-d4ae-0dc7-3d24-d20158931eeb"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8546",
+			"attributes": {
+				"title": "Lezen of luisteren: Op pad met de dominee die wil voorkomen dat bendeleden elkaar doodschieten",
+				"firstPublishedAt": "2018-08-20T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8546",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8546/lezen-of-luisteren-op-pad-met-de-dominee-die-wil-voorkomen-dat-bendeleden-elkaar-doodschieten/b427410f-548f-01e4-1675-fb94169144c0"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8434",
+			"attributes": {
+				"title": "In deze stad hoeft de witte Amerikaan zich niet te schamen voor zijn geloof (of voor zijn racisme)",
+				"firstPublishedAt": "2018-08-18T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8434",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8434/in-deze-stad-hoeft-de-witte-amerikaan-zich-niet-te-schamen-voor-zijn-geloof-of-voor-zijn-racisme/54bd72b4-e72e-0617-3ddf-f87a104ff9df"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8544",
+			"attributes": {
+				"title": "We hebben een nieuwe podcast! Luister naar ‘Amerikanen lopen niet’ en ga mee op reis naar een vergeten Amerika",
+				"firstPublishedAt": "2018-08-13T15:23:46+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8544",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8544/we-hebben-een-nieuwe-podcast-luister-naar-amerikanen-lopen-niet-en-ga-mee-op-reis-naar-een-vergeten-amerika/e0c88c8f-1c66-0e94-092d-4ab9c49ad319"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8433",
+			"attributes": {
+				"title": "Op het Amerikaanse platteland is de geest van Elvis Presley nog springlevend",
+				"firstPublishedAt": "2018-08-05T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8433",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8433/op-het-amerikaanse-platteland-is-de-geest-van-elvis-presley-nog-springlevend/b2db9f56-28b8-0dc6-1b76-d94cf0e7c7ff"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8371",
+			"attributes": {
+				"title": "Dit is het Onvrijheidsbeeld van de Verenigde Staten (en daarom des te relevanter)",
+				"firstPublishedAt": "2018-07-21T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8371",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8371/dit-is-het-onvrijheidsbeeld-van-de-verenigde-staten-en-daarom-des-te-relevanter/2d8b542d-a802-0907-3e66-0652f0c5d9d6"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8263",
+			"attributes": {
+				"title": "Ik dacht dat ik Amerika kende. Tot ik naar ‘Apartheid City’ verhuisde",
+				"firstPublishedAt": "2018-05-14T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8263",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8263/ik-dacht-dat-ik-amerika-kende-tot-ik-naar-apartheid-city-verhuisde/f02e3c3c-fc68-0723-1d31-ec5c6182604b"
+			}
+		}
+	]
+}

@@ -1,0 +1,275 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=goede-gesprekken",
+		"next": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=goede-gesprekken&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHejAFr8nbkE1epv1QKdDAAAAAg"
+	},
+	"meta": {
+		"totalHits": 321
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "14459",
+			"attributes": {
+				"title": "Eerlijke voedselproductie begint bij de boer, de burger en deze beweging",
+				"firstPublishedAt": "2023-05-08T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14459",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14459/eerlijke-voedselproductie-begint-bij-de-boer-de-burger-en-deze-beweging/6c0f270c-d511-06c9-0e46-4bd380c66cf5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14446",
+			"attributes": {
+				"title": "Het kapitalisme heeft een sterke overheid nodig. Deze econoom legt uit waarom",
+				"firstPublishedAt": "2023-05-01T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14446",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14446/het-kapitalisme-heeft-een-sterke-overheid-nodig-deze-econoom-legt-uit-waarom/4991b2d7-89e1-0274-35a6-e9cbffd9147a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14403",
+			"attributes": {
+				"title": "Armoede is mensonterend, zegt deze ervaringsdeskundige. Laten we kinderen ervoor beschermen",
+				"firstPublishedAt": "2023-04-17T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14403",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14403/armoede-is-mensonterend-zegt-deze-ervaringsdeskundige-laten-we-kinderen-ervoor-beschermen/8c3c549d-5833-0854-231b-fdb79a4e680b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14379",
+			"attributes": {
+				"title": "Deze hoogleraar vraagt zich af: waarom is er nog geen rijkdomsgrens?",
+				"firstPublishedAt": "2023-04-10T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14379",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14379/deze-hoogleraar-vraagt-zich-af-waarom-is-er-nog-geen-rijkdomsgrens/8db5429f-ae56-07c0-1cc7-172b0e943475"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14344",
+			"attributes": {
+				"title": "Deze politicoloog ziet: de kiezer is klaar met allemansvrienden",
+				"firstPublishedAt": "2023-03-24T04:45:06+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14344",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14344/deze-politicoloog-ziet-de-kiezer-is-klaar-met-allemansvrienden/2085cae2-7cee-02e6-076a-20cc35905e73"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14314",
+			"attributes": {
+				"title": "De Hamlet van Abdelkader Benali knokt tegen het kapitalisme in Amsterdam Nieuw-West",
+				"firstPublishedAt": "2023-03-20T04:45:05+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14314",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14314/de-hamlet-van-abdelkader-benali-knokt-tegen-het-kapitalisme-in-amsterdam-nieuw-west/5e665f6f-380d-079c-23df-e75606f54a47"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14266",
+			"attributes": {
+				"title": "Een ruimere blik op gender is niet alleen goed voor trans mensen",
+				"firstPublishedAt": "2023-03-06T04:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14266",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14266/een-ruimere-blik-op-gender-is-niet-alleen-goed-voor-trans-mensen/f58b238c-0880-0769-1bcc-d6580ee44d8c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14259",
+			"attributes": {
+				"title": "Poetin gaat in Oekraïne door tot het bittere eind, zegt deze expert. Waar is de uitgang?",
+				"firstPublishedAt": "2023-02-24T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14259",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14259/poetin-gaat-in-oekraine-door-tot-het-bittere-eind-zegt-deze-expert-waar-is-de-uitgang/735b5de1-ee4b-0de3-3b6e-988f8e8c6d27"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14224",
+			"attributes": {
+				"title": "De kans op een nieuwe pandemie is klein, zegt deze vogelgriepexpert. Maar hij wordt elke dag iets groter",
+				"firstPublishedAt": "2023-02-14T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14224",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14224/de-kans-op-een-nieuwe-pandemie-is-klein-zegt-deze-vogelgriepexpert-maar-hij-wordt-elke-dag-iets-groter/537577a6-a6d2-03a7-0138-3eb01a10af7f"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14205",
+			"attributes": {
+				"title": "Vergeet de humor niet, zegt deze geboren activist (91)",
+				"firstPublishedAt": "2023-02-11T04:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14205",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14205/vergeet-de-humor-niet-zegt-deze-geboren-activist-91/5c94edb5-24a6-074b-1d97-229044575484"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14161",
+			"attributes": {
+				"title": "Overal staat een hek omheen en alles is te koop. Waarom vinden we dat nog normaal?",
+				"firstPublishedAt": "2023-01-28T04:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14161",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14161/overal-staat-een-hek-omheen-en-alles-is-te-koop-waarom-vinden-we-dat-nog-normaal/4e4b3373-0f59-0236-25e5-9e954ffaeafc"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14139",
+			"attributes": {
+				"title": "Wat er gebeurt als je thuisloze jongeren onvoorwaardelijk geld geeft",
+				"firstPublishedAt": "2023-01-21T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14139",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14139/wat-er-gebeurt-als-je-thuisloze-jongeren-onvoorwaardelijk-geld-geeft/836d5f03-3e53-0986-29f6-316f5d440c3d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14109",
+			"attributes": {
+				"title": "Alle miljardairs onder de guillotine! (Of: hoe we afrekenen met het kapitalisme)",
+				"firstPublishedAt": "2023-01-07T04:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14109",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14109/alle-miljardairs-onder-de-guillotine-of-hoe-we-afrekenen-met-het-kapitalisme/6ccf9e3c-8ae7-05d1-20e2-b1ef9347dcf4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14089",
+			"attributes": {
+				"title": "Deze schrijver laat zien: de liefde voor het leven gaat door de maag",
+				"firstPublishedAt": "2022-12-24T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14089",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14089/deze-schrijver-laat-zien-de-liefde-voor-het-leven-gaat-door-de-maag/c8b846e4-e785-0edb-0e4e-f0940cea10df"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14055",
+			"attributes": {
+				"title": "Vier het leven, ook van de mensen die er niet meer wilden zijn, zegt deze schrijver",
+				"firstPublishedAt": "2022-12-17T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14055",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14055/vier-het-leven-ook-van-de-mensen-die-er-niet-meer-wilden-zijn-zegt-deze-schrijver/de3afe16-83df-0981-1fe9-1097cb908630"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14005",
+			"attributes": {
+				"title": "Met haar vrolijke taalklas voor nieuwkomers laat deze docent zien dat vrijwilligerswerk veel meer dan werk is",
+				"firstPublishedAt": "2022-12-03T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14005",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14005/met-haar-vrolijke-taalklas-voor-nieuwkomers-laat-deze-docent-zien-dat-vrijwilligerswerk-veel-meer-dan-werk-is/67076e2a-c2e2-09c8-27c2-bfe711088bf7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13979",
+			"attributes": {
+				"title": "De opstand in Iran maakt vier decennia onderdrukking zichtbaar, ziet deze filmmaker",
+				"firstPublishedAt": "2022-11-28T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13979",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13979/de-opstand-in-iran-maakt-vier-decennia-onderdrukking-zichtbaar-ziet-deze-filmmaker/5f2cfaa3-0e37-0863-29d2-0dc088b9c143"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13914",
+			"attributes": {
+				"title": "Benader maatschappelijke vraagstukken alsof je er verliefd op bent, zeggen deze ontwerpers",
+				"firstPublishedAt": "2022-11-12T04:45:05+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13914",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13914/benader-maatschappelijke-vraagstukken-alsof-je-er-verliefd-op-bent-zeggen-deze-ontwerpers/63a40b51-c433-058d-279e-5fd50788b1ac"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13893",
+			"attributes": {
+				"title": "De planeet redt zichzelf wel, zegt Frans Timmermans. Maar de mensheid niet",
+				"firstPublishedAt": "2022-10-29T03:45:04+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13893",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13893/de-planeet-redt-zichzelf-wel-zegt-frans-timmermans-maar-de-mensheid-niet/580baaf6-87e6-0b06-31e9-bcebf12236de"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13874",
+			"attributes": {
+				"title": "Muziek geeft mensen die alles kwijt zijn weer iets terug van zichzelf, zag deze jazzbassist",
+				"firstPublishedAt": "2022-10-22T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13874",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13874/muziek-geeft-mensen-die-alles-kwijt-zijn-weer-iets-terug-van-zichzelf-zag-deze-jazzbassist/23fb785b-be6b-054b-3e9d-115e8a45b8dd"
+			}
+		}
+	]
+}

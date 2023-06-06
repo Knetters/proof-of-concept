@@ -1,0 +1,5396 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/collection?filter[hasAudio]=true&include=mainVisual.image.sizes,authors.profile",
+		"next": "https://staging-decorrespondent.nl/api2/collection?filter[hasAudio]=true&include=mainVisual.image.sizes,authors.profile&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHebvo-sFVOhcccYYExOugAAAAs"
+	},
+	"data": [
+		{
+			"type": "Collection",
+			"id": "51680",
+			"attributes": {
+				"title": "De Rudi & Freddie Show",
+				"subtitle": "Podcast over economie, politiek en meer.",
+				"intro": "Hoe is geld ontstaan? Hoe kan de euro wél een succes worden? En wie bestuurt Nederland écht? Over zulke thema's praten wij graag in onze podcast. Met vaak een studiogast die ons bijpraat over politieke en economische thema's.",
+				"lastPublishedAt": "2023-05-26T03:45:03+00:00",
+				"slug": "de-rudi-freddie-show",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "ffb454",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "62d01c8b9caba4616817c22d"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "23473"
+						},
+						{
+							"type": "Human",
+							"id": "114117"
+						},
+						{
+							"type": "Human",
+							"id": "15"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "52711",
+			"attributes": {
+				"title": "Goede gesprekken",
+				"subtitle": "Alle podcast-afleveringen van Lex Bohlmeijer, correspondent Goede gesprekken.",
+				"intro": "Voor de oren: een verzameling van alle podcasts van Lex Bohlmeijer. Hij gaat in gesprek met inspirerende mensen met bijzondere verhalen.",
+				"lastPublishedAt": "2023-05-08T03:45:04+00:00",
+				"slug": "goede-gesprekken",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "e1b8b4",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "62d01fd79caba4616817dee8"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "27504"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "63413",
+			"attributes": {
+				"title": "De zorgzamen",
+				"subtitle": "Een reeks van correspondent Zorgzaamheid Lynn Berger over mensen die zorgen.",
+				"intro": "Interviews over wat zorg is, wat er mooi en moeilijk aan is, en wat het de moeite waard maakt ",
+				"lastPublishedAt": "2023-04-18T03:45:03+00:00",
+				"slug": "de-zorgzamen",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "c4e5ca",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "643e123fdc35b1a23d006d3a"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "13"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "77641",
+			"attributes": {
+				"title": "Containerbegrip",
+				"subtitle": "In deze vierdelige podcastserie zetten we een schijnwerper op de verborgen wereld van ons goederenvervoer op zee. Om te snappen hoe onze spullen bij ons komen – en wie daarvoor de prijs betaalt.",
+				"intro": null,
+				"lastPublishedAt": "2023-04-13T03:45:04+00:00",
+				"slug": "containerbegrip",
+				"style": {
+					"variant": "light",
+					"backgroundColor": "1A1B1A",
+					"secondaryColor": "BCBFAE"
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "64377ac178cb5d51eb0573ab"
+					}
+				},
+				"authors": {
+					"data": []
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "77583",
+			"attributes": {
+				"title": "Tigri Tories",
+				"subtitle": "In de podcast Tigri Tories bespreken Noraly Beyer en Raoul de Jong literatuur van toonaangevende Surinaamse schrijvers.",
+				"intro": null,
+				"lastPublishedAt": "2023-03-22T04:45:03+00:00",
+				"slug": "tigri-tories",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "5DC900",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "641a87cfea710b654602e7b5"
+					}
+				},
+				"authors": {
+					"data": []
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "50609",
+			"attributes": {
+				"title": "Ontmoetingen met onbekenden",
+				"subtitle": "Als je goed om je heen kijkt, wat zie je dan?",
+				"intro": "Wanneer is een vreemde nog een vreemde? Contact tussen mensen die elkaar niet kennen is vaak het puurst. Eigenlijk te mooi om niet op te schrijven. ",
+				"lastPublishedAt": "2022-08-13T03:45:03+00:00",
+				"slug": "ontmoetingen-met-onbekenden",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "fff2d8",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5e38f6ce9caba4785f37ea85"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "16"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "70391",
+			"attributes": {
+				"title": "Stemmen",
+				"subtitle": "Een verkiezingspodcast zonder peilingen in samenwerking met de politicologen van het blog Stuk Rood Vlees.",
+				"intro": "De Correspondent en het politicologische blog Stuk Rood Vlees maken samen Stemmen. Een verkiezingspodcast zonder peilingen. We maken geen analyses van het premiersdebat of speculaties over exitpolls, maar bieden je een blik op het politieke systeem en de machtsverhoudingen daarachter. In deze collectie vind je meer achtergrondinformatie bij de afleveringen.",
+				"lastPublishedAt": "2021-10-12T03:45:03+00:00",
+				"slug": "stemmen",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "d0635c",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "616504bf9caba4022c1899f5"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "21520"
+						},
+						{
+							"type": "Human",
+							"id": "126319"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "72763",
+			"attributes": {
+				"title": "Pronk",
+				"subtitle": "Onze podcast over oude idealen (en waar linkse politiek in vredesnaam gebleven is).",
+				"intro": "Jan Pronk was jarenlang het boegbeeld van succesvolle linkse politiek, van de sociaaldemocratie – de politieke stroming die massa’s mensen op de been bracht en het gevoel gaf dat de wereld beter zou worden. \r\n\r\nPronk werd ook wel ‘het linkse geweten’ genoemd. Wat kunnen we nu nog van hem leren? Waar heeft hij achteraf spijt van? Waarom is de sociaaldemocratie zo uit de mode geraakt? Daarover gaat de podcast van Anoek Nuyens en Jacco Prantl.",
+				"lastPublishedAt": "2021-09-29T03:45:03+00:00",
+				"slug": "pronk",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "d2695f",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "61c067099caba4426d6d3196"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "33446"
+						},
+						{
+							"type": "Human",
+							"id": "203713"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "71363",
+			"attributes": {
+				"title": "Revolusi",
+				"subtitle": "In deze podcast neemt David Van Reybrouck je mee in de geschiedenis van Indonesië, dat na de Tweede Wereldoorlog als eerste gekoloniseerde land zijn onafhankelijkheid uitriep.",
+				"intro": "Indonesië was het eerste land dat na de Tweede Wereldoorlog de onafhankelijkheid van zijn kolonisator, Nederland, uitriep. Het werd een voorbeeld voor vele andere landen. In de vijfdelige podcast Revolusi neemt David Van Reybrouck je mee terug de tijd in, en herschrijft hij de geschiedenis van Indonesië – vanuit het perspectief van de laatste ooggetuigen. Revolusi is een productie van de Vlaamse radiozender Klara, in samenwerking met De Correspondent.",
+				"lastPublishedAt": "2021-05-29T03:45:02+00:00",
+				"slug": "revolusi",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "E7CE91",
+					"secondaryColor": "281317"
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "608faad49caba45ffb2e8d36"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "39"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "70242",
+			"attributes": {
+				"title": "Zo hadden we het niet bedoeld",
+				"subtitle": "Luister hier naar de podcast-versie van Zo hadden we het niet bedoeld, de tragedie achter de toeslagenaffaire. ",
+				"intro": "Luister hier naar de podcast-versie van Zo hadden we het niet bedoeld, de tragedie achter de toeslagenaffaire. ",
+				"lastPublishedAt": "2021-02-09T04:30:02+00:00",
+				"slug": "zo-hadden-we-het-niet-bedoeld",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "c5e5d8",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "60220fca9caba45d8524d525"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "23473"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "69862",
+			"attributes": {
+				"title": "Beginnen over het einde",
+				"subtitle": "Nergens ga je zo prettig dood als in Nederland – behalve als je dement bent. Luister naar Henk Blankens boek over euthanasie bij dementie. ",
+				"intro": "Ook al mag het van de wet, geen arts helpt je bij het sterven als je niet meer begrijpt wat er gebeurt. Henk Blanken schreef het boek 'Beginnen over het einde' over het belang van op tijd mogen doodgaan, hier voorgelezen door Lex Bohlmeijer.",
+				"lastPublishedAt": "2021-01-19T04:30:02+00:00",
+				"slug": "beginnen-over-het-einde",
+				"style": {
+					"variant": "light",
+					"backgroundColor": "5a6375",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "6006604a9caba4300b0bfb55"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "20959"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "69078",
+			"attributes": {
+				"title": "Never Expect Power Always",
+				"subtitle": "In deze podcast neemt Maite Vermeulen je mee in de bizarre wereld achter haar stopcontact in Lagos, Nigeria.",
+				"intro": "De 21 miljoen bewoners van Lagos, Afrika's grootste stad, hebben soms slechts een paar uur per dag stroom, en soms zelfs maar vijf minuten. Correspondent Maite Vermeulen besloot de draden uit haar meterkast te volgen naar de bron van de problemen. Met audioredacteur Jacco Prantl neemt ze je mee in de bizarre wereld van het Nigeriaanse stroomnet. Zo leggen ze een veel groter verhaal bloot over vertrouwen, ontwikkeling en vooruitgang.",
+				"lastPublishedAt": "2021-01-06T06:00:04+00:00",
+				"slug": "never-expect-power-always",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "008752",
+					"secondaryColor": "003a08"
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5ff42f9c9caba40baa4e8355"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "17"
+						},
+						{
+							"type": "Human",
+							"id": "203713"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "61308",
+			"attributes": {
+				"title": "Het bestbeluisterde boek ooit (met deze titel)",
+				"subtitle": "Het audioboek van Sanne Blauw, correspondent Ontcijferen.",
+				"intro": "In 'Het bestverkochte boek ooit (met deze titel)' schrijft Sanne Blauw over de cijfers die ons leiden, verleiden en misleiden. Beluister hier de audioversie van het boek.",
+				"lastPublishedAt": "2021-01-05T04:45:04+00:00",
+				"slug": "het-bestbeluisterde-boek-ooit-met-deze-titel",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "d9b99a",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5ffc5f379caba45cbc0ed405"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "5678"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "52563",
+			"attributes": {
+				"title": "Audioverhalen",
+				"subtitle": "Rijk geproduceerde verhalen en korte series om te luisteren, en soms ook (deels) te lezen. ",
+				"intro": "Losse verhalen of korte series om te luisteren en/of te lezen. Dit is onze collectie met rijk geproduceerde audioverhalen. ",
+				"lastPublishedAt": "2020-12-09T04:45:04+00:00",
+				"slug": "audioverhalen",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "bfbedc",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5f5b1dee9caba453473c31a5"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "203713"
+						},
+						{
+							"type": "Human",
+							"id": "185624"
+						},
+						{
+							"type": "Human",
+							"id": "89854"
+						},
+						{
+							"type": "Human",
+							"id": "10"
+						},
+						{
+							"type": "Human",
+							"id": "114117"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "63635",
+			"attributes": {
+				"title": "De zingevers",
+				"subtitle": "Correspondenten Nina Polak en Lex Bohlmeijer gaan in gesprek met zingevers.",
+				"intro": "Hoe geef je zin? Hoe bied je troost als er geen antwoorden of oplossingen zijn? Correspondenten Nina Polak en Lex Bohlmeijer gaan in gesprek met zingevers. Geestelijk verzorgers in de ggz, bij de politie, het leger, op straat – overal waar de menselijke ervaring op scherp staat.",
+				"lastPublishedAt": "2020-10-05T03:45:04+00:00",
+				"slug": "de-zingevers",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "fdc789",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5efdfa1d9caba4252807bb25"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "27504"
+						},
+						{
+							"type": "Human",
+							"id": "40"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "64379",
+			"attributes": {
+				"title": "De binnenbühne",
+				"subtitle": "Podcast over premières die er niet konden komen, en tips voor de leukste voorstellingen om online te bezoeken.",
+				"intro": "Het is stil op de podia. De komende tijd gaat Marjolijn van Heemstra op virtueel huisbezoek bij makers die al maanden of jaren aan een voorstelling werken die niet door kan gaan. En ze tipt elke week concerten en toneelstukken waar je vanaf de bank van kunt genieten.",
+				"lastPublishedAt": "2020-04-30T03:45:02+00:00",
+				"slug": "de-binnenbuhne",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "b9d6d4",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5e7ca53c9caba43bd9009705"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "203713"
+						},
+						{
+							"type": "Human",
+							"id": "185624"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "56023",
+			"attributes": {
+				"title": "Goed nieuws met Joris Luyendijk",
+				"subtitle": "Joris Luyendijk gaat in gesprek met een van onze correspondenten over zijn of haar journalistieke speurtocht.",
+				"intro": "Joris Luyendijk gaat in gesprek met een van onze correspondenten over zijn of haar journalistieke speurtocht.",
+				"lastPublishedAt": "2019-09-25T03:45:03+00:00",
+				"slug": "goed-nieuws-met-joris-luyendijk",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "5ecaa8",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "5d8ae2bf9caba403dd3d7c8a"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "135318"
+						},
+						{
+							"type": "Human",
+							"id": "114117"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "61283",
+			"attributes": {
+				"title": "Podcastserie De tweede",
+				"subtitle": "In deze podcast gaan Lynn Berger en Jair Stein op zoek naar het standaardgezin.",
+				"intro": "Wat betekent het om onderdeel uit te maken van een (standaard)gezin? Met die veel te grote vraag gingen Lynn Berger en Jair Stein op pad. Ze verzamelden verhalen over verlangen, liefde, ruzie, troost, zorg, gemis en verzoening, en legden die naast de laatste inzichten uit de wetenschap.",
+				"lastPublishedAt": "2019-08-07T03:45:04+00:00",
+				"slug": "de-tweede",
+				"style": {
+					"variant": "light",
+					"backgroundColor": "663844",
+					"secondaryColor": "D2BB8E"
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "62d021729caba4616817ecde"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "42976"
+						},
+						{
+							"type": "Human",
+							"id": "13"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "55100",
+			"attributes": {
+				"title": "Amerikanen lopen niet",
+				"subtitle": "In deze podcast neemt Arjen van Veelen je mee naar het vergeten hart van de VS.",
+				"intro": "In de podcast 'Amerikanen lopen niet' – naar het gelijknamige boek – neemt Arjen van Veelen je mee naar het vergeten hart van de VS. Reis mee, en leer een heel ander Amerika kennen. ",
+				"lastPublishedAt": "2018-10-01T13:00:00+00:00",
+				"slug": "amerikanen-lopen-niet",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "53CAFF",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "62d01e889caba4616817d3d6"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "41597"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "Collection",
+			"id": "49453",
+			"attributes": {
+				"title": "Verhalen voor het slapengaan",
+				"subtitle": "Arnon Grunberg leest voor uit zijn boek Thuis ben je, korte verhaaltjes voor het slapengaan. ",
+				"intro": "Arnon Grunberg leest voor uit zijn boek Thuis ben je. Het zijn korte verhaaltjes voor het slapengaan. ",
+				"lastPublishedAt": "2018-09-12T16:45:00+00:00",
+				"slug": "verhalen-voor-het-slapengaan",
+				"style": {
+					"variant": "dark",
+					"backgroundColor": "bce3df",
+					"secondaryColor": null
+				}
+			},
+			"relationships": {
+				"mainVisual": {
+					"data": {
+						"type": "MainVisual",
+						"id": "62d01e479caba4616817d157"
+					}
+				},
+				"authors": {
+					"data": [
+						{
+							"type": "Human",
+							"id": "32"
+						}
+					]
+				}
+			}
+		}
+	],
+	"included": [
+		{
+			"type": "MainVisual",
+			"id": "62d01c8b9caba4616817c22d",
+			"attributes": {
+				"caption": null
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "114286"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "114286",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/Y8hq5hfZjGHZejFhva5Dc1skZko.jpg 92w,/image/Hsez3NRy7YhsgUnLAoAzs8bCVX8.jpg 320w,/image/gA-mj2hKGQrPpyHnV9tcKlC1Rao.jpg 600w,/image/TfWjXKjFtp_T7V-B7g_v4_7StU4.jpg 660w,/image/El1y7KxCMpADCohxU_IusanjgAc.jpg 904w,/image/TBG0RjTq2lerQ_9qNXKHfj1krRA.jpg 1024w,/image/MgnszT2KbqwFU9rP9aHr3z4Pby0.jpg 1366w,/image/7zJFVRNKwgWQYPpLxkefiAPm2m0.jpg 1600w,/image/7r6eozJi42vtNlN8jVIyWmVaFjk.jpg 1920w,/image/lI2T9KygCRm5DjABHaThnhi7dxY.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1086795"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086796"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086797"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086798"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086799"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086800"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086801"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086802"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086803"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1086804"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086795",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2830,
+				"url": "/image/Y8hq5hfZjGHZejFhva5Dc1skZko.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086796",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 10139,
+				"url": "/image/Hsez3NRy7YhsgUnLAoAzs8bCVX8.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086797",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 23196,
+				"url": "/image/gA-mj2hKGQrPpyHnV9tcKlC1Rao.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086798",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 26401,
+				"url": "/image/TfWjXKjFtp_T7V-B7g_v4_7StU4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086799",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 39848,
+				"url": "/image/El1y7KxCMpADCohxU_IusanjgAc.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086800",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 47809,
+				"url": "/image/TBG0RjTq2lerQ_9qNXKHfj1krRA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086801",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 69664,
+				"url": "/image/MgnszT2KbqwFU9rP9aHr3z4Pby0.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086802",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 85680,
+				"url": "/image/7zJFVRNKwgWQYPpLxkefiAPm2m0.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086803",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 109655,
+				"url": "/image/7r6eozJi42vtNlN8jVIyWmVaFjk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1086804",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 260694,
+				"url": "/image/lI2T9KygCRm5DjABHaThnhi7dxY.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "23473",
+			"attributes": {
+				"firstName": "Jesse",
+				"fullName": "Jesse Frederik"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "112"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/23473"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "112",
+			"attributes": {
+				"biography": "Jesse Frederik (1989) is correspondent Economie. Hij schreef onder andere voor Follow The Money, nrc.next, de Volkskrant en Vrij Nederland. In 2013 won hij samen met co-auteur Eric Smit de journalistieke prijs de Tegel."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/jessefrederik",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/23473/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "114117",
+			"attributes": {
+				"firstName": "Romanee",
+				"fullName": "Romanee Rodriguez"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "400"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/114117"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "400",
+			"attributes": {
+				"biography": "Romanee Rodriguez (1979) is afgestudeerd aan Amsterdamse Theaterschool en studeerde daarna antropologie aan de Universiteit van Amsterdam. Na haar studie is ze gaan werken als radiomaker voor verschillende opdrachtgevers."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/romaneerodriguez",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/114117/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "15",
+			"attributes": {
+				"firstName": "Rutger",
+				"fullName": "Rutger Bregman"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "7"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/15"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "7",
+			"attributes": {
+				"biography": "Rutger Bregman (1988) is historicus. Hij publiceerde vijf boeken: Met de kennis van toen (2012), De geschiedenis van de vooruitgang (2013), Gratis geld voor iedereen (2014), Waarom vuilnismannen meer verdienen dan bankiers (met Jesse Frederik, 2015) en De meeste mensen deugen (2019)."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/rutgerbregman",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/15/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "62d01fd79caba4616817dee8",
+			"attributes": {
+				"caption": "Foto: Marijn Smulders (voor De Correspondent)"
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "129632"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "129632",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/v8ymZkzHtha0iCF912LcSbYe9lA.jpg 92w,/image/k5xRtheLXpIOYImJbxWX8S9y_oE.jpg 320w,/image/jhBKpSdmUCc_43Y4xwVt_44rPV8.jpg 600w,/image/Zypz75YhxMT1gy5-1H3brprnkgA.jpg 660w,/image/b8aYOsU7E2wQ1xmkaRQiTbOIqfw.jpg 904w,/image/Pl8NRJdQcmezRtG86lU1NlJvnyM.jpg 1024w,/image/Xxj4ALlhu0a_vqftbdxslzvIo9s.jpg 1366w,/image/Hbsjj8l8bTqZK3tA_Y9UZUs2luY.jpg 1600w,/image/sgF4Joz2la1y-SOPpg4pq_Wt5js.jpg 1920w,/image/RHNWr9MwiPjd7IL55oB-AX6ytIc.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1235905"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235906"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235907"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235908"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235909"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235910"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235911"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235912"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235913"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1235914"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235905",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2576,
+				"url": "/image/v8ymZkzHtha0iCF912LcSbYe9lA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235906",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 10788,
+				"url": "/image/k5xRtheLXpIOYImJbxWX8S9y_oE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235907",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 29890,
+				"url": "/image/jhBKpSdmUCc_43Y4xwVt_44rPV8.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235908",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 34794,
+				"url": "/image/Zypz75YhxMT1gy5-1H3brprnkgA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235909",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 57140,
+				"url": "/image/b8aYOsU7E2wQ1xmkaRQiTbOIqfw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235910",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 70040,
+				"url": "/image/Pl8NRJdQcmezRtG86lU1NlJvnyM.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235911",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 111298,
+				"url": "/image/Xxj4ALlhu0a_vqftbdxslzvIo9s.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235912",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 143750,
+				"url": "/image/Hbsjj8l8bTqZK3tA_Y9UZUs2luY.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235913",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 194915,
+				"url": "/image/sgF4Joz2la1y-SOPpg4pq_Wt5js.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1235914",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 543537,
+				"url": "/image/RHNWr9MwiPjd7IL55oB-AX6ytIc.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "27504",
+			"attributes": {
+				"firstName": "Lex",
+				"fullName": "Lex Bohlmeijer"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "123"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/27504"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "123",
+			"attributes": {
+				"biography": "Lex Bohlmeijer (1959) studeerde Literatuurwetenschap en Dramaturgie in Leiden. Hij werkt sinds 1988 voor de radio als documentairemaker en presentator. Hij presenteerde tien jaar lang het succesvolle programma Casa Luna (NCRV). Daarnaast schrijft hij teksten voor theater en is hij dramaturg."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/lexbohlmeijer",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/27504/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "643e123fdc35b1a23d006d3a",
+			"attributes": {
+				"caption": "Foto's gemaakt door Isabell Janssen (voor De Correspondent)"
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "147454"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "147454",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/BF_6wM5tRpbjnVynBUzCr9iWuyU.jpg 92w,/image/_IPwVMMMbRK3U7kkMhHOF8NR0tE.jpg 320w,/image/p9t73Z_inYLhDp-CwIEXpTC-lZI.jpg 600w,/image/QjPtqXGds-ye5cRWle7zbG6SgLI.jpg 660w,/image/oi0lxRioI9SdY8v2tw5HiPR1eTI.jpg 904w,/image/RuFa4JkJaui4f25qeU8AzPfo-7c.jpg 1024w,/image/_f4Bz2KkTsHkhGNZGTIt6A0Dd4w.jpg 1366w,/image/ceHTZAZpbk0b2FcaUZtwqJDYQlk.jpg 1600w,/image/mDWhJg5RM9b-SURFEJdsRETe3yU.jpg 1920w,/image/MCP_Mu-nIpdcSWw72lGLZutv7AE.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1422660"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422661"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422662"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422663"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422664"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422665"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422666"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422667"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422668"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1422669"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422660",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2351,
+				"url": "/image/BF_6wM5tRpbjnVynBUzCr9iWuyU.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422661",
+			"attributes": {
+				"width": 320,
+				"height": 179,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 8928,
+				"url": "/image/_IPwVMMMbRK3U7kkMhHOF8NR0tE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422662",
+			"attributes": {
+				"width": 600,
+				"height": 336,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 21960,
+				"url": "/image/p9t73Z_inYLhDp-CwIEXpTC-lZI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422663",
+			"attributes": {
+				"width": 660,
+				"height": 370,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 25890,
+				"url": "/image/QjPtqXGds-ye5cRWle7zbG6SgLI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422664",
+			"attributes": {
+				"width": 904,
+				"height": 506,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 40573,
+				"url": "/image/oi0lxRioI9SdY8v2tw5HiPR1eTI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422665",
+			"attributes": {
+				"width": 1024,
+				"height": 573,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 48946,
+				"url": "/image/RuFa4JkJaui4f25qeU8AzPfo-7c.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422666",
+			"attributes": {
+				"width": 1366,
+				"height": 765,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 75999,
+				"url": "/image/_f4Bz2KkTsHkhGNZGTIt6A0Dd4w.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422667",
+			"attributes": {
+				"width": 1600,
+				"height": 896,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 96189,
+				"url": "/image/ceHTZAZpbk0b2FcaUZtwqJDYQlk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422668",
+			"attributes": {
+				"width": 1920,
+				"height": 1075,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 128459,
+				"url": "/image/mDWhJg5RM9b-SURFEJdsRETe3yU.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1422669",
+			"attributes": {
+				"width": 3840,
+				"height": 2150,
+				"orientation": "landscape",
+				"ratio": "384:215",
+				"fileSize": 458649,
+				"url": "/image/MCP_Mu-nIpdcSWw72lGLZutv7AE.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "13",
+			"attributes": {
+				"firstName": "Lynn",
+				"fullName": "Lynn Berger"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "5"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/13"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "5",
+			"attributes": {
+				"biography": "Lynn Berger schrijft sinds 2013 voor De Correspondent, eerst als correspondent Cultuur & Clichés en sinds eind 2020 als correspondent Zorg. Ze studeerde geesteswetenschappen in Maastricht en Los Angeles en Amerikanistiek en Communicatiewetenschappen in New York. "
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/lynnberger",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/13/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "64377ac178cb5d51eb0573ab",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "147357"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "147357",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/AKNm6FxbRMHXLYKF_P6aNTGmyp4.jpg 92w,/image/F8CwnC3ePc2SE4ZJfvSZ4n1WRUI.jpg 320w,/image/_V1SKR3qU_O10TwnNlshnNL83tM.jpg 600w,/image/zns7dypX4_rrP1K-JKvkSmQoh1o.jpg 660w,/image/fP1JM5bE_VShFpqM0hrb7sbnv3Q.jpg 904w,/image/_rs6ebbUGHfsdybJgmFkPPNK4sw.jpg 1024w,/image/X0H8QmG3fWzE6LxO7vRAR9wgtTc.jpg 1366w,/image/9J-cdK7DqjMrYz0IIPm2knVyeuA.jpg 1600w,/image/UciSnN1LWDVauiAbK6PNM06050k.jpg 1920w,/image/6bsyReVayCqkmuKcV4soMtn8HlU.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1421743"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421744"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421745"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421746"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421747"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421748"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421749"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421750"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421751"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1421752"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421743",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1577,
+				"url": "/image/AKNm6FxbRMHXLYKF_P6aNTGmyp4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421744",
+			"attributes": {
+				"width": 320,
+				"height": 320,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 6669,
+				"url": "/image/F8CwnC3ePc2SE4ZJfvSZ4n1WRUI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421745",
+			"attributes": {
+				"width": 600,
+				"height": 600,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 18687,
+				"url": "/image/_V1SKR3qU_O10TwnNlshnNL83tM.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421746",
+			"attributes": {
+				"width": 660,
+				"height": 660,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 23507,
+				"url": "/image/zns7dypX4_rrP1K-JKvkSmQoh1o.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421747",
+			"attributes": {
+				"width": 904,
+				"height": 904,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 48166,
+				"url": "/image/fP1JM5bE_VShFpqM0hrb7sbnv3Q.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421748",
+			"attributes": {
+				"width": 1024,
+				"height": 1024,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 65991,
+				"url": "/image/_rs6ebbUGHfsdybJgmFkPPNK4sw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421749",
+			"attributes": {
+				"width": 1366,
+				"height": 1367,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 148989,
+				"url": "/image/X0H8QmG3fWzE6LxO7vRAR9wgtTc.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421750",
+			"attributes": {
+				"width": 1600,
+				"height": 1601,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 228426,
+				"url": "/image/9J-cdK7DqjMrYz0IIPm2knVyeuA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421751",
+			"attributes": {
+				"width": 1920,
+				"height": 1921,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 377583,
+				"url": "/image/UciSnN1LWDVauiAbK6PNM06050k.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1421752",
+			"attributes": {
+				"width": 3840,
+				"height": 3841,
+				"orientation": "portrait",
+				"ratio": "2605:2606",
+				"fileSize": 1917465,
+				"url": "/image/6bsyReVayCqkmuKcV4soMtn8HlU.jpg"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "641a87cfea710b654602e7b5",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "146461"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "146461",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/PZ78wA_3NZj9bU58w-diu6jYoyI.png 92w,/image/95LEJJCSYcfyoZ1GtokrCCJ40VY.png 320w,/image/CbWa6P4UOdz7_Yy5mx90yIvmUDU.png 600w,/image/xcxE5Zgg5w1UPSNp4nGaSEVkyqM.png 660w,/image/8DX0w6ov0M0cDEhYmdHmyqvYTEc.png 904w,/image/qnl4AcZ-MSpoRgjclWko_UDJ51I.png 1024w,/image/DXxyAMnTqTLh42NAyvpg8MQyDS0.png 1366w,/image/1XydE2D9mhRCd7Q5ayT6bDoo_h0.png 1600w,/image/aBF9MJ387UlTGESVuEXRWLKGw0U.png 1920w,/image/_DAu8uINHMqu_fNFYcidP1PykRU.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1411761"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411762"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411763"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411764"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411765"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411766"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411767"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411768"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411769"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1411770"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411761",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 4367,
+				"url": "/image/PZ78wA_3NZj9bU58w-diu6jYoyI.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411762",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 9342,
+				"url": "/image/95LEJJCSYcfyoZ1GtokrCCJ40VY.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411763",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 18133,
+				"url": "/image/CbWa6P4UOdz7_Yy5mx90yIvmUDU.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411764",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 19046,
+				"url": "/image/xcxE5Zgg5w1UPSNp4nGaSEVkyqM.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411765",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 26569,
+				"url": "/image/8DX0w6ov0M0cDEhYmdHmyqvYTEc.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411766",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 30320,
+				"url": "/image/qnl4AcZ-MSpoRgjclWko_UDJ51I.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411767",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 41340,
+				"url": "/image/DXxyAMnTqTLh42NAyvpg8MQyDS0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411768",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 49831,
+				"url": "/image/1XydE2D9mhRCd7Q5ayT6bDoo_h0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411769",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 56840,
+				"url": "/image/aBF9MJ387UlTGESVuEXRWLKGw0U.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1411770",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 68916,
+				"url": "/image/_DAu8uINHMqu_fNFYcidP1PykRU.png"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5e38f6ce9caba4785f37ea85",
+			"attributes": {
+				"caption": "Illustratie: Cléa Dieudonné (voor De Correspondent)"
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "6342"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "6342",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/7zxAWhayNXvwmlYzBxC_qnckIIk.jpg 92w,/image/gYi1-plzWXAOTGZDAGX2fcrYK9Q.jpg 265w,/image/Hvn5JUPZSA09xKRe0ex1n2Dac2o.jpg 320w,/image/nkmxVT-nJu6-vgPgnSINkDsi1Aw.jpg 600w,/image/uFiB7dHp3tEnQfysg14ZA_ziiPo.jpg 660w,/image/47fd_9eIUhysvS-VzQ7SLt4qsqI.jpg 750w,/image/LRxViFvLwCFO34IZ8qxBlVe39eg.jpg 904w,/image/-VgmQbx1AhhZzJNP3Bi3RKKH9qE.jpg 1024w,/image/mm1KTitU84QiHT41Y8T9agnsLhc.jpg 1366w,/image/yRRkZDHTPnNwzJ34H_HBHlxCotg.jpg 1600w,/image/Tyi5oXiRkbeJ9_O8_IHqrFXv2Zs.jpg 1920w,/image/Q4wkPNq7fOniQDQbAntA45fEKu4.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "64629"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246289"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64630"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64631"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64632"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246290"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64633"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64634"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64635"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64636"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64637"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "64638"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64629",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1744,
+				"url": "/image/7zxAWhayNXvwmlYzBxC_qnckIIk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246289",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 4628,
+				"url": "/image/gYi1-plzWXAOTGZDAGX2fcrYK9Q.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64630",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 6110,
+				"url": "/image/Hvn5JUPZSA09xKRe0ex1n2Dac2o.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64631",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 15307,
+				"url": "/image/nkmxVT-nJu6-vgPgnSINkDsi1Aw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64632",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 17440,
+				"url": "/image/uFiB7dHp3tEnQfysg14ZA_ziiPo.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246290",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 19860,
+				"url": "/image/47fd_9eIUhysvS-VzQ7SLt4qsqI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64633",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 26967,
+				"url": "/image/LRxViFvLwCFO34IZ8qxBlVe39eg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64634",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 32230,
+				"url": "/image/-VgmQbx1AhhZzJNP3Bi3RKKH9qE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64635",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 49795,
+				"url": "/image/mm1KTitU84QiHT41Y8T9agnsLhc.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64636",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 64307,
+				"url": "/image/yRRkZDHTPnNwzJ34H_HBHlxCotg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64637",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 87468,
+				"url": "/image/Tyi5oXiRkbeJ9_O8_IHqrFXv2Zs.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "64638",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 395171,
+				"url": "/image/Q4wkPNq7fOniQDQbAntA45fEKu4.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "16",
+			"attributes": {
+				"firstName": "Vera",
+				"fullName": "Vera Mulder"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "8"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/16"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "8",
+			"attributes": {
+				"biography": "Vera Mulder (1989) schrijft verhalen over mensen waar altijd over, maar niet mee gepraat wordt. Eerder maakte ze sociaal-maatschappelijke reportages voor Vrij Nederland en De Groene Amsterdammer. "
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/veramulder",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/16/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "616504bf9caba4022c1899f5",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "21683"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "21683",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/HQUT-XnQ4IAQlYexUwymMwDnZCQ.png 92w,/image/FTuZoTU8kOIS8s1opbT_04F8cYo.png 265w,/image/0SPkyM28Ds_x5VtDJMlGS0AbSDU.png 320w,/image/C5F-cIkdSzu1ds5fbT3_Wwy-T5I.png 600w,/image/I4--xwKOxQznL2ybQNpzOcjIneo.png 660w,/image/kGbyCe2SshriNAZzT87-uTFovgw.png 750w,/image/cQ-gzaO9svC_yuSMAMQG4FvSu64.png 904w,/image/EnZIMlNqqtKwff00OsprPesxjBw.png 1024w,/image/iYGy_GljCo-q9SQY4awm6mwosUw.png 1366w,/image/RU0nJAvaeX_TY8FaRV1LT-D50L8.png 1600w,/image/3GmZQOzj9B1QAThYtEc_EBCh7FM.png 1920w,/image/_Uhn0zNhAoIv3jwhiJFvvNmMrnE.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "207257"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245906"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207258"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207259"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207260"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245907"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207261"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207262"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207263"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207264"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207265"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "207266"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207257",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2241,
+				"url": "/image/HQUT-XnQ4IAQlYexUwymMwDnZCQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245906",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 3424,
+				"url": "/image/FTuZoTU8kOIS8s1opbT_04F8cYo.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207258",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 3884,
+				"url": "/image/0SPkyM28Ds_x5VtDJMlGS0AbSDU.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207259",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 7331,
+				"url": "/image/C5F-cIkdSzu1ds5fbT3_Wwy-T5I.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207260",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 8142,
+				"url": "/image/I4--xwKOxQznL2ybQNpzOcjIneo.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245907",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 9025,
+				"url": "/image/kGbyCe2SshriNAZzT87-uTFovgw.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207261",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 10644,
+				"url": "/image/cQ-gzaO9svC_yuSMAMQG4FvSu64.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207262",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 12749,
+				"url": "/image/EnZIMlNqqtKwff00OsprPesxjBw.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207263",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 16278,
+				"url": "/image/iYGy_GljCo-q9SQY4awm6mwosUw.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207264",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 19323,
+				"url": "/image/RU0nJAvaeX_TY8FaRV1LT-D50L8.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207265",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 22717,
+				"url": "/image/3GmZQOzj9B1QAThYtEc_EBCh7FM.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "207266",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 26958,
+				"url": "/image/_Uhn0zNhAoIv3jwhiJFvvNmMrnE.png"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "21520",
+			"attributes": {
+				"firstName": "Lera",
+				"fullName": "Lera Rohan"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "1450"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/21520"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "1450",
+			"attributes": {
+				"biography": "Armèn Hakhverdian is universitair hoofddocent politicologie aan de Universiteit van Amsterdam. Zijn onderzoek richt zich op publieke opinie, ongelijkheid en vertegenwoordiging. Hij schreef met Wouter Schakel het boek Nepparlement? (2017, Amsterdam University Press) en is presentator van de Stuk Rood Vlees Podcast."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/armenhakhverdian",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/21520/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "126319",
+			"attributes": {
+				"firstName": "Yasmeen",
+				"fullName": "Yasmeen Kling"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "1449"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/126319"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "1449",
+			"attributes": {
+				"biography": "Tom van der Meer is hoogleraar politicologie aan de Universiteit van Amsterdam, die zich in het bijzonder richt op legitimiteit, ongelijkheid en burgerschap. Hij breekt een lans voor de zwevende kiezer."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/tomvandermeer",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/126319/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "61c067099caba4426d6d3196",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "21616"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "21616",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/pFtQG9t0iwFM7PaMkiK_Szbk6AA.png 92w,/image/rxu41FPFCxRtDRVed4lAIYZ1rhI.png 320w,/image/lkZvHaa_q9bxlAntvpu_Bnjgs4M.png 600w,/image/kBpqdN18X0Zzr4EjqU1uWhlmZXw.png 660w,/image/PVBhuRHu7XQpjbD5RowvTy6x_Po.png 904w,/image/7Ox6yHHnsGHOtfqFIkIEIBR-PaE.png 1024w,/image/yPb1_DYRau0c3TGOcPNBLyF-3Kg.png 1366w,/image/wkaWdaXX55I7LZ1jTVUurYQx4HQ.png 1600w,/image/qwFY0yAYeXevrHGvrDUP-DGywoI.png 1920w,/image/anLU4-IOeoBxFVe731hTJMJp-ng.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "206568"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206569"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206570"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206571"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206572"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206573"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206574"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206575"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206576"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "206577"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206568",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 5390,
+				"url": "/image/pFtQG9t0iwFM7PaMkiK_Szbk6AA.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206569",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 29413,
+				"url": "/image/rxu41FPFCxRtDRVed4lAIYZ1rhI.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206570",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 111522,
+				"url": "/image/lkZvHaa_q9bxlAntvpu_Bnjgs4M.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206571",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 136135,
+				"url": "/image/kBpqdN18X0Zzr4EjqU1uWhlmZXw.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206572",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 265939,
+				"url": "/image/PVBhuRHu7XQpjbD5RowvTy6x_Po.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206573",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 346369,
+				"url": "/image/7Ox6yHHnsGHOtfqFIkIEIBR-PaE.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206574",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 631615,
+				"url": "/image/yPb1_DYRau0c3TGOcPNBLyF-3Kg.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206575",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 883532,
+				"url": "/image/wkaWdaXX55I7LZ1jTVUurYQx4HQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206576",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 1286540,
+				"url": "/image/qwFY0yAYeXevrHGvrDUP-DGywoI.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "206577",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 907663,
+				"url": "/image/anLU4-IOeoBxFVe731hTJMJp-ng.png"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "33446",
+			"attributes": {
+				"firstName": "Louvenia",
+				"fullName": "Louvenia Ryan"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "148"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/33446"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "148",
+			"attributes": {
+				"biography": "Anoek Nuyens (1984) studeerde theater-, film- en televisiewetenschap in Utrecht, Berlijn en Brussel. Samen met Rebekka de Wit schreef en maakte ze de bejubelde voorstelling De zaak Shell. Voor De Correspondent schreef ze o.a. de serie Staatsgeheimen die genomineerd werd voor De Loep. \r\n"
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/anoeknuyens",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/33446/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "203713",
+			"attributes": {
+				"firstName": "Jacco",
+				"fullName": "Jacco Prantl"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "535"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/203713"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "535",
+			"attributes": {
+				"biography": "Jacco Prantl studeerde wijsbegeerte en Nederlands aan de Universiteit van Amsterdam en is sinds jaar en dag gefascineerd door geluid. Eerder verzorgde hij producties en muziek voor televisie, musea en film. "
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/jaccoprantl",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/203713/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "608faad49caba45ffb2e8d36",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "17891"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "17891",
+			"attributes": {
+				"mimeType": "image/gif",
+				"textAlternative": null,
+				"sourceSet": "/image/fAMMkqYXBuTwGfGSidkNKLor0n4.gif 92w,/image/3wqMvi8IKzr6ktAcKf5UCzZvBMU.gif 320w,/image/mGSwQsPkvnEEI1Bie6OzR5GERRI.gif 600w,/image/3ZNA9E1cdfzsVNLlw9aL1mtdfL8.gif 660w,/image/VL_Gg89FPjpAXxIYpRwSingU_CM.gif 904w,/image/U0a06mLDG6zTCF9-pSLMJXWthLg.gif 1024w,/image/Oz7GGTKrvlUKWQ9axx9ffVuMjF8.gif 1366w,/image/BkHOCBLrTuvqHapDQi8QLmDcYXc.gif 1600w,/image/vna0qm1lMIxcqxr-jH_F5e70WqQ.gif 1920w,/image/kYMz3FEYYlDS9s-XzUbkrJw6-jI.gif 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "169997"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "169998"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "169999"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170000"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170001"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170002"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170003"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170004"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170005"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "170006"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "169997",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 13684,
+				"url": "/image/fAMMkqYXBuTwGfGSidkNKLor0n4.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "169998",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 68186,
+				"url": "/image/3wqMvi8IKzr6ktAcKf5UCzZvBMU.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "169999",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 246584,
+				"url": "/image/mGSwQsPkvnEEI1Bie6OzR5GERRI.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170000",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 301929,
+				"url": "/image/3ZNA9E1cdfzsVNLlw9aL1mtdfL8.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170001",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 606914,
+				"url": "/image/VL_Gg89FPjpAXxIYpRwSingU_CM.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170002",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 892111,
+				"url": "/image/U0a06mLDG6zTCF9-pSLMJXWthLg.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170003",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 1954639,
+				"url": "/image/Oz7GGTKrvlUKWQ9axx9ffVuMjF8.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170004",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 2883487,
+				"url": "/image/BkHOCBLrTuvqHapDQi8QLmDcYXc.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170005",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 4886721,
+				"url": "/image/vna0qm1lMIxcqxr-jH_F5e70WqQ.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "170006",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 12714161,
+				"url": "/image/kYMz3FEYYlDS9s-XzUbkrJw6-jI.gif"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "39",
+			"attributes": {
+				"firstName": "David",
+				"fullName": "David Van Reybrouck"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "30"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/39"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "30",
+			"attributes": {
+				"biography": "David Van Reybrouck (1971) schrijft proza, poëzie, theater en non-fictie. Hij is de auteur van onder meer Congo. Een geschiedenis, De Plaag, Pleidooi voor Populisme, Tegen Verkiezingen. Zijn werk werd veelvuldig vertaald en bekroond. Voor Congo ontving hij de Prix Médicis in Frankrijk. "
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/davidvanreybrouck",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/39/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "60220fca9caba45d8524d525",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "15932"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "15932",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/aQGXk_-GdfoQjvhPFnDeYeFaY8A.png 92w,/image/LHqNW4ZdMS8hr2fnToTMi4utc_Y.png 265w,/image/TJmtpr2HuY-u7G0T2tLwi0ZFXro.png 320w,/image/6RNoVeud3opbUwC91w8pM1yKXr4.png 600w,/image/hZp6zuLDZatT-hln70FAtQmtTXs.png 660w,/image/5YCxYmF1Ip_S2aT12IQ9UdE-S-0.png 904w,/image/EruI-AV0JzNIXAjjdc3WnAH5YIk.png 1024w,/image/cWxYe2O5RGembJLiT2W2UZOfU5o.png 1366w,/image/h6-Crvx_lsQSxYBRTkfEl_NWd7I.png 1600w,/image/R_ygGrMCUmdpzpAfk1Q6yt9EMCY.png 1920w,/image/2lgOnUGlDfZ3-nr9m7Kpleoix8A.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "152591"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "244516"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152592"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152593"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152594"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152595"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152596"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152597"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152598"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152599"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "152600"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152591",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 3124,
+				"url": "/image/aQGXk_-GdfoQjvhPFnDeYeFaY8A.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "244516",
+			"attributes": {
+				"width": 265,
+				"height": 265,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 13636,
+				"url": "/image/LHqNW4ZdMS8hr2fnToTMi4utc_Y.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152592",
+			"attributes": {
+				"width": 320,
+				"height": 320,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 17817,
+				"url": "/image/TJmtpr2HuY-u7G0T2tLwi0ZFXro.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152593",
+			"attributes": {
+				"width": 600,
+				"height": 600,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 51575,
+				"url": "/image/6RNoVeud3opbUwC91w8pM1yKXr4.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152594",
+			"attributes": {
+				"width": 660,
+				"height": 660,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 61062,
+				"url": "/image/hZp6zuLDZatT-hln70FAtQmtTXs.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152595",
+			"attributes": {
+				"width": 904,
+				"height": 904,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 109521,
+				"url": "/image/5YCxYmF1Ip_S2aT12IQ9UdE-S-0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152596",
+			"attributes": {
+				"width": 1024,
+				"height": 1024,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 142241,
+				"url": "/image/EruI-AV0JzNIXAjjdc3WnAH5YIk.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152597",
+			"attributes": {
+				"width": 1366,
+				"height": 1366,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 252139,
+				"url": "/image/cWxYe2O5RGembJLiT2W2UZOfU5o.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152598",
+			"attributes": {
+				"width": 1600,
+				"height": 1600,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 352737,
+				"url": "/image/h6-Crvx_lsQSxYBRTkfEl_NWd7I.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152599",
+			"attributes": {
+				"width": 1920,
+				"height": 1920,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 504340,
+				"url": "/image/R_ygGrMCUmdpzpAfk1Q6yt9EMCY.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "152600",
+			"attributes": {
+				"width": 3840,
+				"height": 3840,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1925248,
+				"url": "/image/2lgOnUGlDfZ3-nr9m7Kpleoix8A.png"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "6006604a9caba4300b0bfb55",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "15551"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "15551",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/n11dp1uaxOfop1F9dxai5dD0g50.jpg 92w,/image/ZOU_iRA_stcvSww_CMtWN5Nk5G4.jpg 320w,/image/WKlfJ5iB6VWCIjvz7Tlu7umewe8.jpg 600w,/image/pWzocLQqfOpK-SCTPTDv9Xmjgd4.jpg 660w,/image/ML1GoM0AOaF2SBxWj_ZCU7za8Dw.jpg 904w,/image/Z0MNQ73utcz4ZcXFmUYJb2CwYNs.jpg 1024w,/image/5St2YvJoMf61SczAE5HFqxkCNfg.jpg 1366w,/image/GFH8Lv7PTy2w7kKOGkgWB9LB-98.jpg 1600w,/image/GOnUTfjltSEDEuxS2NK9GW82iOA.jpg 1920w,/image/ejCVQKejcy46kcGF0W8T2DfbTIY.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "145743"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145744"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145745"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145746"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145747"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145748"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145749"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145750"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145751"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "145752"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145743",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1556,
+				"url": "/image/n11dp1uaxOfop1F9dxai5dD0g50.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145744",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 4955,
+				"url": "/image/ZOU_iRA_stcvSww_CMtWN5Nk5G4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145745",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 12716,
+				"url": "/image/WKlfJ5iB6VWCIjvz7Tlu7umewe8.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145746",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 14939,
+				"url": "/image/pWzocLQqfOpK-SCTPTDv9Xmjgd4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145747",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 23554,
+				"url": "/image/ML1GoM0AOaF2SBxWj_ZCU7za8Dw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145748",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 28864,
+				"url": "/image/Z0MNQ73utcz4ZcXFmUYJb2CwYNs.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145749",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 45431,
+				"url": "/image/5St2YvJoMf61SczAE5HFqxkCNfg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145750",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 57978,
+				"url": "/image/GFH8Lv7PTy2w7kKOGkgWB9LB-98.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145751",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 77892,
+				"url": "/image/GOnUTfjltSEDEuxS2NK9GW82iOA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "145752",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 232098,
+				"url": "/image/ejCVQKejcy46kcGF0W8T2DfbTIY.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "20959",
+			"attributes": {
+				"firstName": "Tre",
+				"fullName": "Tre Lindgren"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "103"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/20959"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "103",
+			"attributes": {
+				"biography": "Henk Blanken is schrijver en journalist. Hij was onder meer zestien jaar redacteur van de Volkskrant en acht jaar adjunct-hoofdredacteur van Dagblad van het Noorden. Hij publiceerde drie boeken over journalistiek, waaronder het 'Handboek verhalende journalistiek'. Eind 2015 verscheen 'Pistoolvinger', een non-fictie-roman over zijn parkinson.\r\n\r\nVoor De Correspondent onderzoekt Henk hoe we omgaan met aftakeling en de dood. Dat mondde uit in het boek 'Beginnen over het einde'. Sinds een jaar of vijf gaat hij elke winter naar Curaçao om daar te schrijven aan een roman."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/henkblanken",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/20959/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5ff42f9c9caba40baa4e8355",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "15394"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "15394",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/deUsxlV_XyNYHQ7v8YdGzfKXGsw.png 92w,/image/aYNULFJ4gF9PeszHnffTotWRBZs.png 320w,/image/XRggtGRL4o1hVFRPcH_dSOSbcEA.png 600w,/image/jHTI1FBDE6c77u4mUmfJUwcsTpk.png 660w,/image/KnE-h_CGfhJbMfByVVzwM7RwF_0.png 904w,/image/-TgCK28Ligy6aTjPZUNd-DwaNOk.png 1024w,/image/2zZxFTuX_h0uixiHxSe1ce5M1hQ.png 1366w,/image/6gVeQjJXfd5AdwMIXg6JoqgdemE.png 1600w,/image/sY5XZEYKtaQuN1giohZKkw0DlgE.png 1920w,/image/Td-BUweTjOXWmMdbZhqxPh2UDBQ.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "141235"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141236"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141237"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141238"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141239"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141240"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141241"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141242"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141243"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "141244"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141235",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 3094,
+				"url": "/image/deUsxlV_XyNYHQ7v8YdGzfKXGsw.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141236",
+			"attributes": {
+				"width": 320,
+				"height": 320,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 9910,
+				"url": "/image/aYNULFJ4gF9PeszHnffTotWRBZs.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141237",
+			"attributes": {
+				"width": 600,
+				"height": 600,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 17962,
+				"url": "/image/XRggtGRL4o1hVFRPcH_dSOSbcEA.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141238",
+			"attributes": {
+				"width": 660,
+				"height": 660,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 20066,
+				"url": "/image/jHTI1FBDE6c77u4mUmfJUwcsTpk.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141239",
+			"attributes": {
+				"width": 904,
+				"height": 904,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 28179,
+				"url": "/image/KnE-h_CGfhJbMfByVVzwM7RwF_0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141240",
+			"attributes": {
+				"width": 1024,
+				"height": 1024,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 32876,
+				"url": "/image/-TgCK28Ligy6aTjPZUNd-DwaNOk.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141241",
+			"attributes": {
+				"width": 1366,
+				"height": 1366,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 46309,
+				"url": "/image/2zZxFTuX_h0uixiHxSe1ce5M1hQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141242",
+			"attributes": {
+				"width": 1600,
+				"height": 1600,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 56153,
+				"url": "/image/6gVeQjJXfd5AdwMIXg6JoqgdemE.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141243",
+			"attributes": {
+				"width": 1920,
+				"height": 1920,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 68841,
+				"url": "/image/sY5XZEYKtaQuN1giohZKkw0DlgE.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "141244",
+			"attributes": {
+				"width": 3840,
+				"height": 3840,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 221838,
+				"url": "/image/Td-BUweTjOXWmMdbZhqxPh2UDBQ.png"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "17",
+			"attributes": {
+				"firstName": "Maite",
+				"fullName": "Maite Vermeulen"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "9"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/17"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "9",
+			"attributes": {
+				"biography": "Maite is een correspondent van het eerste uur. Ze maakte over de hele wereld verhalen over ontwikkeling, conflicten en migratie en woonde in Lagos, Nigeria. Eerder studeerde ze Liberal Arts & Sciences aan University College in Utrecht en Conflict, Security and Development aan King's College in Londen. Hiervoor werkte ze als redacteur bij nrc.next."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/maitevermeulen",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/17/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5ffc5f379caba45cbc0ed405",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "356"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "356",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/kEre9NN2ucb-iTBgZkk0Odkpd54.jpg 92w,/image/RFzX_ANhotU5NYS1b2zk88sfBRg.jpg 265w,/image/IghTtVP1XEqvKa2ex9lvXfy7LMI.jpg 320w,/image/KXjaYp-RlJT9CwyrQlnFDPq7b3U.jpg 600w,/image/IUCp7hdwEa7JI9i2lhThUu6GJag.jpg 660w,/image/VxEZ2ccozORzPzt-z4i7gTGmNO0.jpg 750w,/image/i5VNnYD2V5FY91NUDt85e3FeRsg.jpg 904w,/image/A0vzUbVKCFD66722F1ypDQFqd68.jpg 1024w,/image/EY1HqJGb5xqkigbltL_HYwS2yzk.jpg 1366w,/image/vBekrPMJ68nk2-abSuwj1iEDO4U.jpg 1600w,/image/rLXWbtFuwxDrva1gGPQ-Cdmvcq8.jpg 1920w,/image/insZUFYxGxMx6BqTN8k6OiYQD58.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "4129"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246661"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4130"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4131"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4132"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246662"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4133"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4134"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4135"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4136"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4137"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "4138"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4129",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1722,
+				"url": "/image/kEre9NN2ucb-iTBgZkk0Odkpd54.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246661",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 3086,
+				"url": "/image/RFzX_ANhotU5NYS1b2zk88sfBRg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4130",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 4037,
+				"url": "/image/IghTtVP1XEqvKa2ex9lvXfy7LMI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4131",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 9008,
+				"url": "/image/KXjaYp-RlJT9CwyrQlnFDPq7b3U.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4132",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 10161,
+				"url": "/image/IUCp7hdwEa7JI9i2lhThUu6GJag.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246662",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 11173,
+				"url": "/image/VxEZ2ccozORzPzt-z4i7gTGmNO0.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4133",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 15256,
+				"url": "/image/i5VNnYD2V5FY91NUDt85e3FeRsg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4134",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 17754,
+				"url": "/image/A0vzUbVKCFD66722F1ypDQFqd68.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4135",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 26549,
+				"url": "/image/EY1HqJGb5xqkigbltL_HYwS2yzk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4136",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 32836,
+				"url": "/image/vBekrPMJ68nk2-abSuwj1iEDO4U.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4137",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 42940,
+				"url": "/image/rLXWbtFuwxDrva1gGPQ-Cdmvcq8.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "4138",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 113832,
+				"url": "/image/insZUFYxGxMx6BqTN8k6OiYQD58.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "5678",
+			"attributes": {
+				"firstName": "Sanne",
+				"fullName": "Sanne Blauw"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "53"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/5678"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "53",
+			"attributes": {
+				"biography": "Sanne Blauw is econometrist. In 2014 promoveerde ze bij de Erasmus School of Economics. Ze is de auteur van 'Het bestverkochte boek ooit (met deze titel)', dat in veertien talen is vertaald."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/sanneblauw",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/5678/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5f5b1dee9caba453473c31a5",
+			"attributes": {
+				"caption": "Illustratie door redactioneel ontwerper Luka van Diepen"
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "8994"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "8994",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": "Illustratie van sequentie van plastic stoel door de dag heen",
+				"sourceSet": "/image/yswBjAiyO8RwlWde2K2vxJn82SQ.png 92w,/image/z-8GJberE5BzSLYfVjYOtGtdCtA.png 265w,/image/gbkRQqLwavOa-rzzqnY_4Tf9W1s.png 320w,/image/MR-bxS7Ec89AFGOJ2qwgf4d7CNQ.png 600w,/image/E_v6A9DV9_4p0YmQDKozVSp3v00.png 660w,/image/uMNZJGWPnCMiGa8gxyRXekVB6IQ.png 750w,/image/llBm1f8L5F5oJ8tiuE8JWFhpij0.png 904w,/image/QVtU4ceaTutqaiFmgBUPN9q5w4w.png 1024w,/image/bxArE7xEKbAiff-KqimCYcQqmkU.png 1366w,/image/wkd2YfmPkanC1F--to53aMcJus0.png 1600w,/image/VE7C-Rb4T5b0oR0a7m7Scfbd0L4.png 1920w,/image/cgZ_LBeBuhf0j9pV9h_TQLoCstg.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "89673"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245874"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89674"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89675"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89676"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245875"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89677"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89678"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89679"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89680"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89681"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "89682"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89673",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 7360,
+				"url": "/image/yswBjAiyO8RwlWde2K2vxJn82SQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245874",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 23857,
+				"url": "/image/z-8GJberE5BzSLYfVjYOtGtdCtA.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89674",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 30758,
+				"url": "/image/gbkRQqLwavOa-rzzqnY_4Tf9W1s.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89675",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 74497,
+				"url": "/image/MR-bxS7Ec89AFGOJ2qwgf4d7CNQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89676",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 83713,
+				"url": "/image/E_v6A9DV9_4p0YmQDKozVSp3v00.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245875",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 99817,
+				"url": "/image/uMNZJGWPnCMiGa8gxyRXekVB6IQ.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89677",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 126447,
+				"url": "/image/llBm1f8L5F5oJ8tiuE8JWFhpij0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89678",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 148949,
+				"url": "/image/QVtU4ceaTutqaiFmgBUPN9q5w4w.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89679",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 211619,
+				"url": "/image/bxArE7xEKbAiff-KqimCYcQqmkU.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89680",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 252248,
+				"url": "/image/wkd2YfmPkanC1F--to53aMcJus0.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89681",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 263722,
+				"url": "/image/VE7C-Rb4T5b0oR0a7m7Scfbd0L4.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "89682",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 303070,
+				"url": "/image/cgZ_LBeBuhf0j9pV9h_TQLoCstg.png"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "185624",
+			"attributes": {
+				"firstName": "Marjolijn",
+				"fullName": "Marjolijn van Heemstra"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "509"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/185624"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "509",
+			"attributes": {
+				"biography": "Marjolijn van Heemstra is dichter en theatermaker, en gefascineerd door de ruimte en ruimtevaart. Ze was jarenlang vaste columnist bij Trouw en schreef twee dichtbundels en twee romans. Haar eerste dichtbundel schreef ze gedeeltelijk als zelfverklaard huisdichter bij de European Space Agency. In 2019 tourde ze door Nederland met de voorstelling Stadsastronaut, waarin ze onderzocht hoe we hier op aarde kunnen leven met de blik van een ruimtevaarder. Onder dezelfde naam is nu ook een podcast verschenen bij de VPRO."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/marjolijnvanheemstra",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/185624/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "89854",
+			"attributes": {
+				"firstName": "Barbara",
+				"fullName": "Barbara Dare"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "338"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/89854"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "338",
+			"attributes": {
+				"biography": "Ramsey Nasr (Rotterdam, 28 januari 1974) is een Nederlandse dichter, schrijver, essayist, acteur, regisseur, librettist en vertaler van deels Palestijnse komaf. Hij was de tweede stadsdichter van Antwerpen en was van januari 2009 tot januari 2013 Dichter des Vaderlands van Nederland."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/ramseynasr",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/89854/profile"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "10",
+			"attributes": {
+				"firstName": "Rob",
+				"fullName": "Rob Wijnberg"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "2"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/10"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "2",
+			"attributes": {
+				"biography": "Rob Wijnberg (1982) is filosoof en oprichter van De Correspondent. Hij schreef zes boeken, waaronder Nietzsche en Kant lezen de krant (2009) en En mijn tafelheer is Plato (2010). Zijn laatste boek, De Nieuwsfabriek (2013), is geschreven als manifest van De Correspondent, met ideeën over de toekomst van de journalistiek."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/robwijnberg",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/10/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5efdfa1d9caba4252807bb25",
+			"attributes": {
+				"caption": "Foto: Anouk van Kalmthout"
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "9542"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "9542",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/rvfp4m21W_1rBIZzf7TrtGTbFTQ.jpg 92w,/image/rGNcBVR_UNSd4qKgzvQ1kaipfTw.jpg 265w,/image/uZ9bQ_NXQhaKTNAVIqLT8f6XkUI.jpg 320w,/image/H1zC-1hrU1nODqvg4DEmlMtSeqA.jpg 600w,/image/ZID8k3tdVywTS4JoVNXduojMwpA.jpg 660w,/image/myuGwUIaInytTKmQVRXa2IlbB7U.jpg 750w,/image/3Cc76W-yY2Zlwbh72GpcdrqBNqE.jpg 904w,/image/dQIxXdmv_BlAAF5VEBuzbtkxftI.jpg 1024w,/image/HqHrJYRk6pIiOV48GNeHq5ziGkc.jpg 1366w,/image/jfuwhzTVpA5z9WSS21E2tOlpLFI.jpg 1600w,/image/hLZzxW6YdpbIHv1PrRtDUkVQQZs.jpg 1920w,/image/vRPc2dr7gU7JhUG3ximhSWClNaA.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "94623"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245643"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94624"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94625"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94626"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245644"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94627"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94628"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94629"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94630"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94631"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "94632"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94623",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2331,
+				"url": "/image/rvfp4m21W_1rBIZzf7TrtGTbFTQ.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245643",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 5896,
+				"url": "/image/rGNcBVR_UNSd4qKgzvQ1kaipfTw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94624",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 8124,
+				"url": "/image/uZ9bQ_NXQhaKTNAVIqLT8f6XkUI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94625",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 24709,
+				"url": "/image/H1zC-1hrU1nODqvg4DEmlMtSeqA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94626",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 28919,
+				"url": "/image/ZID8k3tdVywTS4JoVNXduojMwpA.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245644",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 33524,
+				"url": "/image/myuGwUIaInytTKmQVRXa2IlbB7U.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94627",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 48492,
+				"url": "/image/3Cc76W-yY2Zlwbh72GpcdrqBNqE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94628",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 60377,
+				"url": "/image/dQIxXdmv_BlAAF5VEBuzbtkxftI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94629",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 98266,
+				"url": "/image/HqHrJYRk6pIiOV48GNeHq5ziGkc.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94630",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 129108,
+				"url": "/image/jfuwhzTVpA5z9WSS21E2tOlpLFI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94631",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 173049,
+				"url": "/image/hLZzxW6YdpbIHv1PrRtDUkVQQZs.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "94632",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 524769,
+				"url": "/image/vRPc2dr7gU7JhUG3ximhSWClNaA.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "40",
+			"attributes": {
+				"firstName": "Nina",
+				"fullName": "Nina Polak"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "31"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/40"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "31",
+			"attributes": {
+				"biography": "Nina Polak is schrijver van fictie en non-fictie. Ze studeerde Nederlands en Cultural Analysis in Amsterdam en in New York. Ze schrijft onder meer over boeken, films en televisie."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/ninapolak",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/40/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5e7ca53c9caba43bd9009705",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "7559"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "7559",
+			"attributes": {
+				"mimeType": "image/gif",
+				"textAlternative": null,
+				"sourceSet": "/image/GO0tSDpQ4YfI84B15ozDuFOFSXw.gif 92w,/image/wwFHNg_n8MNymI4T86lGM1I0Ngw.gif 265w,/image/pmsBcwO1Kvi-9RbfndSsF7Cxewo.gif 320w,/image/BzpQJ1O7Ytv0lVQtmEMQoQ-HOdE.gif 600w,/image/vEMP6ub4Tf7kmen6WSp3wLb2mEo.gif 660w,/image/kahpPgyY_mflarg1UTghp7KUoig.gif 750w,/image/KyoAJVDcyrTXP3N-i6reOEyyFDo.gif 904w,/image/CGVv9IlW7no-dV4P2tAl6yOkErI.gif 1024w,/image/3mvCCVUrlfMfW78pXVuSj2wvces.gif 1366w,/image/t6T0rZoBs3UZeosjYPQ1xHkLxlk.gif 1600w,/image/f8ZlSpuOyuYY79OzX0EPTBY8QKQ.gif 1920w,/image/0WpHa9OzOCHU8R7CXik95yH_Pvw.gif 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "76370"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246399"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76371"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76372"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76373"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "246400"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76374"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76375"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76376"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76377"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76378"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "76379"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76370",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 87324,
+				"url": "/image/GO0tSDpQ4YfI84B15ozDuFOFSXw.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246399",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 251001,
+				"url": "/image/wwFHNg_n8MNymI4T86lGM1I0Ngw.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76371",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 339820,
+				"url": "/image/pmsBcwO1Kvi-9RbfndSsF7Cxewo.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76372",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 1094612,
+				"url": "/image/BzpQJ1O7Ytv0lVQtmEMQoQ-HOdE.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76373",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 1319685,
+				"url": "/image/vEMP6ub4Tf7kmen6WSp3wLb2mEo.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "246400",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 1691063,
+				"url": "/image/kahpPgyY_mflarg1UTghp7KUoig.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76374",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 2301274,
+				"url": "/image/KyoAJVDcyrTXP3N-i6reOEyyFDo.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76375",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 3007749,
+				"url": "/image/CGVv9IlW7no-dV4P2tAl6yOkErI.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76376",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 6275744,
+				"url": "/image/3mvCCVUrlfMfW78pXVuSj2wvces.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76377",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 9087123,
+				"url": "/image/t6T0rZoBs3UZeosjYPQ1xHkLxlk.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76378",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 12548236,
+				"url": "/image/f8ZlSpuOyuYY79OzX0EPTBY8QKQ.gif"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "76379",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 35520115,
+				"url": "/image/0WpHa9OzOCHU8R7CXik95yH_Pvw.gif"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "5d8ae2bf9caba403dd3d7c8a",
+			"attributes": {
+				"caption": ""
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "3111"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "3111",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/68196EuVAuB8IYRlYQ2Pt736M-Q.jpg 92w,/image/oFgMn5xtL_45VdgLiwhWA3VY8Nw.jpg 265w,/image/d0Luj_XICkDibimH1ezAIYzoOBw.jpg 320w,/image/uOOICtAUea2NK6uSslBtoAg8LUg.jpg 600w,/image/MoN41eUt19hLT963wHY-tO2vQh4.jpg 660w,/image/TrKkq_w4bB3lbLtCdD1npLTW3hY.jpg 750w,/image/Hmm87WMpzIXTAu7LIfx4dzoxrwg.jpg 904w,/image/_wc3PLAiFn6Nq80s23iUoPNR53c.jpg 1024w,/image/8LtkwbN7088tDFxS799lVtfxLdM.jpg 1366w,/image/4gBA8It1VLJKCTnSp5ZcQMFefe0.jpg 1600w,/image/R4jH7IbmQjPEiPx13jtEFGX9Flc.jpg 1920w,/image/ctp3exKjRjsQgl7S773cJFU7uiM.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "33556"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245563"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33557"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33558"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33559"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "245564"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33560"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33561"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33562"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33563"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33564"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "33565"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33556",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 3840,
+				"url": "/image/68196EuVAuB8IYRlYQ2Pt736M-Q.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245563",
+			"attributes": {
+				"width": 265,
+				"height": 149,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 11995,
+				"url": "/image/oFgMn5xtL_45VdgLiwhWA3VY8Nw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33557",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 16319,
+				"url": "/image/d0Luj_XICkDibimH1ezAIYzoOBw.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33558",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 38265,
+				"url": "/image/uOOICtAUea2NK6uSslBtoAg8LUg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33559",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 43572,
+				"url": "/image/MoN41eUt19hLT963wHY-tO2vQh4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "245564",
+			"attributes": {
+				"width": 750,
+				"height": 422,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 48121,
+				"url": "/image/TrKkq_w4bB3lbLtCdD1npLTW3hY.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33560",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 64058,
+				"url": "/image/Hmm87WMpzIXTAu7LIfx4dzoxrwg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33561",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 74991,
+				"url": "/image/_wc3PLAiFn6Nq80s23iUoPNR53c.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33562",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 107829,
+				"url": "/image/8LtkwbN7088tDFxS799lVtfxLdM.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33563",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 131004,
+				"url": "/image/4gBA8It1VLJKCTnSp5ZcQMFefe0.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33564",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 166305,
+				"url": "/image/R4jH7IbmQjPEiPx13jtEFGX9Flc.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "33565",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 387265,
+				"url": "/image/ctp3exKjRjsQgl7S773cJFU7uiM.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "135318",
+			"attributes": {
+				"firstName": "Cleta",
+				"fullName": "Cleta Hirthe"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "430"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/135318"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "430",
+			"attributes": {
+				"biography": "Joris Luyendijk werkt al twintig jaar in de journalistiek. Hij schreef over het Midden-Oosten, de financiële sector en nu over populisme. Dit deed hij voor nationale media als NRC Handelsblad en internationale media als The Guardian. Zijn boeken Het zijn net mensen en Dit kan niet waar zijn werden lovend ontvangen."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/jorisluyendijk",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/135318/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "62d021729caba4616817ecde",
+			"attributes": {
+				"caption": null
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "136696"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "136696",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/mYTBB4Z6cmIkzK3gO1ylqDFlPMg.jpg 92w,/image/ewUAcc1J_DSOiV5JUMJUkbVDp3I.jpg 320w,/image/7dE5ATLO5msaiiPF97ndl0jwCL4.jpg 600w,/image/yCnIC2a4x55o8GJrFPcpE1OhKXI.jpg 660w,/image/KNc8iL9351wvJIwWOy3nXC-9ilE.jpg 904w,/image/d75dOWChQiS1XVdUYQCRLUEeB0k.jpg 1024w,/image/WLwxR2a1bnEEjc-4YSmZY-_0ugk.jpg 1366w,/image/1C4eVj2GaSzyk5qGrZqpfA7v2bQ.jpg 1600w,/image/YN5MDyUT1xpsIuybzF0mM79Sglk.jpg 1920w,/image/qc8D8fA1WPRu8XHokv1Z2oozj8A.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1307271"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307272"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307273"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307274"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307275"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307276"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307277"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307278"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307279"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1307280"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307271",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 2040,
+				"url": "/image/mYTBB4Z6cmIkzK3gO1ylqDFlPMg.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307272",
+			"attributes": {
+				"width": 320,
+				"height": 180,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 6875,
+				"url": "/image/ewUAcc1J_DSOiV5JUMJUkbVDp3I.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307273",
+			"attributes": {
+				"width": 600,
+				"height": 338,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 16398,
+				"url": "/image/7dE5ATLO5msaiiPF97ndl0jwCL4.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307274",
+			"attributes": {
+				"width": 660,
+				"height": 371,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 18747,
+				"url": "/image/yCnIC2a4x55o8GJrFPcpE1OhKXI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307275",
+			"attributes": {
+				"width": 904,
+				"height": 509,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 28800,
+				"url": "/image/KNc8iL9351wvJIwWOy3nXC-9ilE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307276",
+			"attributes": {
+				"width": 1024,
+				"height": 576,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 34637,
+				"url": "/image/d75dOWChQiS1XVdUYQCRLUEeB0k.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307277",
+			"attributes": {
+				"width": 1366,
+				"height": 768,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 50448,
+				"url": "/image/WLwxR2a1bnEEjc-4YSmZY-_0ugk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307278",
+			"attributes": {
+				"width": 1600,
+				"height": 900,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 61747,
+				"url": "/image/1C4eVj2GaSzyk5qGrZqpfA7v2bQ.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307279",
+			"attributes": {
+				"width": 1920,
+				"height": 1080,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 78361,
+				"url": "/image/YN5MDyUT1xpsIuybzF0mM79Sglk.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1307280",
+			"attributes": {
+				"width": 3840,
+				"height": 2160,
+				"orientation": "landscape",
+				"ratio": "16:9",
+				"fileSize": 208172,
+				"url": "/image/qc8D8fA1WPRu8XHokv1Z2oozj8A.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "42976",
+			"attributes": {
+				"firstName": "Chelsea",
+				"fullName": "Chelsea Johnson"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "188"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/42976"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "188",
+			"attributes": {
+				"biography": ".Jair Stein is freelance journalist, radio- en podcastmaker bij de NTR en de VPRO. Zijn programma’s werden bekroond met o.a. de Prix Europa (2008) en de Zilveren Reissmicrofoon (2013).\n\n"
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/jairstein",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/42976/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "62d01e889caba4616817d3d6",
+			"attributes": {
+				"caption": null
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "123224"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "123224",
+			"attributes": {
+				"mimeType": "image/png",
+				"textAlternative": null,
+				"sourceSet": "/image/FgRTRGmTTou6PUovbMtwtTI7F84.png 92w,/image/SpGOtwkNjZNFO9S9gDN6_65lyOA.png 320w,/image/HcKJFnDltL8NeeCQ6Q8zKscEHDk.png 600w,/image/XhJJA0qgrMMRcDSBZ3iXPIoi3Fo.png 660w,/image/wZcD8oSmhwvVC-Gzvr6ZhZI7t8k.png 904w,/image/M5EEUD1s3BlpprbpRoAnYfPachM.png 1024w,/image/M_SdHQgLe4HiRMmd_b1fvaAd_WE.png 1366w,/image/M_HGL9Q9HcAYiH750TeNT_3h27Q.png 1600w,/image/7m3wX4F8a5SlRuteDJHFj96fmcM.png 1920w,/image/S4lALAuy7wPIl0eBVQAbFx_WXhY.png 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1172380"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172381"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172382"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172383"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172384"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172385"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172386"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172387"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172388"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1172389"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172380",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 4237,
+				"url": "/image/FgRTRGmTTou6PUovbMtwtTI7F84.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172381",
+			"attributes": {
+				"width": 320,
+				"height": 183,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 11683,
+				"url": "/image/SpGOtwkNjZNFO9S9gDN6_65lyOA.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172382",
+			"attributes": {
+				"width": 600,
+				"height": 344,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 26973,
+				"url": "/image/HcKJFnDltL8NeeCQ6Q8zKscEHDk.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172383",
+			"attributes": {
+				"width": 660,
+				"height": 378,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 30445,
+				"url": "/image/XhJJA0qgrMMRcDSBZ3iXPIoi3Fo.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172384",
+			"attributes": {
+				"width": 904,
+				"height": 518,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 49368,
+				"url": "/image/wZcD8oSmhwvVC-Gzvr6ZhZI7t8k.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172385",
+			"attributes": {
+				"width": 1024,
+				"height": 587,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 59506,
+				"url": "/image/M5EEUD1s3BlpprbpRoAnYfPachM.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172386",
+			"attributes": {
+				"width": 1366,
+				"height": 783,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 93111,
+				"url": "/image/M_SdHQgLe4HiRMmd_b1fvaAd_WE.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172387",
+			"attributes": {
+				"width": 1600,
+				"height": 917,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 120437,
+				"url": "/image/M_HGL9Q9HcAYiH750TeNT_3h27Q.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172388",
+			"attributes": {
+				"width": 1920,
+				"height": 1100,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 151849,
+				"url": "/image/7m3wX4F8a5SlRuteDJHFj96fmcM.png"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1172389",
+			"attributes": {
+				"width": 3840,
+				"height": 2200,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 618248,
+				"url": "/image/S4lALAuy7wPIl0eBVQAbFx_WXhY.png"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "41597",
+			"attributes": {
+				"firstName": "Arjen",
+				"fullName": "Arjen van Veelen"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "180"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/41597"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "180",
+			"attributes": {
+				"biography": "Arjen van Veelen (1980) is essayist, journalist en beginnend fotograaf. Hij schreef vier boeken, waaronder de bestseller 'Amerikanen lopen niet'. Zijn romandebuut ‘Aantekeningen over het verplaatsen van obelisken’ won verschillende prijzen en was het meest genomineerde boek van 2018. Hij woont in Rotterdam. \r\n"
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/arjenvanveelen",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/41597/profile"
+			}
+		},
+		{
+			"type": "MainVisual",
+			"id": "62d01e479caba4616817d157",
+			"attributes": {
+				"caption": null
+			},
+			"relationships": {
+				"image": {
+					"data": {
+						"type": "ImageFile",
+						"id": "122260"
+					}
+				}
+			}
+		},
+		{
+			"type": "ImageFile",
+			"id": "122260",
+			"attributes": {
+				"mimeType": "image/jpeg",
+				"textAlternative": null,
+				"sourceSet": "/image/REZ4Lcl6TrOsnFPG8B0KxJvJVpM.jpg 92w,/image/FonHYKr87bD8dn-hrUfcemFGy1k.jpg 320w,/image/S9J4PVUPllk9IJN-JwjUPp4zOwE.jpg 600w,/image/8eeBXxeEVDTLY1RZhaiQPtA1DQo.jpg 660w,/image/47yLT9EnAODHfOwTXxbN98TuviE.jpg 904w,/image/awdZl9VoPGF77tOOMCaKTyd2XtI.jpg 1024w,/image/zM4TczNH4Vn1FKfaT7cUNceQj-o.jpg 1366w,/image/a5bSlT7kfCdwQj1CQ40Pja-XyB0.jpg 1600w,/image/QNqu56EyFS_b_SCpslflWXMvGOI.jpg 1920w,/image/WcLwmwKqMiw6Y_fbg-kkrgjIaMI.jpg 3840w"
+			},
+			"relationships": {
+				"sizes": {
+					"data": [
+						{
+							"type": "ImageTransformation",
+							"id": "1163107"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163108"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163109"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163110"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163111"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163112"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163113"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163114"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163115"
+						},
+						{
+							"type": "ImageTransformation",
+							"id": "1163116"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163107",
+			"attributes": {
+				"width": 92,
+				"height": 92,
+				"orientation": "square",
+				"ratio": "1:1",
+				"fileSize": 1744,
+				"url": "/image/REZ4Lcl6TrOsnFPG8B0KxJvJVpM.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163108",
+			"attributes": {
+				"width": 320,
+				"height": 183,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 4739,
+				"url": "/image/FonHYKr87bD8dn-hrUfcemFGy1k.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163109",
+			"attributes": {
+				"width": 600,
+				"height": 344,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 11882,
+				"url": "/image/S9J4PVUPllk9IJN-JwjUPp4zOwE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163110",
+			"attributes": {
+				"width": 660,
+				"height": 378,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 13881,
+				"url": "/image/8eeBXxeEVDTLY1RZhaiQPtA1DQo.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163111",
+			"attributes": {
+				"width": 904,
+				"height": 518,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 21086,
+				"url": "/image/47yLT9EnAODHfOwTXxbN98TuviE.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163112",
+			"attributes": {
+				"width": 1024,
+				"height": 587,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 26202,
+				"url": "/image/awdZl9VoPGF77tOOMCaKTyd2XtI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163113",
+			"attributes": {
+				"width": 1366,
+				"height": 783,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 39666,
+				"url": "/image/zM4TczNH4Vn1FKfaT7cUNceQj-o.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163114",
+			"attributes": {
+				"width": 1600,
+				"height": 917,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 49174,
+				"url": "/image/a5bSlT7kfCdwQj1CQ40Pja-XyB0.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163115",
+			"attributes": {
+				"width": 1920,
+				"height": 1100,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 65183,
+				"url": "/image/QNqu56EyFS_b_SCpslflWXMvGOI.jpg"
+			}
+		},
+		{
+			"type": "ImageTransformation",
+			"id": "1163116",
+			"attributes": {
+				"width": 3840,
+				"height": 2200,
+				"orientation": "landscape",
+				"ratio": "96:55",
+				"fileSize": 169792,
+				"url": "/image/WcLwmwKqMiw6Y_fbg-kkrgjIaMI.jpg"
+			}
+		},
+		{
+			"type": "Human",
+			"id": "32",
+			"attributes": {
+				"firstName": "Arnon",
+				"fullName": "Arnon Grunberg"
+			},
+			"relationships": {
+				"profile": {
+					"data": {
+						"type": "Profile",
+						"id": "23"
+					}
+				}
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/human/32"
+			}
+		},
+		{
+			"type": "Profile",
+			"id": "23",
+			"attributes": {
+				"biography": "Arnon Grunberg (1971) is romanschrijver en reporter, en als hij niet reist woonachtig te New York. Tot zijn bekendste boeken behoren Blauwe maandagen (1994) en Tirza (2006). Hij schrijft dagelijks ook de Voetnoot op de voorpagina van de Volkskrant."
+			},
+			"links": {
+				"page": "https://staging-decorrespondent.nl/arnongrunberg",
+				"admin": "https://staging-decorrespondent.nl/respondens/human/32/profile"
+			}
+		}
+	]
+}

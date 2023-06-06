@@ -11,5 +11,5 @@ function toggleDarkMode(e) {
   }
 }
 
-toggleDarkMode(prefersDarkMode); // Set initial mode based on the device setting
-prefersDarkMode.addListener(toggleDarkMode); // Listen for changes in the device setting
+toggleDarkMode(prefersDarkMode);
+prefersDarkMode.addListener(toggleDarkMode);

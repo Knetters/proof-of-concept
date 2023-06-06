@@ -1,0 +1,275 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=audioverhalen",
+		"next": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=audioverhalen&page[number]=2&page[size]=20",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelhlr8nbkE1epv1QKdDwAAAAg"
+	},
+	"meta": {
+		"totalHits": 28
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11547",
+			"attributes": {
+				"title": "Luisteren: Als stroomuitval geen schok, maar de normaalste zaak van de wereld is",
+				"firstPublishedAt": "2020-12-09T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11547",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11547/luisteren-als-stroomuitval-geen-schok-maar-de-normaalste-zaak-van-de-wereld-is/8c2e52c5-eb2b-010b-1e6e-e6c67631c82b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11592",
+			"attributes": {
+				"title": "Deze week brandde vluchtelingenkamp Moria op Lesbos af. In deze voiceberichten leerden wij het kamp van binnenuit kennen",
+				"firstPublishedAt": "2020-09-10T10:13:24+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11592",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11592/deze-week-brandde-vluchtelingenkamp-moria-op-lesbos-af-in-deze-voiceberichten-leerden-wij-het-kamp-van-binnenuit-kennen/745c3032-39a3-0edf-393c-6832ef43431d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10795",
+			"attributes": {
+				"title": "Als de mensheid vergaat, blijft dit van ons over: een liefdesbrief aan de aliens 🎧",
+				"firstPublishedAt": "2019-12-14T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10795",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10795/als-de-mensheid-vergaat-blijft-dit-van-ons-over-een-liefdesbrief-aan-de-aliens/f5a889e4-039a-01ab-3efd-adc976034eb4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "9630",
+			"attributes": {
+				"title": "Hoe overleef je een zware psychose? Dit Correspondentlid vertelt over zijn lijden én herstel",
+				"firstPublishedAt": "2019-06-19T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/9630",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/9630/hoe-overleef-je-een-zware-psychose-dit-correspondentlid-vertelt-over-zijn-lijden-en-herstel/84f1ef4b-37a0-0ce4-163f-1617e77a8779"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8994",
+			"attributes": {
+				"title": "Luister: Hoe Sarah zingeving vond in afhankelijkheid",
+				"firstPublishedAt": "2018-12-24T15:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8994",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8994/luister-hoe-sarah-zingeving-vond-in-afhankelijkheid/0843b042-6bb5-0c4a-2736-37d16f6e6667"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8721",
+			"attributes": {
+				"title": "Lees of luister: Zo zagen de afgelopen vijf jaar eruit achter de schermen van De Correspondent",
+				"firstPublishedAt": "2018-09-30T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8721",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8721/lees-of-luister-zo-zagen-de-afgelopen-vijf-jaar-eruit-achter-de-schermen-van-de-correspondent/31272aca-652e-0d9a-0f83-eaf7c77665ef"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8657",
+			"attributes": {
+				"title": "Lees of luister: Vergeet nepnieuws. Echt nieuws is minstens zo misleidend",
+				"firstPublishedAt": "2018-09-25T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8657",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8657/lees-of-luister-vergeet-nepnieuws-echt-nieuws-is-minstens-zo-misleidend/ab1d1c3e-da1f-01df-21bd-dae815be1313"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8690",
+			"attributes": {
+				"title": "Lees of luister: Alleen als we privacy zien als iets dat ons allen aangaat, kunnen we de techbedrijven temmen",
+				"firstPublishedAt": "2018-09-24T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8690",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8690/lees-of-luister-alleen-als-we-privacy-zien-als-iets-dat-ons-allen-aangaat-kunnen-we-de-techbedrijven-temmen/40a934e8-6f7d-03c3-0404-a37775086ad3"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8641",
+			"attributes": {
+				"title": "Lees of luister: Jouw keuzes zijn een machtig wapen in de klimaatcrisis (omdat je niet alleen bent)",
+				"firstPublishedAt": "2018-09-21T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8641",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8641/lees-of-luister-jouw-keuzes-zijn-een-machtig-wapen-in-de-klimaatcrisis-omdat-je-niet-alleen-bent/346983f3-3417-099e-30e9-32e0c0713724"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "8662",
+			"attributes": {
+				"title": "Lees of luister: Zo glipt de democratie door onze vingers – en zó vormen we een tegenmacht",
+				"firstPublishedAt": "2018-09-17T03:45:00+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/8662",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/8662/lees-of-luister-zo-glipt-de-democratie-door-onze-vingers-en-zo-vormen-we-een-tegenmacht/b48064df-4172-0a6b-2aec-a56913c3f505"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "7748",
+			"attributes": {
+				"title": "Dementie is een taboe. Daarom presenteren wij de podcast De Mens Zien",
+				"firstPublishedAt": "2017-12-26T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/7748",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/7748/dementie-is-een-taboe-daarom-presenteren-wij-de-podcast-de-mens-zien/1572fe50-f214-0a07-12c6-a59cf5a9ca80"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "7737",
+			"attributes": {
+				"title": "Laten we dit kerstverhaal aan elkaar vertellen – juist nu",
+				"firstPublishedAt": "2017-12-25T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/7737",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/7737/laten-we-dit-kerstverhaal-aan-elkaar-vertellen-juist-nu/a1cc935b-8658-0f0f-3f64-136c2febf930"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "7422",
+			"attributes": {
+				"title": "Podcast: We zijn thuis bij Sevn Alias, een van de populairste muzikanten van nu",
+				"firstPublishedAt": "2017-10-05T13:00:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/7422",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/7422/podcast-we-zijn-thuis-bij-sevn-alias-een-van-de-populairste-muzikanten-van-nu/565aaefe-d24c-0260-0218-631b05874f6d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "5926",
+			"attributes": {
+				"title": "Kijk en luister: de kroniek van een veranderend Istanbul",
+				"firstPublishedAt": "2016-12-29T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/5926",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/5926/kijk-en-luister-de-kroniek-van-een-veranderend-istanbul/cbf91254-2d51-01c0-38cd-c2d9b40e0122"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "5885",
+			"attributes": {
+				"title": "Luisteren onder de boom: De man die met cijfers armoede de wereld uit helpt",
+				"firstPublishedAt": "2016-12-26T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/5885",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/5885/luisteren-onder-de-boom-de-man-die-met-cijfers-armoede-de-wereld-uit-helpt/8c05c3f9-d888-0486-3243-2adee8df41d0"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "3716",
+			"attributes": {
+				"title": "De reis naar Edgeøya. Terug naar het nulpunt (Deel 3: Paradise Lost)",
+				"firstPublishedAt": "2015-12-19T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/3716",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/3716/de-reis-naar-edge-ya-terug-naar-het-nulpunt-deel-3-paradise-lost/9088210e-cb05-0dfa-3df6-8955143ccfef"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "3714",
+			"attributes": {
+				"title": "De reis naar Edgeøya. Terug naar het nulpunt. (Deel 2: De veteranen)",
+				"firstPublishedAt": "2015-12-12T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/3714",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/3714/de-reis-naar-edge-ya-terug-naar-het-nulpunt-deel-2-de-veteranen/d01969e9-a0fc-05c1-289a-0e9de78a2d9b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "3700",
+			"attributes": {
+				"title": "De reis naar Edgeøya. Terug naar het nulpunt (Deel 1: de aankomst)",
+				"firstPublishedAt": "2015-12-06T04:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/3700",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/3700/de-reis-naar-edge-ya-terug-naar-het-nulpunt-deel-1-de-aankomst/add34197-1174-08b4-1875-b9e2db343c27"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "1055",
+			"attributes": {
+				"title": "Voor het paasweekend: luisteren naar spionageverhalen",
+				"firstPublishedAt": "2014-04-19T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/1055",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/1055/voor-het-paasweekend-luisteren-naar-spionageverhalen/7af5e00e-3bbf-0b47-2e7e-7524b2e1c040"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "1024",
+			"attributes": {
+				"title": "In 1965 stond tien procent van de Nederlandse geheim agenten op de loonlijst van de CIA",
+				"firstPublishedAt": "2014-04-18T03:45:00+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/1024",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/1024/in-1965-stond-tien-procent-van-de-nederlandse-geheim-agenten-op-de-loonlijst-van-de-cia/0697b9e5-a5ea-0bf0-2156-5c8f1630282f"
+			}
+		}
+	]
+}

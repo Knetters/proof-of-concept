@@ -1,0 +1,196 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=stemmen",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHekWO3FX-dyEcFoPnnv2QAAAAM"
+	},
+	"meta": {
+		"totalHits": 14
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "12740",
+			"attributes": {
+				"title": "Podcast: Wat zegt deze lange formatie over de staat van onze democratie?",
+				"firstPublishedAt": "2021-10-12T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12740",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12740/podcast-wat-zegt-deze-lange-formatie-over-de-staat-van-onze-democratie/0f3e15a0-d3e9-066b-31a3-1eaf91f832a5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12308",
+			"attributes": {
+				"title": "Bij de kabinetsformatie is de verkiezingsuitslag bijzaak (en nog 6 inzichten over de Nederlandse democratie)",
+				"firstPublishedAt": "2021-06-08T03:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12308",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12308/bij-de-kabinetsformatie-is-de-verkiezingsuitslag-bijzaak-en-nog-6-inzichten-over-de-nederlandse-democratie/5e592f96-c8d5-0bac-079c-cd0ab0b344c7"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12364",
+			"attributes": {
+				"title": "Is de democratie opgewassen tegen klimaatverandering?",
+				"firstPublishedAt": "2021-05-18T03:45:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12364",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12364/is-de-democratie-opgewassen-tegen-klimaatverandering/fc1bd90a-ea7a-04be-0a13-94024536d084"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12313",
+			"attributes": {
+				"title": "Eén Kamerlid, elf portefeuilles. Hoe kan die ooit de macht controleren?",
+				"firstPublishedAt": "2021-05-04T03:45:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12313",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12313/een-kamerlid-elf-portefeuilles-hoe-kan-die-ooit-de-macht-controleren/9f05c42c-65b2-033a-2a9f-e99b63b1f979"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12276",
+			"attributes": {
+				"title": "Wie heeft de macht tijdens de formatie?",
+				"firstPublishedAt": "2021-04-20T03:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12276",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12276/wie-heeft-de-macht-tijdens-de-formatie/c9d4b6be-efb5-04a7-138d-f8b7807e0712"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12268",
+			"attributes": {
+				"title": "Waarom links zo veel Kamerzetels kwijt is",
+				"firstPublishedAt": "2021-04-08T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12268",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12268/waarom-links-zo-veel-kamerzetels-kwijt-is/7b5d2979-3389-0120-1f92-0e4a9f251050"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12221",
+			"attributes": {
+				"title": "Radicaal-rechts komt in drie smaken in de Kamer. Wat zijn de verschillen?",
+				"firstPublishedAt": "2021-03-20T04:45:06+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12221",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12221/radicaal-rechts-komt-in-drie-smaken-in-de-kamer-wat-zijn-de-verschillen/601ec3d4-5ddc-0f1a-2446-e0a9111ad593"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12219",
+			"attributes": {
+				"title": "Wij telden hoeveel media-aandacht lijsttrekkers kregen. En de vrouwen kwamen er bekaaid vanaf",
+				"firstPublishedAt": "2021-03-20T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12219",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12219/wij-telden-hoeveel-media-aandacht-lijsttrekkers-kregen-en-de-vrouwen-kwamen-er-bekaaid-vanaf/a5b2e096-acc2-03d6-0989-4cd2bb8b274c"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12201",
+			"attributes": {
+				"title": "Populistisch-rechts is nu even groot als links. Hoe kan dat?",
+				"firstPublishedAt": "2021-03-19T18:00:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12201",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12201/populistisch-rechts-is-nu-even-groot-als-links-hoe-kan-dat/9e42ebca-0c30-08c8-167c-ed47fa0bd8be"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12173",
+			"attributes": {
+				"title": "Waarom debatten, stemhulpen en peilingen de zwevende kiezer nauwelijks helpen",
+				"firstPublishedAt": "2021-03-09T04:45:03+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12173",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12173/waarom-debatten-stemhulpen-en-peilingen-de-zwevende-kiezer-nauwelijks-helpen/86c441a6-ef6d-0449-3905-ff63bc1ad7ae"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12156",
+			"attributes": {
+				"title": "Zeg me hoe je denkt over immigranten en ik vertel je je mening over windmolens",
+				"firstPublishedAt": "2021-03-02T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12156",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12156/zeg-me-hoe-je-denkt-over-immigranten-en-ik-vertel-je-je-mening-over-windmolens/76ee9d63-11ac-0970-3b81-c6624542e2f0"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12117",
+			"attributes": {
+				"title": "Waarom kiezers wél trouw blijven aan hun standpunten, maar niet aan partijen",
+				"firstPublishedAt": "2021-02-23T04:45:05+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12117",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12117/waarom-kiezers-wel-trouw-blijven-aan-hun-standpunten-maar-niet-aan-partijen/7e784591-7979-0f82-2d30-cab9c0027d3d"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12028",
+			"attributes": {
+				"title": "Waarom (en waarop) stemmen we? Welkom bij Stemmen, onze nieuwe verkiezingsserie zonder peilingen",
+				"firstPublishedAt": "2021-02-16T04:45:04+0000",
+				"template": "wide"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12028",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12028/waarom-en-waarop-stemmen-we-welkom-bij-stemmen-onze-nieuwe-verkiezingsserie-zonder-peilingen/1b6a89ab-7712-039f-1a70-e4537d60c30e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12123",
+			"attributes": {
+				"title": "Vandaag presenteren wij: Stemmen. Een verkiezingspodcast zonder peilingen",
+				"firstPublishedAt": "2021-02-16T04:45:03+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12123",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12123/vandaag-presenteren-wij-stemmen-een-verkiezingspodcast-zonder-peilingen/53295ae9-7a2e-03b3-0127-c3d80c8bc86b"
+			}
+		}
+	]
+}

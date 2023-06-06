@@ -1,0 +1,144 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-binnenbuhne",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelzIBSLWgL-DboaJZ_FQAAAAU"
+	},
+	"meta": {
+		"totalHits": 10
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11188",
+			"attributes": {
+				"title": "Luisteren: Voor dit muziekensemble brengt de pandemie behalve verlies ook vernieuwing",
+				"firstPublishedAt": "2020-04-30T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11188",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11188/luisteren-voor-dit-muziekensemble-brengt-de-pandemie-behalve-verlies-ook-vernieuwing/212d527d-470a-0208-0d68-1c0d07f36051"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11197",
+			"attributes": {
+				"title": "Het Noord Nederlands Toneel bouwde een virtueel theater. Met voorstellingen, bar én andere bezoekers",
+				"firstPublishedAt": "2020-04-30T03:45:02+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11197",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11197/het-noord-nederlands-toneel-bouwde-een-virtueel-theater-met-voorstellingen-bar-en-andere-bezoekers/c1a4bde4-19d5-0754-3eb0-1e9bdd747433"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11163",
+			"attributes": {
+				"title": "Podcast: In deze monoloog blikt een actrice terug op de bevalling van haar zoontje met downsyndroom",
+				"firstPublishedAt": "2020-04-21T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11163",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11163/podcast-in-deze-monoloog-blikt-een-actrice-terug-op-de-bevalling-van-haar-zoontje-met-downsyndroom/508507ab-d840-0d2c-0f86-90aa60007b8e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11138",
+			"attributes": {
+				"title": "Fairtradekoffie drinken maar wel drugs doen? Met dit online optreden houdt Sadettin Kirmiziyüz hipsters (en zichzelf) een spiegel voor",
+				"firstPublishedAt": "2020-04-15T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11138",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11138/fairtradekoffie-drinken-maar-wel-drugs-doen-met-dit-online-optreden-houdt-sadettin-kirmiziyuz-hipsters-en-zichzelf-een-spiegel-voor/a0fef7a6-59dc-0177-3cf5-b5469b9c1101"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11140",
+			"attributes": {
+				"title": "Een poëzieavond in je oor, troosttheater via de telefoon (en nog vijf cultuurtips voor thuis)",
+				"firstPublishedAt": "2020-04-15T03:45:02+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11140",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11140/een-poezieavond-in-je-oor-troosttheater-via-de-telefoon-en-nog-vijf-cultuurtips-voor-thuis/e02cea9a-ae93-0695-1601-ea868f719082"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11103",
+			"attributes": {
+				"title": "Podcast: Zangeres Wende hoopt dat haar internationale doorbraak tóch komt",
+				"firstPublishedAt": "2020-04-07T03:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11103",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11103/podcast-zangeres-wende-hoopt-dat-haar-internationale-doorbraak-toch-komt/6b99f090-390a-0632-3c9e-b6427e480e4a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11073",
+			"attributes": {
+				"title": "Podcast: Twee jaar voorbereiden en alleen een try-out",
+				"firstPublishedAt": "2020-03-31T03:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11073",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11073/podcast-twee-jaar-voorbereiden-en-alleen-een-try-out/7a7821c7-4d27-021a-176a-3b5f0a9fb7bf"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11082",
+			"attributes": {
+				"title": "Vijf voorstellingen om deze week vanuit je huiskamer te bezoeken",
+				"firstPublishedAt": "2020-03-31T03:45:02+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11082",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11082/vijf-voorstellingen-om-deze-week-vanuit-je-huiskamer-te-bezoeken/2fae0c17-c9d2-08c7-25c0-b15c67aec820"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11059",
+			"attributes": {
+				"title": "Deze voorstellingen kun je vanaf de bank kijken",
+				"firstPublishedAt": "2020-03-24T04:45:04+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11059",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11059/deze-voorstellingen-kun-je-vanaf-de-bank-kijken/31af412f-35b3-085e-0dfb-bcf6247c58d4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "11057",
+			"attributes": {
+				"title": "Podcast: Na anderhalf jaar repeteren is Skype het podium van deze violist",
+				"firstPublishedAt": "2020-03-24T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11057",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11057/podcast-na-anderhalf-jaar-repeteren-is-skype-het-podium-van-deze-violist/c97a0c38-f2c4-06f2-1b54-d2e73e88b1e0"
+			}
+		}
+	]
+}

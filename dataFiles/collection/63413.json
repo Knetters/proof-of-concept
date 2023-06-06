@@ -1,0 +1,170 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=de-zorgzamen",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHejxVr8nbkE1epv1QKdDQAAAAg"
+	},
+	"meta": {
+		"totalHits": 12
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "14415",
+			"attributes": {
+				"title": "Een verslaving is vaak een levenslange worsteling. Zorgen is daarom ook accepteren, zegt deze verpleegkundige",
+				"firstPublishedAt": "2023-04-18T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14415",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14415/een-verslaving-is-vaak-een-levenslange-worsteling-zorgen-is-daarom-ook-accepteren-zegt-deze-verpleegkundige/1b57dba8-f907-0fe6-3f2f-367500f3eb33"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "13758",
+			"attributes": {
+				"title": "Zorgen voor schilderijen is strijden tegen de tijd",
+				"firstPublishedAt": "2022-09-22T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/13758",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/13758/zorgen-voor-schilderijen-is-strijden-tegen-de-tijd/28eb1b37-3762-08db-2487-f9e3e59d8575"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12492",
+			"attributes": {
+				"title": "Zorgen voor iemand die een leven lang voor jou heeft gezorgd",
+				"firstPublishedAt": "2021-06-28T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12492",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12492/zorgen-voor-iemand-die-een-leven-lang-voor-jou-heeft-gezorgd/5104c4ea-c8ab-0704-008c-28c20cc4f9a5"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12269",
+			"attributes": {
+				"title": "Zorgen doe je nooit alleen, zegt deze solomoeder",
+				"firstPublishedAt": "2021-05-05T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12269",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12269/zorgen-doe-je-nooit-alleen-zegt-deze-solomoeder/fe98780b-b620-09fc-12db-f5f6083c1141"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12229",
+			"attributes": {
+				"title": "De bodem is de basis. Dus daar moeten we goed voor zorgen, zegt deze boer",
+				"firstPublishedAt": "2021-04-21T03:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12229",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12229/de-bodem-is-de-basis-dus-daar-moeten-we-goed-voor-zorgen-zegt-deze-boer/055c1ce1-4677-0c0d-02df-181a3ae087fa"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12216",
+			"attributes": {
+				"title": "Zorgen voor iemand die geen kant meer op kan",
+				"firstPublishedAt": "2021-04-07T03:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12216",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12216/zorgen-voor-iemand-die-geen-kant-meer-op-kan/1dfa3577-1f5b-0326-1467-05cf609d9c0b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12215",
+			"attributes": {
+				"title": "Zorgen voor een kind dat in slow motion verdwijnt",
+				"firstPublishedAt": "2021-03-24T04:45:06+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12215",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12215/zorgen-voor-een-kind-dat-in-slow-motion-verdwijnt/0d9a5b54-075d-0930-33fe-f907a7cdb3e3"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12143",
+			"attributes": {
+				"title": "Zorgen is kijken, zegt deze zorgtuinder",
+				"firstPublishedAt": "2021-03-10T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12143",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12143/zorgen-is-kijken-zegt-deze-zorgtuinder/4408db07-ce7b-0ac0-2fad-bb399afa3015"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12126",
+			"attributes": {
+				"title": "Soms is zorgen heel hard rennen om in kleine stapjes vooruit te gaan, zegt deze moeder",
+				"firstPublishedAt": "2021-02-24T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12126",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12126/soms-is-zorgen-heel-hard-rennen-om-in-kleine-stapjes-vooruit-te-gaan-zegt-deze-moeder/07810942-5a98-04c2-1e6e-3967e9473b46"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12062",
+			"attributes": {
+				"title": "Om goed voor patiënten te zorgen moet je óók goed voor je team zorgen, zegt deze OK-assistent",
+				"firstPublishedAt": "2021-02-10T04:45:02+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12062",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12062/om-goed-voor-patienten-te-zorgen-moet-je-ook-goed-voor-je-team-zorgen-zegt-deze-ok-assistent/f18f6f23-77ed-09f2-1f77-483656f634bf"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12034",
+			"attributes": {
+				"title": "Zolang we geloven dat moeders beter kunnen zorgen, blijven vaders aan de zijlijn staan, zegt deze vader",
+				"firstPublishedAt": "2021-02-03T04:45:03+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12034",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12034/zolang-we-geloven-dat-moeders-beter-kunnen-zorgen-blijven-vaders-aan-de-zijlijn-staan-zegt-deze-vader/d54e1149-9912-0704-22c2-92f3de5227bb"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "12014",
+			"attributes": {
+				"title": "Ik ga op bezoek bij mensen die zorgen. Vandaag: zorgen kan ook zingen zijn",
+				"firstPublishedAt": "2021-01-20T04:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/12014",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/12014/ik-ga-op-bezoek-bij-mensen-die-zorgen-vandaag-zorgen-kan-ook-zingen-zijn/6bc2b692-e5e7-0d3e-16e8-76399de119b7"
+			}
+		}
+	]
+}

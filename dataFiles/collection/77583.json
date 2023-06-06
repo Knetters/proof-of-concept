@@ -1,0 +1,92 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=tigri-tories",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHekDIBSLWgL-DboaJZ_EwAAAAU"
+	},
+	"meta": {
+		"totalHits": 6
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "14288",
+			"attributes": {
+				"title": "Luisteren: Gerda Havertong leest voor uit een onbekend meesterwerk van Anton de Kom",
+				"firstPublishedAt": "2023-03-22T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14288",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14288/luisteren-gerda-havertong-leest-voor-uit-een-onbekend-meesterwerk-van-anton-de-kom/0293448b-46af-0a3b-0666-b3bd87fc61e3"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14271",
+			"attributes": {
+				"title": "Waarom iedereen de Surinaamse schrijver Leo Ferrier zou moeten lezen",
+				"firstPublishedAt": "2023-03-16T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14271",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14271/waarom-iedereen-de-surinaamse-schrijver-leo-ferrier-zou-moeten-lezen/f2440376-3169-034a-2c42-d6ce10046a7e"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14270",
+			"attributes": {
+				"title": "Met haar rebelse theater en literatuur werkte Thea Doelwijt aan een nieuw, onafhankelijk Suriname",
+				"firstPublishedAt": "2023-03-13T04:45:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14270",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14270/met-haar-rebelse-theater-en-literatuur-werkte-thea-doelwijt-aan-een-nieuw-onafhankelijk-suriname/b7fbaa73-d311-09df-3331-536c6a68f882"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14272",
+			"attributes": {
+				"title": "Bijna tachtig jaar na zijn dood krijgt Anton de Kom eindelijk de erkenning die hij verdient",
+				"firstPublishedAt": "2023-03-10T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14272",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14272/bijna-tachtig-jaar-na-zijn-dood-krijgt-anton-de-kom-eindelijk-de-erkenning-die-hij-verdient/063d6287-5300-0366-1a78-261a309476e3"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14260",
+			"attributes": {
+				"title": "Luister nu naar Tigri Tories, onze nieuwe podcast over de allermooiste Surinaamse literatuur",
+				"firstPublishedAt": "2023-03-08T04:45:03+0000",
+				"template": "note"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14260",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14260/luister-nu-naar-tigri-tories-onze-nieuwe-podcast-over-de-allermooiste-surinaamse-literatuur/ef0d9383-a1d0-0f39-3db1-c2fe8d58da2a"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "14269",
+			"attributes": {
+				"title": "Maak kennis met Tigri Tories, de podcast over Surinaamse schrijvers die een plek verdienen in ieders boekenkast",
+				"firstPublishedAt": "2023-03-08T04:45:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/14269",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/14269/maak-kennis-met-tigri-tories-de-podcast-over-surinaamse-schrijvers-die-een-plek-verdienen-in-ieders-boekenkast/49b15c80-b550-0401-06c0-a25e27b2421e"
+			}
+		}
+	]
+}

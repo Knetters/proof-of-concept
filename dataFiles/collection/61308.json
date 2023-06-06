@@ -1,0 +1,105 @@
+{
+	"jsonapi": {
+		"version": "1.1"
+	},
+	"links": {
+		"self": "https://staging-decorrespondent.nl/api2/publication?filter[collection.slug]=het-bestbeluisterde-boek-ooit-met-deze-titel",
+		"debugToolbar": "https://staging-decorrespondent.nl/respondens/system/debugtoolbar?logId=ZHelY_cG3FxRDfgV7y2LeAAAAA4"
+	},
+	"meta": {
+		"totalHits": 7
+	},
+	"data": [
+		{
+			"type": "Publication",
+			"id": "11900",
+			"attributes": {
+				"title": "Nog nooit was de rol van cijfers zo duidelijk als in 2020",
+				"firstPublishedAt": "2021-01-05T04:45:04+0000",
+				"template": "article"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/11900",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/11900/nog-nooit-was-de-rol-van-cijfers-zo-duidelijk-als-in-2020/ecb23dff-71ba-0b42-00ed-08676eb92990"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10440",
+			"attributes": {
+				"title": "Hoofdstuk 6 - Onze psychologie bepaalt de waarde van cijfers",
+				"firstPublishedAt": "2019-08-22T13:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10440",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10440/hoofdstuk-6-onze-psychologie-bepaalt-de-waarde-van-cijfers/877dcbbd-313b-08da-3b33-5e342b6bcefc"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10427",
+			"attributes": {
+				"title": "Hoofdstuk 5 - Ook in de toekomst moeten we niet blind op cijfers varen",
+				"firstPublishedAt": "2019-08-15T13:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10427",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10427/hoofdstuk-5-ook-in-de-toekomst-moeten-we-niet-blind-op-cijfers-varen/77c5a948-49c6-09db-0416-089f70007547"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10405",
+			"attributes": {
+				"title": "Hoofdstuk 4 - Roken veroorzaakt longkanger (maar ooievaars brengen geen baby’s)",
+				"firstPublishedAt": "2019-08-08T13:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10405",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10405/hoofdstuk-4-roken-veroorzaakt-longkanger-maar-ooievaars-brengen-geen-babys/d64d4d17-25bd-002e-092d-d25a68882a9b"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10394",
+			"attributes": {
+				"title": "Hoofdstuk 3 - Wat een schimmig seksonderzoek vertelt over steekproeven",
+				"firstPublishedAt": "2019-08-01T13:30:03+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10394",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10394/hoofdstuk-3-wat-een-schimmig-seksonderzoek-vertelt-over-steekproeven/bc971822-f1d0-07b9-06ce-fd7a561427e4"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10371",
+			"attributes": {
+				"title": "Hoofdstuk 2 - De domme discussie over IQ en huidskleur",
+				"firstPublishedAt": "2019-07-25T13:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10371",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10371/hoofdstuk-2-de-domme-discussie-over-iq-en-huidskleur/c7eb3c02-4417-0c20-05d3-fe2294cb3044"
+			}
+		},
+		{
+			"type": "Publication",
+			"id": "10347",
+			"attributes": {
+				"title": "Hoofdstuk 1 - Cijfers kunnen levens redden",
+				"firstPublishedAt": "2019-07-18T13:30:02+0000",
+				"template": "podcast"
+			},
+			"links": {
+				"admin": "https://staging-decorrespondent.nl/respondens/publication/10347",
+				"sharedByLoggedInHuman": "https://staging-decorrespondent.nl/10347/hoofdstuk-1-cijfers-kunnen-levens-redden/ae250c79-4a5c-00a7-03b3-851091e7e936"
+			}
+		}
+	]
+}
