@@ -177,6 +177,10 @@ p {
 /* Recommended podcast */
 .recommended-podcast-container {
     padding: 0rem .8rem .8rem .8rem;
+
+
+    /* Temp */
+    margin-bottom: 10rem;
 }
 
 .recommended-podcast {
