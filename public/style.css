@@ -41,6 +41,11 @@ p {
     text-overflow: ellipsis;
 }
 
+.playable-podcast-title p {
+    padding: 0rem .4rem;
+    line-height: 1rem;
+}
+
 /* Horizontal flex */
 .horizontal-flex-scroll-container {
     display: flex;
@@ -97,4 +102,59 @@ p {
     color: var(--white);
     border-radius: 10px;
     padding: .2rem .5rem;
+}
+
+/* playable podcast */
+.playable-podcast-container {
+    list-style: none;
+    padding: 0.8rem;
+    margin: 0;
+    margin-top: -1rem;
+}
+  
+.playable-podcast-item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: .8rem;
+}
+  
+.playable-podcast-image {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--c-tertiary);
+}
+  
+.playable-podcast-title {
+    flex: 1; /* Fill remaining space */
+}
+  
+.playable-podcast-button {
+    width: 3rem;
+    height: 3rem;
+}
+
+.play-button {
+    background-color: var(--c-primairy);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    float: right;
+}
+
+.progress-line {
+    width: 94%;
+    margin-left: .4rem;
+    height: 4px;
+    background-color: var(--c-secondary);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: .4rem;
+}
+  
+.progress-line-value {
+    width: 50%;
+    height: 100%;
+    background-color: var(--c-primairy);
+    transition: width 0.3s ease;
 }
