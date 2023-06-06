@@ -186,9 +186,30 @@ header {
     overflow: hidden;
     margin-top: .4rem;
 }
+
+.progress-line-value-0 {
+    width: 0%;
+    height: 100%;
+    background-color: var(--c-primairy);
+    transition: width 0.3s ease;
+}
+
+.progress-line-value-25 {
+    width: 25%;
+    height: 100%;
+    background-color: var(--c-primairy);
+    transition: width 0.3s ease;
+}
   
-.progress-line-value {
+.progress-line-value-50 {
     width: 50%;
+    height: 100%;
+    background-color: var(--c-primairy);
+    transition: width 0.3s ease;
+}
+
+.progress-line-value-75 {
+    width: 75%;
     height: 100%;
     background-color: var(--c-primairy);
     transition: width 0.3s ease;
