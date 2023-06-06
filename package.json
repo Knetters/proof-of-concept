@@ -1,0 +1,29 @@
+{
+  "name": "proof-of-concept",
+  "version": "1.0.0",
+  "description": "Eindopdracht leerjaar 1 FDND",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knetters/proof-of-concept.git"
+  },
+  "author": "Thomas Scheepers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knetters/proof-of-concept/issues"
+  },
+  "homepage": "https://github.com/Knetters/proof-of-concept#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
