@@ -62,10 +62,15 @@ p {
 }
 
 /* header styling */
+header {
+    padding: 0rem .8rem;
+    margin-bottom: -2rem;
+    display: flex;
+}
+
 .site-logo {
     fill: var(--fontColor);
     width: 10rem;
-    padding: 0rem .8rem;
     margin-top: -2.5rem;
 }
 
