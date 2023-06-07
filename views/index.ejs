@@ -12,57 +12,19 @@
     <h2>Onze shows</h2>
 
     <div class="horizontal-flex-scroll-container">
+        <% data.forEach(collection => { %>
 
-        <!-- Horizontal podcast item -->
-        <a href="/collection" class="horizontal-flex-item">
-            <div class="horizontal-flex-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="horizontal-flex-podcast-title">
-                <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
-            </div>
-        </a>
-
-        <!-- Horizontal podcast item -->
-        <a href="/collection" class="horizontal-flex-item">
-            <div class="horizontal-flex-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="horizontal-flex-podcast-title">
-                <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
-            </div>
-        </a>
-
-        <!-- Horizontal podcast item -->
-        <a href="/collection" class="horizontal-flex-item">
-            <div class="horizontal-flex-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="horizontal-flex-podcast-title">
-                <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
-            </div>
-        </a>
-
-        <!-- Horizontal podcast item -->
-        <a href="/collection" class="horizontal-flex-item">
-            <div class="horizontal-flex-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="horizontal-flex-podcast-title">
-                <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
-            </div>
-        </a>
-
-        <!-- Horizontal podcast item -->
-        <a href="/collection" class="horizontal-flex-item">
-            <div class="horizontal-flex-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="horizontal-flex-podcast-title">
-                <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
-            </div>
-        </a>
-
+            <!-- Horizontal podcast item -->
+            <a href="/collection" class="horizontal-flex-item">
+                <div class="horizontal-flex-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="horizontal-flex-podcast-title">
+                    <p>Dit is een titel van een podcast! Dit kan best lang zijn.</p>
+                </div>
+            </a>
+    
+        <% }); %>
     </div>
 
 </section>
