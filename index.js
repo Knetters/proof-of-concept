@@ -32,6 +32,13 @@ app.get('/collection', function (request, response) {
   response.render('collection', { message });
 });
 
+// Create a route for the index page
+app.get('/sound', function (request, response) {
+
+  const message = "De Correspondent - [naam sound]";
+  response.render('sound', { message });
+});
+
 
 // Set the port number and start the server
 const port = process.env.PORT || 1964;

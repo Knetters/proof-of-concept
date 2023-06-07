@@ -248,10 +248,14 @@ header {
 
 /* Collection page styling */
 .collection-top {
-    padding-top: .5rem 0;
+    padding-top: 0;
 }
 
 .back-button {
     color: var(--c-primairy);
     margin-right: 2rem;
+}
+
+.top-content {
+    margin-top: 1.5rem;
 }
