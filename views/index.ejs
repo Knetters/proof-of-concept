@@ -15,7 +15,7 @@
         <% if (data && data.length) { %>
             <% data.forEach(collection => { %>
                 <!-- Horizontal podcast item -->
-                <a href="/collection" class="horizontal-flex-item">
+                <a id="<%= collection.attributes.slug %>" href="/collection/<%= collection.attributes.slug %>" class="horizontal-flex-item">
                     <div class="horizontal-flex-podcast-image">
                         <!-- Hier komt de image cover van de podcast -->
                     </div>
