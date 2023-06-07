@@ -248,7 +248,7 @@ header {
 
 /* Collection page styling */
 .collection-top {
-    padding: .8rem;
+    padding-top: .5rem 0;
 }
 
 .back-button {
