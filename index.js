@@ -25,6 +25,13 @@ app.get('/', function (request, response) {
     response.render('index', { message });
 });
 
+// Create a route for the index page
+app.get('/collection', function (request, response) {
+
+  const message = "De Correspondent - [naam collectie]";
+  response.render('collection', { message });
+});
+
 
 // Set the port number and start the server
 const port = process.env.PORT || 1964;

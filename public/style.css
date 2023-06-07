@@ -29,6 +29,11 @@ html, body {
 }
 
 /* Typography */
+a {
+    text-decoration: none;
+    color: var(--fontColor);
+}
+
 h2 {
     margin: .8rem;
     padding: 0;
@@ -239,4 +244,14 @@ header {
 .auteur {
     color: var(--c-primairy);
     padding: .8rem;
+}
+
+/* Collection page styling */
+.collection-top {
+    padding: .8rem;
+}
+
+.back-button {
+    color: var(--c-primairy);
+    margin-right: 2rem;
 }
