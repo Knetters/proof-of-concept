@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 // Create a new Express app
 const app = express();
 
-const collectionsJson = "https://raw.githubusercontent.com/Knetters/proof-of-concept/main/dataFiles/collections.json" 
+const collectionsJson = "https://raw.githubusercontent.com/Knetters/proof-of-concept/main/public/dataFiles/collections.json" 
 
 // Set EJS as the template engine and specify the views directory
 app.set("view engine", "ejs");
@@ -21,9 +21,9 @@ app.use(express.static("public"));
 app.get('/', (request, response) => {
   const message = "De Correspondent - Podcasts";
 
+  // Fetch the data from the url
   fetchJson(collectionsJson).then((data) => {
-		response.render("index", {message, data});
-    console.log(data)
+		response.render("index", {...data, message});
 	});
 });
 

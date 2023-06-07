@@ -75,6 +75,10 @@ p {
     margin: 0;
 }
 
+.error {
+    color: var(--c-primairy);
+}
+
 /* header styling */
 header {
     padding: 0rem .8rem;
