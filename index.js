@@ -28,10 +28,22 @@ app.get('/', (request, response) => {
 });
 
 // Create a route for the collection page
-app.get('/collection', (request, response) => {
-    const message = "De Correspondent - [naam collectie]";
+app.get('/collection/:slug', (request, response) => {
+  const slug = request.params.slug;
 
-    response.render('collection', { message });
+  // Fetch the data from the URL
+  fetchJson(collectionsJson).then((data) => {
+    // Access the 'data' property of the object
+    const collections = data.data;
+
+    // Find the item with the corresponding slug
+    const item = collections.find(collection => collection.attributes.slug === slug);
+
+    const message = "De Correspondent - Collection name";
+    if (item) {
+      response.render('collection', { ...data, item, message });
+    }
+  });
 });
 
 // Create a route for the sound page

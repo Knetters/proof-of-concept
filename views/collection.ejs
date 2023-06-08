@@ -1,13 +1,13 @@
 <%- include('./partials/head') %>
 
 <section class="top-content">
-    <h2 class="collection-top"><a href="/" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>Naam collectie</h2>
+    <h2 class="collection-top"><a href="/" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><%= item.attributes.title %></h2>
 </section>
 
 <section>
     <div class="recommended-podcast-container">
         <div class="recommended-podcast">
-            <h3>Dit is een titel van een podcast! Dit kan best lang zijn.</3>
+            <h3><%= item.attributes.title %></3>
         </div>
         <p class="auteur">Naam auteur</p>
     </div>
