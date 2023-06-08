@@ -1,3 +1,4 @@
+// Dark and light mode logic
 const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 
 function toggleDarkMode(e) {
@@ -13,3 +14,9 @@ function toggleDarkMode(e) {
 
 toggleDarkMode(prefersDarkMode);
 prefersDarkMode.addListener(toggleDarkMode);
+
+// Add event listener to the back button
+document.querySelector('.back-button').addEventListener('click', function() {
+  // Go back to the previous page
+  window.history.back();
+});

@@ -264,3 +264,15 @@ header {
 .top-content {
     margin-top: 1.5rem;
 }
+
+/* Sound page styling */
+.selected-podcast-container {
+    padding: 0rem .8rem .8rem .8rem;
+    margin-bottom: 1rem;
+}
+
+.selected-podcast {
+    background-color: var(--c-tertiary);
+    height: 20rem;
+    position: relative;
+}
