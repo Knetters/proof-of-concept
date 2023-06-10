@@ -295,7 +295,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 5.5rem;
 }
 
 .nav-icon {
@@ -303,5 +303,5 @@ nav {
     width: 1.5rem;
     fill: var(--fontColor);
     padding: 0rem 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
