@@ -237,7 +237,7 @@ header {
 /* Recommended podcast */
 .recommended-podcast-container {
     padding: 0rem .8rem .8rem .8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 .recommended-podcast {
@@ -275,4 +275,32 @@ header {
     background-color: var(--c-tertiary);
     height: 20rem;
     position: relative;
+}
+
+/* Styling footer */
+.bottom-foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--BGcolor);
+    border-top: solid 1px var(--c-tertiary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.nav-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: var(--fontColor);
+    padding: 0rem 3rem;
 }
