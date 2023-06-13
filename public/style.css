@@ -245,7 +245,6 @@ header {
 /* Recommended podcast */
 .recommended-podcast-container {
     padding: 0rem .8rem .8rem .8rem;
-    margin-bottom: 6rem;
 }
 
 .recommended-podcast {
@@ -312,4 +311,8 @@ nav {
     fill: var(--fontColor);
     padding: 0rem 3rem;
     margin-bottom: 1.5rem;
+}
+
+.bottom-margin {
+    margin-bottom: 6rem;
 }

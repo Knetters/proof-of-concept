@@ -53,8 +53,15 @@ app.get('/collection/:slug', (request, response) => {
     const item = collections.find(collection => collection.attributes.slug === slug);
 
     const message = "De Correspondent - Collection name";
+
     if (item) {
-      response.render('collection', { ...data, item, message });
+      // Get the image ID for the collection's main visual
+      const mainVisualId = item.relationships.mainVisual.data.id;
+
+      // Find the image URL using the mainVisualId from mainVisuals object
+      const imageUrl = imageFiles[mainVisuals[mainVisualId]];
+
+      response.render('collection', { ...data, item, message, imageUrl });
     }
   });
 });
