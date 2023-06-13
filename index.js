@@ -73,7 +73,7 @@ app.get('/collection/:slug', (request, response) => {
 });
 
 // Create a route for the sound page
-app.get('/sound', (request, response) => {
+app.get('/sound/:id', (request, response) => {
     const message = "De Correspondent - [naam sound]";
     response.render('sound', { message });
 });

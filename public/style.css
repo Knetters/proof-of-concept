@@ -55,6 +55,7 @@ p {
 .playable-podcast-title p {
     padding: 0rem .4rem;
     line-height: 1rem;
+    font-size: .9rem;
 }
 
 .recommended-podcast h3 {

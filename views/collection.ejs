@@ -18,15 +18,23 @@
         <ul class="playable-podcast-container">
 
             <% if (itemData && itemData.data && itemData.data.length) { %>
-                <% itemData.data.forEach(item => { %>
+                <% itemData.data.forEach(sound => { %>
                 <!-- Playable podcast item -->
                 <li class="playable-podcast-item">
                     <div class="playable-podcast-image">
                         <!-- Hier komt de image cover van de podcast -->
-                        
+                        <img class="playable-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="">
                     </div>
                     <div class="playable-podcast-title">
-                        <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                        <a href="/sound/<%= sound.id%>">
+                            <p>
+                              <%=
+                                sound.attributes.title.length > 73
+                                  ? sound.attributes.title.substring(0, 70) + "..."
+                                  : sound.attributes.title
+                              %>
+                            </p>
+                        </a>
                         <div class="progress-line">
                             <div class="progress-line-value-0"></div>
                         </div>
