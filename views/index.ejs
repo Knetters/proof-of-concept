@@ -26,7 +26,7 @@
             <% }); %>
         <% } else { %>
             <p class="error">Error loading podcasts</p>
-        <% } %>               
+        <% } %>
         
     </div>
 
@@ -156,14 +156,21 @@
 <section>
     <h2>Uitgelicht</h2>
 
-    <div class="recommended-podcast-container bottom-margin">
-        <a href="/collection">
-            <div class="recommended-podcast">
-                <h3>Dit is een titel van een podcast! Dit kan best lang zijn.</3>
-            </div>
-            <p class="auteur">Naam auteur</p>
-        </a>
-    </div>
+    <% if (data && data.length) { %>
+        <!-- Horizontal podcast item for the first element -->
+        <div class="recommended-podcast-container bottom-margin">
+            <a id="<%= data[0].attributes.slug %>" href="/collection/<%= data[0].attributes.slug %>">
+                <div class="recommended-podcast">
+                    <img class="recommended-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[data[0].relationships.mainVisual.data.id]] %>" alt="">
+                </div>
+                <p class="recommended-podcast-title"><%= data[0].attributes.title %></p>
+                <p class="auteur">Naam auteur</p>
+            </a>
+        </div>
+    <% } else { %>
+        <p class="error">Error loading podcasts</p>
+    <% } %>
+    
 </section>
 
 

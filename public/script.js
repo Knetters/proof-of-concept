@@ -16,7 +16,11 @@ toggleDarkMode(prefersDarkMode);
 prefersDarkMode.addListener(toggleDarkMode);
 
 // Add event listener to the back button
-document.querySelector('.back-button').addEventListener('click', function() {
-  // Go back to the previous page
-  window.history.back();
-});
+backButton = document.getElementById("back-button")
+
+if(backButton) {
+  document.querySelector('.back-button').addEventListener('click', function() {
+    // Go back to the previous page
+    window.history.back();
+  });
+}

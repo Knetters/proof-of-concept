@@ -62,17 +62,16 @@ p {
     bottom: 0;
     padding: .5rem;
     margin: 0;
-    text-shadow: 0px 4px 4px #3a3a3a;
+    text-shadow: 0px 10px 10px #202020;
     color: var(--white);
     width: 60%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
 .recommended-podcast-container p {
-    color: var(--c-primairy);
-    padding: .5rem;
     margin: 0;
+    padding-top: .5rem;
 }
 
 .error {
@@ -253,9 +252,19 @@ header {
     position: relative;
 }
 
+.recommended-podcast-image-cover {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
 .auteur {
     color: var(--c-primairy);
-    padding: .8rem;
+}
+
+.recommended-podcast-title {
+    color: var(--fontColor);
 }
 
 /* Collection page styling */
