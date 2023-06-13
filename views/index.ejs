@@ -17,7 +17,7 @@
                 <!-- Horizontal podcast item -->
                 <a id="<%= collection.attributes.slug %>" href="/collection/<%= collection.attributes.slug %>" class="horizontal-flex-item">
                     <div class="horizontal-flex-podcast-image">
-                        <!-- Hier komt de image cover van de podcast -->
+                       <img class="padcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[collection.relationships.mainVisual.data.id]] %>" alt="">
                     </div>
                     <div class="horizontal-flex-podcast-title">
                         <p><%= collection.attributes.title %></p>

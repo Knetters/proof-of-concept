@@ -111,12 +111,20 @@ header {
 }
 
 .horizontal-flex-podcast-image {
+    position: relative;
     height: 11rem;
     background-color: var(--c-tertiary);
 }
 
 .horizontal-flex-podcast-title {
     height: 1rem;
+}
+
+.padcast-image-cover {
+    position: absolute;
+    width: 8rem;
+    height: 11rem;
+    object-fit: cover;
 }
 
 /* Horizontal categories */

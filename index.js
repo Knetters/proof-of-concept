@@ -23,7 +23,20 @@ app.get('/', (request, response) => {
 
   // Fetch the data from the url
   fetchJson(collectionsJson).then((data) => {
-		response.render("index", {...data, message});
+
+    var mainVisuals = {}
+    var imageFiles = {}
+    
+    // Loop door alle included variabelen heen
+    data.included.forEach(element => {
+      if (element.type == 'MainVisual') {
+          mainVisuals[element.id] = element.relationships.image.data.id
+      } else if (element.type == 'ImageFile') {
+          imageFiles[element.id] = element.attributes.sourceSet
+      }
+    })
+
+		response.render("index", {...data, message, mainVisuals: mainVisuals, imageFiles: imageFiles});
 	});
 });
 
