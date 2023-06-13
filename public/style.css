@@ -176,6 +176,14 @@ header {
     width: 3rem;
     height: 3rem;
     background-color: var(--c-tertiary);
+    position: relative;
+}
+
+.playable-podcast-image-cover {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    object-fit: cover;
 }
   
 .playable-podcast-title {
@@ -261,6 +269,7 @@ header {
 
 .auteur {
     color: var(--c-primairy);
+    padding-bottom: 1rem;
 }
 
 .recommended-podcast-title {
@@ -323,5 +332,9 @@ nav {
 }
 
 .bottom-margin {
-    margin-bottom: 6rem;
+    padding-bottom: 6rem;
 }
+
+.collection-page .playable-podcast-item:last-child {
+    padding-bottom: 6rem;
+  }

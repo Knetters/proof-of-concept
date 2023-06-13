@@ -53,11 +53,20 @@ app.get('/collection/:slug', (request, response) => {
       const itemJsonUrl = `https://raw.githubusercontent.com/Knetters/proof-of-concept/main/public/dataFiles/collection/${itemId}.json`;
 
       fetchJson(itemJsonUrl).then((itemData) => {
+        // Fetch main visuals and image files
+        var mainVisuals = {};
+        var imageFiles = {};
+
+        data.included.forEach(element => {
+          if (element.type === 'MainVisual') {
+            mainVisuals[element.id] = element.relationships.image.data.id;
+          } else if (element.type === 'ImageFile') {
+            imageFiles[element.id] = element.attributes.sourceSet;
+          }
+        });
 
         const message = "De Correspondent - " + item.attributes.title;
-        response.render('collection', { ...data, item, itemData, message });
-
-        console.log(itemData)
+        response.render('collection', { ...data, item, itemData, message, mainVisuals, imageFiles });
       });
     }
   });
