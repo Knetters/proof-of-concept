@@ -36,7 +36,7 @@ app.get('/', (request, response) => {
       }
     })
 
-		response.render("index", {...data, message, mainVisuals: mainVisuals, imageFiles: imageFiles});
+		response.render("index", {...data, mainVisuals: mainVisuals, imageFiles: imageFiles, message});
 	});
 });
 
@@ -44,17 +44,21 @@ app.get('/', (request, response) => {
 app.get('/collection/:slug', (request, response) => {
   const slug = request.params.slug;
 
-  // Fetch the data from the URL
   fetchJson(collectionsJson).then((data) => {
-    // Access the 'data' property of the object
     const collections = data.data;
-
-    // Find the item with the corresponding slug
     const item = collections.find(collection => collection.attributes.slug === slug);
 
-    const message = "De Correspondent - Collection name";
     if (item) {
-      response.render('collection', { ...data, item, message });
+      const itemId = item.id;
+      const itemJsonUrl = `https://raw.githubusercontent.com/Knetters/proof-of-concept/main/public/dataFiles/collection/${itemId}.json`;
+
+      fetchJson(itemJsonUrl).then((itemData) => {
+
+        const message = "De Correspondent - " + item.attributes.title;
+        response.render('collection', { ...data, item, itemData, message });
+
+        console.log(itemData)
+      });
     }
   });
 });

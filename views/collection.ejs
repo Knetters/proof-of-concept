@@ -16,223 +16,29 @@
 <section class=".bottom-margin">
     <ul class="playable-podcast-container">
 
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-50"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <i class="pause-icon fa fa-pause" aria-hidden="true"></i>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
+        <% if (itemData && itemData.length) { %>
+            <% itemData.forEach(item => { %>
+                <!-- Playable podcast item -->
+                <li class="playable-podcast-item">
+                    <div class="playable-podcast-image">
+                        <!-- Hier komt de image cover van de podcast -->
                     </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                    <div class="playable-podcast-title">
+                        <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                        <div class="progress-line">
+                            <div class="progress-line-value-50"></div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-25"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                    <div class="playable-podcast-button">
+                        <div class="play-button">
+                            <i class="pause-icon fa fa-pause" aria-hidden="true"></i>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <!-- Playable podcast item -->
-        <li class="playable-podcast-item">
-            <div class="playable-podcast-image">
-                <!-- Hier komt de image cover van de podcast -->
-            </div>
-            <div class="playable-podcast-title">
-                <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
-                <div class="progress-line">
-                    <div class="progress-line-value-0"></div>
-                </div>
-            </div>
-            <div class="playable-podcast-button">
-                <div class="play-button">
-                    <div class="play-button">
-                        <i class="play-icon fa fa-play" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </li>
+                </li>
+            <% }); %>
+        <% } else { %>
+            <p class="error">Error loading podcasts</p>
+        <% } %>
 
     </ul>
 </section>

@@ -248,12 +248,12 @@ header {
 
 .recommended-podcast {
     background-color: var(--c-tertiary);
-    height: 10rem;
+    height: 10.5rem;
     position: relative;
 }
 
 .recommended-podcast-image-cover {
-    height: 10rem;
+    height: 10.5rem;
     width: 100%;
     object-fit: cover;
     position: absolute;
