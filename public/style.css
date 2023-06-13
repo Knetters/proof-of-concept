@@ -79,6 +79,12 @@ p {
     color: var(--c-primairy);
 }
 
+button {
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+}
+
 /* header styling */
 header {
     padding: 0rem .8rem;
