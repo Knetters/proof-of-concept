@@ -305,7 +305,11 @@ header {
 
 .selected-podcast {
     background-color: var(--c-tertiary);
-    height: 20rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
     position: relative;
 }
 
