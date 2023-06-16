@@ -92,6 +92,29 @@ app.get('/', (request, response) => {
 	});
 });
 
+// Create a route for the index page
+app.get('/categories', (request, response) => {
+  const message = "De Correspondent - Categories";
+
+  // Fetch the data from the url
+  fetchJson(collectionsJson).then((data) => {
+
+    var mainVisuals = {}
+    var imageFiles = {}
+    
+    // Loop door alle included variabelen heen
+    data.included.forEach(element => {
+      if (element.type == 'MainVisual') {
+          mainVisuals[element.id] = element.relationships.image.data.id
+      } else if (element.type == 'ImageFile') {
+          imageFiles[element.id] = element.attributes.sourceSet
+      }
+    })
+
+		response.render("categories", {...data, mainVisuals: mainVisuals, imageFiles: imageFiles, message});
+	});
+});
+
 // Create a route for the collection page
 app.get('/collection/:slug', (request, response) => {
   const slug = request.params.slug;

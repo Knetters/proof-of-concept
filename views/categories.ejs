@@ -1,0 +1,52 @@
+<%- include('./partials/head') %>
+
+<header>
+    <div class="logo-container">
+        <svg class="icon site-logo">
+            <use xlink:href="/img/icons.svg#logo-full"></use>
+        </svg>
+    </div>
+</header>
+
+<main>
+    <section class="bottom-margin">
+        <div class="populair-podcasts-container">
+            <div class="horizontal-category-container">
+                <p class="category-item active-category">All</p>
+                <p class="category-item">Economie</p>
+                <p class="category-item">Politiek</p>
+                <p class="category-item">Technologie</p>
+                <p class="category-item">Andere landen</p>
+                <p class="category-item">Goeie gesprekken</p>
+                <p class="category-item">Interviews</p>
+                <p class="category-item">Klimaat</p>
+                <p class="category-item">Conflicten</p>
+            </div>
+        </div>
+
+        <h2>Categories</h2>
+
+        <div class="categories-flex-container">
+            <% if (data && data.length) { %>
+                <% data.forEach(collection => { %>
+                    <!-- Horizontal podcast item -->
+                    <a id="<%= collection.attributes.slug %>" href="/collection/<%= collection.attributes.slug %>" class="categorie-flex-item">
+                        <div class="categorie-podcast-image">
+                            <img class="categorie-padcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[collection.relationships.mainVisual.data.id]] %>" alt="">
+                        </div>
+                        <div class="horizontal-flex-podcast-title">
+                            <p><%= collection.attributes.title %></p>
+                        </div>
+                    </a>
+                <% }); %>
+            <% } else { %>
+                <p class="error">Error loading podcasts</p>
+            <% } %>
+            
+        </div>
+
+    </section>
+</main>
+
+
+<%- include('./partials/foot') %>
