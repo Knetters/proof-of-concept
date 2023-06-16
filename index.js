@@ -17,6 +17,58 @@ app.use(express.urlencoded({ extended: true }));
 // Serve static files from the public directory
 app.use(express.static("public"));
 
+
+
+// Zero states
+// Create a route for the index page
+app.get('/zeroState2', (request, response) => {
+  const message = "De Correspondent - Podcasts";
+
+  // Fetch the data from the url
+  fetchJson(collectionsJson).then((data) => {
+
+    var mainVisuals = {}
+    var imageFiles = {}
+    
+    // Loop door alle included variabelen heen
+    data.included.forEach(element => {
+      if (element.type == 'MainVisual') {
+          mainVisuals[element.id] = element.relationships.image.data.id
+      } else if (element.type == 'ImageFile') {
+          imageFiles[element.id] = element.attributes.sourceSet
+      }
+    })
+
+		response.render("zeroState2", {...data, mainVisuals: mainVisuals, imageFiles: imageFiles, message});
+	});
+});
+
+// Create a route for the index page
+app.get('/zeroState3', (request, response) => {
+  const message = "De Correspondent - Podcasts";
+
+  // Fetch the data from the url
+  fetchJson(collectionsJson).then((data) => {
+
+    var mainVisuals = {}
+    var imageFiles = {}
+    
+    // Loop door alle included variabelen heen
+    data.included.forEach(element => {
+      if (element.type == 'MainVisual') {
+          mainVisuals[element.id] = element.relationships.image.data.id
+      } else if (element.type == 'ImageFile') {
+          imageFiles[element.id] = element.attributes.sourceSet
+      }
+    })
+
+		response.render("zeroState3", {...data, mainVisuals: mainVisuals, imageFiles: imageFiles, message});
+	});
+});
+
+
+
+
 // Create a route for the index page
 app.get('/', (request, response) => {
   const message = "De Correspondent - Podcasts";

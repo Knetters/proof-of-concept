@@ -1,0 +1,182 @@
+<%- include('./partials/head') %>
+
+<header>
+    <div class="logo-container">
+        <svg class="icon site-logo">
+            <use xlink:href="/img/icons.svg#logo-full"></use>
+        </svg>
+    </div>
+</header>
+
+<main>
+
+    <section>
+        <h2>Recent</h2>
+
+        <div class="populair-podcasts-container">
+            <div class="horizontal-category-container">
+                <p class="category-item active-category">All</p>
+                <p class="category-item">Economie</p>
+                <p class="category-item">Politiek</p>
+                <p class="category-item">Technologie</p>
+                <p class="category-item">Andere landen</p>
+                <p class="category-item">Goeie gesprekken</p>
+                <p class="category-item">Interviews</p>
+                <p class="category-item">Klimaat</p>
+                <p class="category-item">Conflicten</p>
+            </div>
+        </div>
+
+        <ul class="playable-podcast-container">
+
+            <!-- Playable podcast item -->
+            <li class="playable-podcast-item">
+                <div class="playable-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="playable-podcast-title">
+                    <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                    <div class="progress-line">
+                        <div class="progress-line-value-50"></div>
+                    </div>
+                </div>
+                <div class="playable-podcast-button">
+                    <div class="play-button">
+                        <i class="pause-icon fa fa-pause" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Playable podcast item -->
+            <li class="playable-podcast-item">
+                <div class="playable-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="playable-podcast-title">
+                    <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                    <div class="progress-line">
+                        <div class="progress-line-value-0"></div>
+                    </div>
+                </div>
+                <div class="playable-podcast-button">
+                    <div class="play-button">
+                        <div class="play-button">
+                            <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Playable podcast item -->
+            <li class="playable-podcast-item">
+                <div class="playable-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="playable-podcast-title">
+                    <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                    <div class="progress-line">
+                        <div class="progress-line-value-0"></div>
+                    </div>
+                </div>
+                <div class="playable-podcast-button">
+                    <div class="play-button">
+                        <div class="play-button">
+                            <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Playable podcast item -->
+            <li class="playable-podcast-item">
+                <div class="playable-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="playable-podcast-title">
+                    <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                    <div class="progress-line">
+                        <div class="progress-line-value-25"></div>
+                    </div>
+                </div>
+                <div class="playable-podcast-button">
+                    <div class="play-button">
+                        <div class="play-button">
+                            <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Playable podcast item -->
+            <li class="playable-podcast-item">
+                <div class="playable-podcast-image">
+                    <!-- Hier komt de image cover van de podcast -->
+                </div>
+                <div class="playable-podcast-title">
+                    <a href="/sound"><p>Dit is een titel van een podcast! Dit kan best lang zijn.</p></a>
+                    <div class="progress-line">
+                        <div class="progress-line-value-0"></div>
+                    </div>
+                </div>
+                <div class="playable-podcast-button">
+                    <div class="play-button">
+                        <div class="play-button">
+                            <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        
+    </section>
+
+    <section>
+        <h2>Onze shows</h2>
+
+        <div class="horizontal-flex-scroll-container">
+            <% if (data && data.length) { %>
+                <% data.forEach(collection => { %>
+                    <!-- Horizontal podcast item -->
+                    <a id="<%= collection.attributes.slug %>" href="/collection/<%= collection.attributes.slug %>" class="horizontal-flex-item">
+                        <div class="horizontal-flex-podcast-image">
+                        <img class="padcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[collection.relationships.mainVisual.data.id]] %>" alt="">
+                        </div>
+                        <div class="horizontal-flex-podcast-title">
+                            <p><%= collection.attributes.title %></p>
+                        </div>
+                    </a>
+                <% }); %>
+            <% } else { %>
+                <p class="error">Error loading podcasts</p>
+            <% } %>
+            
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Uitgelicht</h2>
+
+        <% var randomNumber = Math.floor(Math.random() * 20); %>
+
+        <% if (data && data.length) { %>
+            <!-- Horizontal podcast item for the first element -->
+            <div class="recommended-podcast-container bottom-margin">
+                <a id="<%= data[randomNumber].attributes.slug %>" href="/collection/<%= data[randomNumber].attributes.slug %>">
+                    <div class="recommended-podcast">
+                        <img class="recommended-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[data[randomNumber].relationships.mainVisual.data.id]] %>" alt="">
+                    </div>
+                    <p class="recommended-podcast-title"><%= data[randomNumber].attributes.title %></p>
+                    <p class="auteur">Naam auteur</p>
+                </a>
+            </div>
+        <% } else { %>
+            <p class="error">Error loading podcasts</p>
+        <% } %>
+        
+    </section>
+</main>
+
+
+<%- include('./partials/foot') %>
