@@ -7,10 +7,10 @@
 
     <div id="sound-pop-up" class="sound-pop-up">
         <section>
-            <div class="selected-podcast-container">
+            <div id="selected-podcast-container" class="selected-podcast-container">
                 <img id="needle" class="needle" src="/img/needle.png">
                 <div id="selected-podcast" class="selected-podcast">
-                    <img src="https://www.udiscovermusic.com/wp-content/uploads/2022/01/sgt-pepper.jpg" class="selected-podcast-image">
+                    <img srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="" class="selected-podcast-image">
                     <div class="image-center">
                         <p></p>
                     </div>
@@ -22,7 +22,7 @@
         </section>
         
         <section class="center-content">
-            <h2 class="smaller-width">Titel van de aflevering, misschien is die wel lang.</h2>
+            <h2 class="smaller-width"><%= selectedPodcast.attributes.title %></h2>
             <p class="auteur">Naam auteur(s)</p>
             <p class="smaller-width">Dit is even een snelle samenvatting van de aflevering. Hierin staat wie er spreekt en wat het onderwerp is. Voor sommige mensen is dit wel interresant om te weten.</p>
         </section>

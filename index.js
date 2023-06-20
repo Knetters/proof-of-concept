@@ -141,7 +141,7 @@ app.get('/collection/:slug', (request, response) => {
         });
 
         const message = "De Correspondent - " + item.attributes.title;
-        response.render('collection', { ...data, item, itemData, message, mainVisuals, imageFiles });
+        response.render('collection', { ...data, item, itemData, message, mainVisuals, imageFiles, selectedPodcast: itemData.data[0] });
       });
     }
   });

@@ -25,7 +25,6 @@ html, body {
     padding: 0;
     background-color: var(--BGcolor);
     color: var(--fontColor);
-    overflow-x: hidden;
     font-family: 'Open+Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -316,12 +315,11 @@ header {
     right: 0;
     padding-right: 2rem;
     z-index: 100;
-    transform: rotate(20deg);
     transition: .2s;
 }
 
 .needle-rotate {
-    transform: rotate(0deg);
+    padding-right: 3rem;
 }
 
 .selected-podcast {
@@ -354,12 +352,11 @@ header {
 }
 
 .sound-list {
-    transition: .2s;
+    transition: .3s;
 }
 
 .move-left {
     margin-left: 100vw;
-    overflow-y: hidden;
 }
 
 .image-center {
@@ -442,6 +439,10 @@ nav {
 
 .bottom-margin {
     padding-bottom: 6rem;
+}
+
+.collection-page {
+    overflow-x: hidden;
 }
 
 .collection-page .playable-podcast-item:last-child {
