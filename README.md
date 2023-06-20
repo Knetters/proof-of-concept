@@ -1,6 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# De Correspondent - Podcast web-app
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ![correspondentMockUp](https://github.com/Knetters/proof-of-concept/assets/60781257/ee3f1db2-df54-4d1d-96de-73d9b05ce6b9)
