@@ -45,6 +45,11 @@ p {
     padding: 0;
 }
 
+.epesode-number {
+    font-weight: 600;
+    font-style: italic;
+}
+
 .horizontal-flex-podcast-title p {
     margin-top: .4rem;
     white-space: nowrap;
