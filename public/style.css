@@ -323,7 +323,7 @@ header {
 }
 
 .selected-podcast {
-    background-color: #2b2b2b;
+    background-color: #1c1d1d;
     width: 80%;
     margin-left: 10%;
     margin-top: 10%;
@@ -352,11 +352,11 @@ header {
 }
 
 .sound-list {
-    transition: .3s;
+    display: block;
 }
 
 .move-left {
-    margin-left: 100vw;
+    display: none;
 }
 
 .image-center {
@@ -401,6 +401,11 @@ header {
 .center-content {
     text-align: center;
     margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+.more {
+    margin-top: 3rem;
 }
 
 .smaller-width {
