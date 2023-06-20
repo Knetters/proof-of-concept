@@ -3,7 +3,10 @@
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-![Untidsfatled_iphone13blue_portraitmockup](https://github.com/Knetters/proof-of-concept/assets/60781257/8fc28dc8-14f0-4c2f-9c4d-fa71b914296f)
+![Untidsfatled](https://github.com/Knetters/proof-of-concept/assets/60781257/2c6dac72-4817-4250-a81c-cc083ccf1845)
+![Untitdsled](https://github.com/Knetters/proof-of-concept/assets/60781257/ca5f28cc-a919-46be-8ead-4cdc4bbbb207)
+![Ujhntitled](https://github.com/Knetters/proof-of-concept/assets/60781257/bfdae19f-0930-40e8-88c8-799d33c86548)
+
 
 ## Inhoudsopgave
 
