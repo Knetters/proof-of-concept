@@ -149,8 +149,11 @@ app.get('/collection/:slug', (request, response) => {
 
 // Create a route for the sound page
 app.get('/sound/:id', (request, response) => {
-    const message = "De Correspondent - [naam sound]";
-    response.render('sound', { message });
+  const slug = request.params.slug;
+  const soundId = request.params.id;
+
+  const message = "De Correspondent - " + soundId + slug;
+  response.render('sound', { message, soundId, slug });
 });
 
 // Set the port number and start the server

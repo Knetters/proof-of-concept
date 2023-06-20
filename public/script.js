@@ -29,7 +29,7 @@ if(backButton) {
 var selectedPodcast = document.getElementById("selected-podcast");
 var needle = document.getElementById("needle");
 var buttonContent = document.getElementById("button-content");
-var isPlaying = false;
+var isPlaying1 = false;
 
 if(selectedPodcast){
   document.getElementById("white-play-button").addEventListener("click", rotateToggle);
@@ -38,12 +38,12 @@ if(selectedPodcast){
     selectedPodcast.classList.toggle("rotate");
     needle.classList.toggle("needle-rotate");
 
-    if (isPlaying) {
+    if (isPlaying1) {
       buttonContent.innerHTML = `<i class="btn-side-margin fa fa-play" aria-hidden="true"></i> Afspelen`;
     } else {
       buttonContent.innerHTML = `<i class="btn-side-margin fa fa-pause" aria-hidden="true"></i> Pauzeren`;
     }
 
-    isPlaying = !isPlaying;
+    isPlaying1 = !isPlaying1;
   }
 }
