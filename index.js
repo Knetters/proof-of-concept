@@ -149,16 +149,8 @@ app.get('/collection/:slug', (request, response) => {
 
 // Create a route for the sound page
 app.get('/sound/:id', (request, response) => {
-  const soundId = request.params.id;
-  const soundJsonUrl = `https://raw.githubusercontent.com/Knetters/proof-of-concept/main/public/dataFiles/sound/${soundId}.json`;
-
-  fetchJson(soundJsonUrl).then((soundData) => {
-    const message = "De Correspondent - " + soundData.attributes.title;
-    response.render('sound', { soundData, message });
-  }).catch((error) => {
-    console.error(error);
-    response.status(404).send('Sound not found');
-  });
+    const message = "De Correspondent - [naam sound]";
+    response.render('sound', { message });
 });
 
 // Set the port number and start the server
