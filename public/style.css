@@ -375,6 +375,7 @@ header {
     height: 2.8rem;
     border-radius: 20px;
     position: relative;
+    color: var(--black);
 }
 
 .btn-side-margin {
@@ -383,12 +384,13 @@ header {
 
 .center-content {
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -3rem;
 }
 
 .smaller-width {
     width: 80%;
     margin-left: 10%;
+    margin-top: -.5rem;
 }
 
 /* Styling footer */
