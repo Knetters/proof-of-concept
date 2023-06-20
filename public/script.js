@@ -62,6 +62,7 @@ if (soundList) {
   function soundDetails() {
     soundPopUp.classList.toggle("move-down");
     soundList.classList.toggle("move-left");
+    window.location.href = "#sound";
 
     windowBack.innerHTML = `<button onclick="revert()" id="back-button" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>Terug naar collectie`;
   }
