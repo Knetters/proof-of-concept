@@ -3,6 +3,8 @@
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
+![Untidsfatled_iphone13blue_portraitmockup](https://github.com/Knetters/proof-of-concept/assets/60781257/8fc28dc8-14f0-4c2f-9c4d-fa71b914296f)
+
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
