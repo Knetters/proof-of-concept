@@ -2,59 +2,86 @@
 
 <main class="collection-page">
     <section class="top-content">
-        <h2 class="collection-top"><button id="back-button" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></button><%= item.attributes.title %></h2>
+        <h2 id="windowBack" class="collection-top"><button id="back-button" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></button><%= item.attributes.title %></h2>
     </section>
 
-    <section>
-        <div class="recommended-podcast-container">
-            <div class="recommended-podcast">
-                <img class="recommended-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="">
+    <div id="sound-pop-up" class="sound-pop-up">
+        <section>
+            <div class="selected-podcast-container">
+                <img id="needle" class="needle" src="/img/needle.png">
+                <div id="selected-podcast" class="selected-podcast">
+                    <img src="https://www.udiscovermusic.com/wp-content/uploads/2022/01/sgt-pepper.jpg" class="selected-podcast-image">
+                    <div class="image-center">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="white-button-container">
+                    <button id="white-play-button" class="white-play-button"><span id="button-content"><i class="btn-side-margin fa fa-play" aria-hidden="true"></i> Afspelen</span></button>
+                </div>
             </div>
-            <p class="auteur">Naam auteur</p>
-        </div>
-    </section>
+        </section>
+        
+        <section class="center-content">
+            <h2 class="smaller-width">Titel van de aflevering, misschien is die wel lang.</h2>
+            <p class="auteur">Naam auteur(s)</p>
+            <p class="smaller-width">Dit is even een snelle samenvatting van de aflevering. Hierin staat wie er spreekt en wat het onderwerp is. Voor sommige mensen is dit wel interresant om te weten.</p>
+        </section>
+    </div>
 
-    <section class=".bottom-margin">
-        <ul class="playable-podcast-container">
-
-            <% if (itemData && itemData.data && itemData.data.length) { %>
-                <% itemData.data.forEach((sound, index) => { %>
-                    <!-- Playable podcast item -->
-                    <li class="playable-podcast-item">
-                        <div class="playable-podcast-image">
-                            <!-- Hier komt de image cover van de podcast -->
-                            <img class="playable-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="">
-                        </div>
-                        <div class="playable-podcast-title">
-                            <a href="/sound/<%= sound.id %>">
-                                <p>
-                                    <!-- Add the descending number -->
-                                    <span class="epesode-number"><%= itemData.data.length - index %></span> - 
-                                    <%=
-                                    sound.attributes.title.length > 60
-                                        ? sound.attributes.title.substring(0, 57) + "..."
-                                        : sound.attributes.title
-                                    %>
-                                </p>
-                            </a>
-                            <div class="progress-line">
-                                <div class="progress-line-value-0"></div>
+    <div id="sound-list" class="sound-list">
+        <section>
+            <div class="recommended-podcast-container">
+                <div class="recommended-podcast">
+                    <img class="recommended-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="">
+                </div>
+                <p class="auteur">Naam auteur</p>
+            </div>
+        </section>
+    
+        <section class=".bottom-margin">
+            <ul class="playable-podcast-container">
+    
+                <% if (itemData && itemData.data && itemData.data.length) { %>
+                    <% itemData.data.forEach((sound, index) => { %>
+                        <!-- Playable podcast item -->
+                        
+                        <li class="playable-podcast-item">
+                            <div class="playable-podcast-image">
+                                <!-- Hier komt de image cover van de podcast -->
+                                <img class="playable-podcast-image-cover" srcset="/public/<%= imageFiles[mainVisuals[item.relationships.mainVisual.data.id]] %>" alt="">
                             </div>
-                        </div>
-                        <div class="playable-podcast-button">
-                            <div id="play-button" class="play-button">
-                                <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                            <div class="playable-podcast-title">
+                                <span id="sound-item">
+                                    <p>
+                                        <!-- Add the descending number -->
+                                        <span class="epesode-number"><%= itemData.data.length - index %></span> - 
+                                        <%=
+                                        sound.attributes.title.length > 60
+                                            ? sound.attributes.title.substring(0, 57) + "..."
+                                            : sound.attributes.title
+                                        %>
+                                    </p>
+                                </span>
+                                <div class="progress-line">
+                                    <div class="progress-line-value-0"></div>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                <% }); %>
-            <% } else { %>
-                <p class="error">Error loading podcasts</p>
-            <% } %>
-            
-
-        </ul>
-    </section>
+                            <div class="playable-podcast-button">
+                                <div id="play-button" class="play-button">
+                                    <i class="play-icon fa fa-play" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </li>
+                    <% }); %>
+                <% } else { %>
+                    <p class="error">Error loading podcasts</p>
+                <% } %>
+                
+    
+            </ul>
+        </section>
+    </div>
+    
 </main>
 
 <%- include('./partials/foot') %>

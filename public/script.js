@@ -26,10 +26,11 @@ if(backButton) {
 }
 
 // Add play button with rotate function
-var selectedPodcast = document.getElementById("selected-podcast");
-var needle = document.getElementById("needle");
-var buttonContent = document.getElementById("button-content");
-var isPlaying1 = false;
+const selectedPodcast = document.getElementById("selected-podcast");
+const needle = document.getElementById("needle");
+const buttonContent = document.getElementById("button-content");
+
+let isPlaying1 = false;
 
 if(selectedPodcast){
   document.getElementById("white-play-button").addEventListener("click", rotateToggle);
@@ -46,4 +47,26 @@ if(selectedPodcast){
 
     isPlaying1 = !isPlaying1;
   }
+}
+
+const soundPopUp = document.getElementById("sound-pop-up");
+const soundList = document.getElementById("sound-list");
+const windowBack = document.getElementById("windowBack");
+
+if (soundList) {
+  const podcastTitles = document.querySelectorAll(".playable-podcast-title");
+  podcastTitles.forEach((title) => {
+    title.addEventListener("click", soundDetails);
+  });
+
+  function soundDetails() {
+    soundPopUp.classList.toggle("move-down");
+    soundList.classList.toggle("move-left");
+
+    windowBack.innerHTML = `<h2 class="collection-top"><button onclick="revert()" id="back-button" class="back-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>Terug naar collectie</h2>`;
+  }
+}
+
+function revert() {
+  location.reload();
 }

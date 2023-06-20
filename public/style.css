@@ -345,12 +345,21 @@ header {
     100% {transform: rotate(360deg);}  
 }
 
-.pressAnimation {
-    animation: pressAnimation 2s linear infinite;
+.sound-pop-up {
+    display: none;
 }
 
-@keyframes pressAnimation {
-    100% {transform: rotate(360deg);}  
+.move-down {
+    display: block;
+}
+
+.sound-list {
+    transition: .2s;
+}
+
+.move-left {
+    margin-left: 100vw;
+    overflow-y: hidden;
 }
 
 .image-center {
