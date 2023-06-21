@@ -9,25 +9,22 @@
   * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De Correspondent wil een podcast web-app om over te stappen van hun verouderde app. Deze website bied een idee voor een nieuwe versie van de app maar dan in een web omgeving.
 
 ## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+De gebruiker kan navigeren door de verschillende collecties van podcasten. Wanneer je de podcast gevonden hebt en hem aan zet speelt er een leuke animatie af.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+Ik maak gebruik van statiche JSON bestanden die ik in een node.js omgeving fetch. De data stuur ik door naar EJS views waar alles wordt getoond. Doormiddel van JavaScript zorg ik er voor dat de website een beetje tot leven komt.
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
-
-## Bronnen
+> Clone mijn code en navigeer naar de map in de teminal. Zorg er voor dat je node geinstalleerd hebt op je apparaat.
+> Type `npm install`
+> Type `npm start`
+> Klik op de url in de terminal
 
 ## Licentie
-
 This project is licensed under the terms of the [MIT license](./LICENSE).
